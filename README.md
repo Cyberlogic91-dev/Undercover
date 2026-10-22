@@ -14,7 +14,7 @@ Android 8.0 minimum.
 
 ## ✨ Fonctionnalités
 
-- **3 506 paires de mots** dans 17 catégories, jamais deux fois la même (mémoire des mots joués)
+- **3 333 paires de mots très proches** dans 17 catégories, jamais deux fois la même (mémoire des mots joués)
 - Rôles **Civils, Undercover, Mr. White** et **Garde du corps** 🛡️ en option
 - Configurations de rôles **automatiques** selon le nombre de joueurs
 - **Photos des joueurs**, choix des cartes face cachée, bouton « i » avec la définition de chaque mot

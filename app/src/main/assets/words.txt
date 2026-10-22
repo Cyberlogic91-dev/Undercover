@@ -1,113 +1,113 @@
 # Nourriture et boissons
 Café|Thé
-Croissant|Pain au chocolat!
+Croissant|Pain au chocolat
 Baguette|Ficelle!
 Beurre|Margarine!
 Confiture|Miel
 Pomme|Poire
-Orange|Mandarine!
-Citron|Pamplemousse
+Orange|Mandarine
+Citron|Lime!
 Fraise|Framboise!
-Cerise|Prune
+Prune|Mirabelle!
 Pêche|Abricot
 Pêche|Nectarine!
 Melon|Pastèque
 Ananas|Mangue
-Kiwi|Litchi
-Raisin|Groseille
-Myrtille|Cassis
-Noix|Noisette!
+Mûre|Framboise
+Groseille|Cassis
+Myrtille|Airelle!
+Noix|Noisette
 Amande|Pistache
 Cacahuète|Noix de cajou
 Datte|Figue
 Pruneau|Raisin sec
-Tomate|Poivron
-Carotte|Navet
+Courgette|Concombre
+Carotte|Panais
 Courgette|Aubergine
-Concombre|Cornichon!
-Salade|Épinard
-Laitue|Mâche!
-Chou|Brocoli
+Concombre|Cornichon
+Épinard|Blette
+Laitue|Mâche
+Brocoli|Romanesco!
 Chou-fleur|Brocoli!
-Poireau|Oignon
-Ail|Échalote!
+Ciboulette|Cerfeuil
+Ail|Échalote
 Pomme de terre|Patate douce
-Haricot vert|Petit pois
+Haricot vert|Haricot beurre!
 Lentille|Pois chiche
-Radis|Betterave
-Champignon|Truffe
-Artichaut|Asperge
+Radis|Navet
+Champignon de Paris|Pleurote
+Asperge verte|Asperge blanche
 Céleri|Fenouil
-Persil|Coriandre
+Persil|Coriandre!
 Basilic|Menthe
 Thym|Romarin
-Poivre|Sel
+Paprika|Piment d'Espelette
 Cannelle|Muscade
-Vanille|Chocolat
-Moutarde|Mayonnaise
-Ketchup|Moutarde
-Vinaigre|Huile
-Pâtes|Riz
+Vanille|Fève tonka
+Mayonnaise|Sauce tartare
+Ketchup|Sauce barbecue
+Huile d'olive|Huile de tournesol!
+Riz basmati|Riz thaï
 Spaghetti|Tagliatelle!
 Lasagne|Cannelloni!
-Raviolis|Gnocchis
-Pizza|Calzone!
+Raviolis|Tortellinis!
+Pizza|Calzone
 Quiche|Tarte flambée
-Hamburger|Hot-dog
+Hamburger|Cheeseburger
 Sandwich|Wrap
-Kebab|Tacos
+Kebab|Shawarma
 Frites|Chips
 Croque-monsieur|Panini
 Crêpe|Gaufre
-Galette|Crêpe!
-Pancake|Gaufre
-Gâteau|Tarte
-Éclair|Religieuse!
+Galette|Crêpe
+Pancake|Blini
+Fraisier|Framboisier!
+Éclair|Religieuse
 Macaron|Meringue
-Tiramisu|Panna cotta
-Mousse au chocolat|Fondant
+Panna cotta|Blanc-manger
+Fondant au chocolat|Moelleux au chocolat!
 Crème brûlée|Crème caramel!
-Flan|Clafoutis
-Brioche|Pain au lait!
+Flan|Far breton
+Brioche|Pain au lait
 Muffin|Cupcake!
 Cookie|Sablé
 Madeleine|Financier!
 Beignet|Churros
-Glace|Sorbet!
-Bonbon|Sucette
-Caramel|Nougat
-Guimauve|Réglisse
+Glace|Sorbet
+Sucette|Sucre d'orge
+Caramel|Toffee
+Guimauve|Barbe à papa
 Chocolat noir|Chocolat au lait!
-Fromage|Yaourt
+Skyr|Yaourt grec!
 Camembert|Brie!
 Comté|Gruyère!
 Emmental|Gruyère!
 Mozzarella|Burrata!
-Raclette|Fondue!
-Feta|Mozzarella
-Parmesan|Comté
-Lait|Crème
-Omelette|Quiche
-Jambon|Saucisson
-Saucisse|Merguez!
+Raclette|Fondue
+Feta|Halloumi
+Parmesan|Pecorino!
+Lait concentré|Lait en poudre
+Omelette|Tortilla
+Saucisson|Rosette!
+Saucisse|Merguez
 Chorizo|Salami!
 Pâté|Rillettes!
 Bacon|Lardons!
-Poulet|Dinde!
-Canard|Pintade
-Bœuf|Veau!
-Porc|Agneau
-Steak|Côtelette
+Poulet|Dinde
+Pintade|Caille
+Bœuf|Veau
+Agneau|Mouton
+Steak|Entrecôte
 Rôti|Gigot
-Escalope|Cordon bleu
-Boudin noir|Andouillette
-Foie gras|Pâté
-Saumon|Truite!
-Thon|Sardine
+Escalope panée|Cordon bleu
+Boudin noir|Boudin blanc
+Pâté|Terrine!
+Saumon|Truite
+Thon|Bonite!
 Cabillaud|Colin!
-Crevette|Langoustine!
+Crevette|Langoustine
 Homard|Langouste!
-Moule|Huître
+Moule|Coque
 Crabe|Tourteau!
 Calamar|Poulpe!
 Sushi|Maki!
@@ -117,31 +117,31 @@ Ratatouille|Tian
 Cassoulet|Choucroute
 Pot-au-feu|Blanquette
 Bœuf bourguignon|Coq au vin
-Hachis parmentier|Gratin dauphinois
-Soupe|Velouté!
+Hachis parmentier|Brandade
+Soupe|Velouté
 Bouillon|Consommé!
-Gaspacho|Soupe
+Gaspacho|Soupe de tomate
 Moussaka|Lasagne
-Curry|Chili con carne
+Curry|Colombo!
 Nems|Rouleaux de printemps!
-Samoussa|Nems
-Falafel|Houmous
+Samoussa|Empanada
+Falafel|Accras
 Taboulé|Salade de riz
-Burrito|Fajitas!
-Ramen|Pho!
+Burrito|Fajitas
+Ramen|Pho
 Bagel|Bretzel
 Pain de campagne|Pain complet!
 Biscotte|Pain grillé
-Céréales|Muesli!
-Porridge|Muesli
+Céréales|Muesli
+Porridge|Bouillie
 Bière|Cidre
 Vin rouge|Vin blanc!
 Champagne|Crémant!
 Whisky|Rhum
-Vodka|Gin!
+Vodka|Gin
 Cognac|Armagnac!
 Pastis|Ouzo!
-Mojito|Caïpirinha!
+Mojito|Caïpirinha
 Sangria|Punch
 Kir|Spritz
 Limonade|Soda
@@ -155,49 +155,49 @@ Tisane|Thé!
 Smoothie|Milkshake!
 Lait de soja|Lait d'amande!
 Cidre|Poiré!
-Apéritif|Digestif
+Digestif|Pousse-café
 Petit-déjeuner|Brunch
 Déjeuner|Dîner
 Goûter|Collation
 Entrée|Hors-d'œuvre!
 Semoule|Boulgour!
-Quinoa|Boulgour
-Pain|Brioche
+Quinoa|Millet
+Pain de seigle|Pain aux céréales
 Toast|Tartine!
-Olive|Câpre
+Olive verte|Olive noire
 Câpre|Cornichon
-Noix de coco|Ananas
+Coing|Poire
 Clémentine|Mandarine!
-Grenade|Kaki
+Pamplemousse|Pomelo!
 Papaye|Goyave
-Rhubarbe|Groseille
+Rhubarbe|Oseille
 Châtaigne|Marron!
 Potiron|Citrouille!
-Maïs|Petit pois
+Petit pois|Fève
 Houmous|Tzatziki
-Béchamel|Béarnaise
+Béarnaise|Hollandaise!
 Aïoli|Rouille!
-Vinaigrette|Mayonnaise
-Levure|Bicarbonate
-Pain d'épices|Cake
+Sauce soja|Nuoc-mâm
+Levure chimique|Bicarbonate
+Pain d'épices|Spéculoos
 Cake|Quatre-quarts!
-Far breton|Kouign-amann
-Mille-feuille|Paris-Brest
+Kouign-amann|Gâteau breton
+Paris-Brest|Saint-Honoré
 Tarte Tatin|Tarte aux pommes!
 Profiterole|Éclair!
-Bûche|Galette des rois
-Crumble|Clafoutis
+Galette des rois|Brioche des rois
+Compote|Marmelade
 Charlotte|Bavarois
 Croquette|Nugget!
 Pâte feuilletée|Pâte brisée!
-Oursin|Huître
+Huître|Palourde
 Saint-Jacques|Pétoncle!
 Dorade|Bar!
 Sole|Turbot!
 Maquereau|Hareng!
 Anchois|Sardine!
 Caviar|Œufs de lump!
-Rillettes|Terrine
+Foie gras|Mousse de canard
 Jambon cru|Jambon blanc!
 Bière blonde|Bière brune!
 Vin chaud|Grog!
@@ -214,45 +214,45 @@ Curcuma|Safran!
 Estragon|Aneth!
 Cresson|Roquette!
 Endive|Chicorée!
-Chou de Bruxelles|Chou-fleur
+Chou rouge|Chou blanc
 Topinambour|Panais!
-Panais|Navet
+Navet|Rutabaga
 Haricot rouge|Haricot blanc!
-Margarita|Mojito
+Margarita|Daïquiri
 Café|Chicorée
-Pizza|Burger
-Vin|Bière
-Chocolat|Caramel
+Pizza|Pissaladière
+Rosé|Vin gris
+Pâte à tartiner|Crème de marrons
 Ketchup|Mayonnaise!
-Fromage|Beurre
-Lait|Yaourt
-Sushi|Kebab
-Citron|Orange
-Banane|Ananas
+Beurre doux|Beurre salé
+Lait entier|Lait demi-écrémé
+Sashimi|Carpaccio
+Orange|Clémentine
+Banane|Plantain
 Oignon|Ail!
-Soupe|Purée
+Purée|Aligot
 Barbecue|Plancha!
-Baguette|Brioche
+Chouquette|Gougère
 Omelette|Œufs brouillés!
-Saumon|Thon!
-Pop-corn|Cacahuètes
+Saumon fumé|Truite fumée
+Pop-corn|Maïs grillé
 Moutarde|Wasabi
-Lasagnes|Gratin!
+Gratin de pâtes|Macaroni au fromage
 # Animaux
 Tigre|Lion!
 Crocodile|Alligator!
 Chien|Chat
-Loup|Renard
+Loup|Coyote
 Loup|Chien!
 Lapin|Lièvre!
 Souris|Rat!
 Hamster|Cochon d'Inde!
-Écureuil|Marmotte
+Marmotte|Chien de prairie
 Hérisson|Porc-épic!
 Cheval|Âne
 Âne|Mulet!
 Poney|Cheval!
-Zèbre|Antilope
+Zèbre|Cheval
 Vache|Taureau!
 Mouton|Chèvre
 Chèvre|Bouc!
@@ -260,7 +260,7 @@ Cochon|Sanglier!
 Poule|Coq!
 Canard|Oie!
 Cygne|Oie!
-Dinde|Paon
+Dinde|Chapon
 Paon|Faisan
 Perroquet|Perruche!
 Pigeon|Tourterelle!
@@ -272,60 +272,60 @@ Hibou|Chouette!
 Vautour|Condor!
 Pie|Geai
 Hirondelle|Martinet!
-Pélican|Cigogne
+Cigogne|Grue
 Flamant rose|Ibis
 Héron|Cigogne!
 Mouette|Goéland!
 Pingouin|Manchot!
 Autruche|Émeu!
-Colibri|Martin-pêcheur
-Rossignol|Merle
+Étourneau|Merle
+Rossignol|Fauvette
 Dauphin|Marsouin!
 Baleine|Cachalot!
-Orque|Requin
-Requin|Raie
+Requin blanc|Requin marteau
+Poisson-chat|Silure!
 Phoque|Otarie!
-Morse|Phoque
-Pieuvre|Calamar
-Méduse|Anémone
+Morse|Éléphant de mer
+Calamar|Seiche
+Anémone de mer|Corail
 Étoile de mer|Oursin
-Tortue|Escargot
+Tortue de terre|Tortue de mer
 Grenouille|Crapaud!
 Salamandre|Triton!
 Lézard|Gecko!
 Iguane|Caméléon
 Couleuvre|Vipère!
-Cobra|Python!
+Cobra|Mamba
 Boa|Anaconda!
-Scorpion|Araignée
+Araignée|Tarentule
 Fourmi|Termite!
 Abeille|Guêpe!
-Frelon|Guêpe
+Frelon|Guêpe!
 Bourdon|Abeille
-Papillon|Libellule
+Libellule|Demoiselle!
 Mouche|Moustique
-Coccinelle|Scarabée
+Scarabée|Hanneton
 Criquet|Sauterelle!
 Grillon|Cigale
 Cafard|Punaise
-Ver de terre|Limace
+Asticot|Ver de farine
 Limace|Escargot
 Puce|Pou!
-Tique|Puce
-Chenille|Asticot
+Tique|Acarien
+Chenille|Ver à soie
 Mante religieuse|Phasme
 Éléphant|Mammouth
 Rhinocéros|Hippopotame
 Gorille|Chimpanzé!
 Orang-outan|Gorille
 Babouin|Macaque!
-Koala|Panda
-Ours|Panda
+Koala|Wombat
+Ours brun|Grizzly!
 Ours brun|Ours polaire!
 Kangourou|Wallaby!
 Guépard|Léopard!
 Léopard|Panthère!
-Tigre|Panthère
+Panthère|Jaguar!
 Lynx|Chat sauvage
 Hyène|Chacal!
 Coyote|Chacal
@@ -341,24 +341,24 @@ Gnou|Buffle
 Taupe|Musaraigne
 Castor|Loutre!
 Ragondin|Castor
-Raton laveur|Blaireau
+Raton laveur|Coati
 Blaireau|Putois
 Belette|Furet!
-Fouine|Belette
-Chauve-souris|Hibou
+Fouine|Belette!
+Chauve-souris|Roussette
 Tatou|Pangolin!
 Fourmilier|Tatou
 Paresseux|Koala
-Hippocampe|Étoile de mer
+Hippocampe|Dragon de mer
 Poisson rouge|Carpe
-Brochet|Perche!
+Brochet|Sandre!
 Anguille|Murène!
-Piranha|Barracuda
-Espadon|Thon
+Barracuda|Brochet
+Espadon|Marlin!
 Mouflon|Bouquetin!
 Chamois|Bouquetin
 Hamster|Gerbille!
-Chinchilla|Lapin
+Chinchilla|Cochon d'Inde
 Vison|Hermine!
 Mulot|Souris!
 Rat|Ragondin
@@ -370,14 +370,14 @@ Lionceau|Louveteau
 Mouche|Taon!
 Moucheron|Moustique
 Sangsue|Ver de terre
-Mille-pattes|Cloporte
+Cloporte|Perce-oreille
 Toucan|Perroquet
 Ara|Cacatoès!
 Canari|Perruche
 Pinson|Moineau
 Rouge-gorge|Mésange
-Coucou|Pic-vert
-Albatros|Mouette
+Pic-vert|Pic épeiche
+Albatros|Fou de Bassan
 Cormoran|Pélican
 Caille|Perdrix!
 Perdrix|Faisan
@@ -387,156 +387,156 @@ Aigle|Vautour
 Crocodile|Caïman!
 Varan|Iguane
 Narval|Béluga!
-Lamantin|Morse
+Lamantin|Dugong!
 Mangouste|Suricate!
 Fennec|Renard!
 Okapi|Girafe
-Zèbre|Okapi
-Girafe|Éléphant
-Chat|Lion
-Hippopotame|Lamantin
-Singe|Lémurien
+Impala|Springbok
+Éléphant d'Afrique|Éléphant d'Asie!
+Chat siamois|Chat persan
+Phacochère|Sanglier
+Ouistiti|Tamarin
 Lémurien|Ouistiti
-Marmotte|Hérisson
+Gerboise|Gerbille
 Écureuil|Loir!
-Mouton|Lama
-Brebis|Vache
-Poule|Cochon
-Dindon|Coq
-Cygne|Flamant rose
-Pigeon|Corbeau
-Autruche|Kangourou
-Baleine|Dauphin
-Orque|Narval
-Raie|Méduse
-Carpe|Brochet
-Truite|Perche
+Mouton|Bélier
+Brebis|Chèvre
+Poule|Pintade
+Dindon|Paon
+Cygne|Bernache
+Colombe|Tourterelle!
+Autruche|Nandou
+Dauphin|Orque
+Baleine à bosse|Baleine bleue
+Murène|Congre
+Carpe|Tanche
+Gardon|Ablette
 Pieuvre|Seiche!
-Tortue|Grenouille
-Serpent|Lézard
-Crapaud|Salamandre
+Grenouille|Rainette
+Lézard|Orvet
+Triton|Axolotl
 Caméléon|Gecko
-Araignée|Fourmi
-Scorpion|Mille-pattes
-Papillon|Coccinelle
-Frelon|Bourdon
-Cigale|Criquet
+Araignée|Faucheux
+Mille-pattes|Scolopendre
+Papillon de nuit|Mite
+Frelon asiatique|Frelon européen
+Puceron|Cochenille
 Sauterelle|Grillon
-Termite|Cafard
-Punaise|Scarabée
-Ours|Sanglier
-Guépard|Lynx
-Cerf|Élan
+Fourmi rouge|Fourmi noire
+Doryphore|Coccinelle
+Glouton|Blaireau
+Lynx|Caracal
+Cerf|Wapiti
 Renne|Caribou!
 Biche|Daim
-Chiot|Louveteau
+Chiot|Louveteau!
 Chaton|Lionceau
-Poussin|Poulain
-Faon|Marcassin
+Poussin|Oisillon
+Lapereau|Levraut!
 Marcassin|Porcelet!
-Taupe|Mulot
-Loutre|Vison
-Hermine|Fouine
+Mulot|Campagnol
+Vison|Martre
+Hermine|Belette
 Putois|Moufette!
 Raton laveur|Panda roux
 Gazelle|Impala!
-Yack|Mouflon
+Yack|Bœuf musqué
 Héron|Grue!
-Toucan|Colibri
+Toucan|Calao
 Canari|Pinson
-Coucou|Rossignol
-Condor|Albatros
-Goéland|Cormoran
+Alouette|Rossignol
+Milan|Buse
+Mouette|Sterne
 Pingouin|Macareux!
-Anguille|Serpent
-Murène|Barracuda
-Piranha|Poisson rouge
-Caïman|Varan
+Anguille|Lamproie
+Mérou|Rascasse
+Guppy|Néon
+Caïman|Gavial
 Cobra|Vipère
-Python|Boa
-Anaconda|Couleuvre
-Vache|Mouton
-Poule|Canard
-Hibou|Aigle
-Hamster|Lapin
-Perroquet|Canari
-Baleine|Orque!
-Singe|Gorille!
-Girafe|Zèbre
+Python|Boa!
+Anaconda|Python
+Vache|Génisse
+Canard|Sarcelle
+Hibou|Harfang
+Lapin bélier|Lapin nain
+Perroquet|Ara
+Baleine|Rorqual
+Chimpanzé|Bonobo!
+Zébu|Buffle
 # Métiers
-Plombier|Électricien
-Médecin|Infirmier
+Plaquiste|Plâtrier
+Urgentiste|Réanimateur
 Chirurgien|Anesthésiste!
 Dentiste|Orthodontiste!
-Pharmacien|Médecin
-Vétérinaire|Toiletteur
+Homéopathe|Naturopathe
+Toiletteur|Promeneur de chiens
 Kinésithérapeute|Ostéopathe!
 Psychologue|Psychiatre!
 Sage-femme|Gynécologue!
 Ophtalmologue|Opticien!
 Pédiatre|Généraliste!
-Cardiologue|Pneumologue
-Dermatologue|Esthéticienne
-Ambulancier|Pompier
-Secouriste|Ambulancier!
+Neurologue|Neurochirurgien
+Prothésiste ongulaire|Manucure
+Ambulancier|Brancardier
+Secouriste|Ambulancier
 Policier|Gendarme!
-Gendarme|Militaire
-Douanier|Policier
+CRS|Gendarme mobile
+Douanier|Garde-frontière!
 Vigile|Gardien!
-Détective privé|Huissier
-Avocat|Juge
+Détective privé|Inspecteur
+Avocat|Juriste
 Juge|Procureur!
-Notaire|Avocat!
-Huissier|Greffier
+Médiateur|Conciliateur
+Greffier|Secrétaire juridique
 Professeur|Instituteur!
-Instituteur|Éducateur
+Surveillant|CPE
 Directeur d'école|Proviseur!
-Surveillant|Animateur
+Proviseur|Principal
 Animateur|Moniteur!
 Nourrice|Baby-sitter!
-Puéricultrice|Nourrice
+Puéricultrice|Auxiliaire de crèche
 Boulanger|Pâtissier!
 Boucher|Charcutier!
-Poissonnier|Boucher
-Cuisinier|Serveur
-Cuisinier|Traiteur
-Serveur|Barman
-Barman|Sommelier
+Poissonnier|Écailler
+Commis de cuisine|Plongeur
+Cuisinier|Cantinière
+Serveur|Garçon de café!
+Barman|Mixologue
 Caviste|Sommelier!
 Fromager|Crémier!
 Épicier|Primeur
 Primeur|Maraîcher!
 Agriculteur|Éleveur
 Éleveur|Berger!
-Viticulteur|Œnologue
+Œnologue|Sommelier
 Jardinier|Paysagiste!
-Fleuriste|Jardinier
+Fleuriste|Horticulteur
 Bûcheron|Élagueur!
 Menuisier|Charpentier!
 Ébéniste|Menuisier
-Maçon|Carreleur
-Peintre en bâtiment|Plâtrier
-Couvreur|Charpentier
-Serrurier|Vitrier
+Carreleur|Mosaïste
+Peintre en bâtiment|Façadier
+Couvreur|Zingueur!
+Serrurier|Ferronnier
 Chauffagiste|Plombier!
 Mécanicien|Carrossier!
 Garagiste|Mécanicien
 Chauffeur de taxi|Chauffeur VTC!
-Routier|Livreur
+Routier|Convoyeur
 Livreur|Facteur!
 Facteur|Coursier
-Pilote|Hôtesse de l'air
-Pilote|Contrôleur aérien
-Capitaine|Matelot
-Marin|Pêcheur
-Pêcheur|Poissonnier
-Conducteur de train|Aiguilleur
-Caissier|Vendeur
+Steward|Chef de cabine
+Pilote de ligne|Pilote de chasse
+Capitaine de navire|Skipper
+Matelot|Mousse
+Docker|Débardeur
+Conducteur de métro|Conducteur de tram!
+Caissier|Employé de rayon
 Vendeur|Commercial!
-Commercial|Agent immobilier
-Agent immobilier|Notaire
-Banquier|Assureur
-Comptable|Banquier
+Agent immobilier|Syndic
+Agent immobilier|Promoteur
+Banquier|Agent de change
+Comptable|Trésorier
 Secrétaire|Standardiste
 Réceptionniste|Standardiste!
 Concierge|Gardien
@@ -544,34 +544,34 @@ Agent d'entretien|Femme de ménage!
 Éboueur|Balayeur!
 Coiffeur|Barbier!
 Esthéticienne|Manucure!
-Maquilleur|Coiffeur
+Maquilleur|Visagiste
 Tatoueur|Perceur
 Photographe|Caméraman
-Caméraman|Réalisateur
-Réalisateur|Producteur
-Chanteur|Musicien
+Réalisateur|Metteur en scène!
+Scénariste|Dialoguiste
+Chanteur|Choriste
 Danseur|Chorégraphe!
-Peintre|Sculpteur
+Peintre|Portraitiste
 Dessinateur|Illustrateur!
 Graphiste|Maquettiste
 Architecte|Urbaniste
 Ingénieur|Technicien
-Technicien|Informaticien
+Technicien|Dépanneur
 Développeur|Informaticien
-Écrivain|Journaliste
-Journaliste|Présentateur
+Écrivain|Biographe
+Journaliste|Chroniqueur
 Présentateur|Animateur radio
-Éditeur|Libraire
+Libraire|Bouquiniste
 Libraire|Bibliothécaire!
 Traducteur|Interprète!
-Guide touristique|Agent de voyage
-Clown|Magicien
+Guide touristique|Accompagnateur
+Magicien|Mentaliste
 Jongleur|Acrobate
 Acrobate|Trapéziste!
-Dompteur|Soigneur
-Soigneur|Vétérinaire
-Astronaute|Astronome
-Astronome|Physicien
+Fakir|Cracheur de feu
+Soigneur|Gardien de zoo
+Astronome|Astrophysicien
+Physicien|Mathématicien
 Physicien|Chimiste
 Chimiste|Biologiste
 Archéologue|Paléontologue!
@@ -581,10 +581,10 @@ Météorologue|Climatologue!
 Prêtre|Moine
 Curé|Pasteur!
 Imam|Rabbin
-Maire|Député
+Maire|Conseiller municipal
 Député|Sénateur!
 Ambassadeur|Consul!
-Diplomate|Ambassadeur
+Ministre|Secrétaire d'État
 Grutier|Conducteur d'engins!
 Soudeur|Chaudronnier!
 Forgeron|Maréchal-ferrant!
@@ -593,11 +593,11 @@ Couturier|Tailleur!
 Styliste|Couturier
 Bijoutier|Horloger
 Joaillier|Bijoutier!
-Potier|Verrier
-Pompiste|Garagiste
-Moniteur d'auto-école|Professeur
+Potier|Céramiste!
+Pompiste|Laveur auto
+Moniteur d'auto-école|Inspecteur du permis
 Coach sportif|Entraîneur!
-Entraîneur|Arbitre
+Entraîneur|Sélectionneur
 Arbitre|Juge de ligne!
 Jockey|Cavalier
 Footballeur|Rugbyman
@@ -606,137 +606,137 @@ Maître-nageur|Sauveteur!
 Pizzaiolo|Crêpier!
 Glacier|Chocolatier!
 Chocolatier|Confiseur!
-Brasseur|Vigneron
-Meunier|Boulanger
-Apiculteur|Agriculteur
+Brasseur|Distillateur
+Fromager|Affineur
+Arboriculteur|Pépiniériste
 Pisciculteur|Ostréiculteur!
 Infirmier|Aide-soignant!
 Auxiliaire de vie|Aide-soignant!
-Orthophoniste|Orthoptiste!
+Orthoptiste|Optométriste!
 Radiologue|Manipulateur radio
 Laborantin|Biologiste
-Diététicien|Coach sportif
+Diététicien|Nutritionniste!
 Podologue|Pédicure!
-Audioprothésiste|Opticien
-Ramoneur|Couvreur
+Opticien|Lunetier
+Désinsectiseur|Dératiseur
 Antiquaire|Brocanteur!
 Commissaire-priseur|Antiquaire
 Croque-mort|Fossoyeur!
 Influenceur|Blogueur!
 Rédacteur|Correcteur
 Imprimeur|Relieur
-Publicitaire|Graphiste
+Publicitaire|Communicant
 Stagiaire|Apprenti!
-Ouvrier|Artisan
+Ouvrier|Manœuvre
 Contremaître|Chef de chantier!
 Déménageur|Manutentionnaire
 Magasinier|Manutentionnaire
 Cariste|Magasinier
-Chef d'orchestre|Compositeur
-Pianiste|Guitariste
+Chef d'orchestre|Chef de chœur
+Pianiste|Organiste
 Violoniste|Violoncelliste!
 Batteur|Percussionniste!
 Ventriloque|Marionnettiste
 Mime|Clown
-Tapissier|Décorateur
+Tapissier|Sellier
 Décorateur|Architecte d'intérieur!
 Garde forestier|Garde-chasse!
-Garde du corps|Vigile
+Agent de sécurité|Maître-chien
 Courtier|Assureur
 Militaire|Légionnaire!
-Pompier|Sauveteur
-Greffier|Secrétaire
+Pompier|Secouriste
+Secrétaire|Assistant de direction
 Éducateur|Assistant social
-Psychiatre|Neurologue
+Psychiatre|Psychanalyste
 Pharmacien|Préparateur en pharmacie!
 Dresseur|Dompteur!
 Pâtissier|Glacier
 Charcutier|Traiteur
-Viticulteur|Brasseur
-Paysagiste|Fleuriste
-Bûcheron|Garde forestier
-Maçon|Plâtrier
-Carreleur|Peintre en bâtiment
-Serrurier|Forgeron
+Viticulteur|Vendangeur
+Fleuriste|Décorateur floral
+Bûcheron|Scieur
+Maçon|Coffreur
+Carreleur|Parqueteur
+Forgeron|Coutelier
 Vitrier|Verrier
-Chauffeur de bus|Chauffeur de taxi
-Hôtesse de l'air|Guide touristique
+Chauffeur de bus|Chauffeur de car!
+Hôtesse de l'air|Agent d'escale
 Caissier|Guichetier
-Barbier|Tatoueur
-Musicien|Compositeur
-Écrivain|Scénariste
-Éditeur|Rédacteur
+Coiffeur|Coloriste
+Compositeur|Parolier
+Romancier|Nouvelliste
+Journaliste|Pigiste
 Prêtre|Curé!
-Pasteur|Rabbin
-Maire|Préfet!
-Tailleur|Cordonnier
-Horloger|Joaillier
-Footballeur|Handballeur
-Rugbyman|Handballeur
-Boxeur|Karatéka
-Jockey|Palefrenier
-Cavalier|Palefrenier
-Podologue|Kinésithérapeute
+Évêque|Cardinal
+Maire|Préfet
+Tailleur|Retoucheur
+Bijoutier|Orfèvre
+Basketteur|Handballeur
+Sprinteur|Marathonien
+Karatéka|Judoka!
+Écuyer|Cavalier
+Palefrenier|Maréchal-ferrant
+Kinésithérapeute|Masseur
 Ostéopathe|Chiropracteur!
-Stagiaire|Intérimaire
-Ouvrier|Intérimaire
-Tapissier|Ébéniste
+Intérimaire|Saisonnier
+Ouvrier|Agent de production
+Ébéniste|Marqueteur!
 Garde-chasse|Garde-pêche!
 Garde du corps|Videur!
 Courtier|Trader!
-Professeur|Directeur
-Agriculteur|Jardinier
-Dentiste|Opticien
-Hacker|Espion
-Architecte|Maçon
-Vétérinaire|Éleveur
+Professeur|Formateur
+Agriculteur|Céréalier
+Dentiste|Prothésiste dentaire
+Espion|Agent double
+Architecte|Maître d'œuvre
+Vacher|Berger
 # Sport et loisirs
 Tennis|Badminton!
-Ping-pong|Squash
+Squash|Padel
 Football|Rugby!
 Basket|Handball!
 Ski|Snowboard
 Surf|Planche à voile!
-Natation|Plongée
-Vélo|Roller
+Natation|Aquagym
+Vélo|Tandem
 Course à pied|Marche
 Judo|Karaté!
 Boxe|Lutte
-Escrime|Tir à l'arc
+Escrime|Kendo
 Golf|Croquet!
-Pétanque|Bowling
-Billard|Baby-foot
+Pétanque|Boules lyonnaises!
+Billard|Snooker!
 Fléchettes|Tir à l'arc
 Échecs|Dames
 Poker|Belote!
 Tarot|Bridge!
-Puzzle|Mots croisés
-Sudoku|Mots fléchés
+Mots croisés|Mots casés!
+Sudoku|Carré magique
 Mots croisés|Mots fléchés!
-Randonnée|Escalade
+Randonnée|Trek!
 Escalade|Alpinisme
 Canoë|Kayak!
 Aviron|Canoë
-Voile|Aviron
+Dériveur|Catamaran
 Patin à glace|Roller!
 Skateboard|Trottinette
-Danse|Gymnastique
+Danse classique|Modern jazz
 Salsa|Tango!
 Valse|Tango
 Yoga|Pilates
 Musculation|Fitness!
-Marathon|Triathlon
+Triathlon|Duathlon!
 Sprint|Relais
 Saut en hauteur|Saut en longueur!
 Lancer du poids|Lancer du disque!
 Ballon|Balle
 Raquette|Batte
 Gardien|Défenseur
-Coupe|Médaille
+Médaille d'or|Médaille d'argent
 Médaille|Trophée!
 Podium|Classement
 Stade|Gymnase
-Piscine|Patinoire
+Patinoire|Piste de roller
 Supporter|Spectateur!
 Match|Tournoi
 Championnat|Coupe
@@ -744,20 +744,20 @@ Penalty|Coup franc!
 Carton jaune|Carton rouge
 Mêlée|Touche
 Coup droit|Revers!
-Pêche|Chasse
+Chasse|Tir sportif
 Canne à pêche|Épuisette
 Hameçon|Appât!
 Camping|Caravaning
-Tente|Hamac
-Sac de couchage|Duvet
+Tente|Tipi
+Sac de couchage|Tapis de sol
 Jardinage|Bricolage
 Tricot|Crochet!
 Couture|Broderie!
 Peinture|Dessin!
 Aquarelle|Gouache
 Sculpture|Poterie
-Photographie|Cinéma
-Roman|Bande dessinée
+Photographie|Vidéo
+Roman|Nouvelle!
 Bande dessinée|Manga!
 Cinéma|Théâtre
 Concert|Festival
@@ -772,22 +772,22 @@ Formule 1|Rallye
 Moto|Quad
 Parachute|Parapente!
 Deltaplane|Parapente
-Saut à l'élastique|Accrobranche
+Saut à l'élastique|Saut en parachute
 Accrobranche|Tyrolienne!
 Paintball|Laser game!
 Escape game|Chasse au trésor
 Bowling|Quilles
 Water-polo|Handball
-Plongeoir|Toboggan
+Plongeoir|Tremplin
 Bouée|Matelas gonflable
 Palmes|Tuba!
 Crawl|Brasse!
 Sauna|Hammam!
 Spa|Jacuzzi
-Massage|Sauna
+Massage|Réflexologie
 Parc d'attractions|Fête foraine!
 Grande roue|Manège
-Montagnes russes|Grande roue
+Autos tamponneuses|Karting
 Zoo|Aquarium
 Clown|Jongleur
 Musée|Galerie
@@ -801,7 +801,7 @@ Flûte|Clarinette!
 Trompette|Trombone!
 Saxophone|Clarinette
 Accordéon|Harmonica
-Chorale|Orchestre
+Orchestre|Fanfare
 Rap|Slam!
 Rock|Pop
 Jazz|Blues!
@@ -809,39 +809,39 @@ Opéra|Comédie musicale
 Hip-hop|Breakdance!
 Zumba|Aérobic!
 Step|Aérobic
-Course d'orientation|Randonnée
+Course d'orientation|Géocaching
 Trail|Course à pied
-Jogging|Marche nordique
+Marche nordique|Marche rapide!
 Vélo de route|VTT!
 BMX|VTT
-Monocycle|Trottinette
+Monocycle|Gyroroue
 Curling|Pétanque
 Luge|Bobsleigh!
 Ski alpin|Ski de fond!
 Luge|Traîneau
-Cerf-volant|Frisbee
+Cerf-volant|Avion en papier
 Frisbee|Boomerang
 Yo-yo|Toupie!
 Billes|Osselets!
-Marelle|Corde à sauter
+Marelle|Élastique
 Cache-cache|Chat perché!
 Colin-maillard|Cache-cache
 Balançoire|Toboggan
 Bascule|Balançoire
 Trampoline|Château gonflable
-Pâte à modeler|Coloriage
+Pâte à modeler|Pâte à sel
 Puzzle|Casse-tête!
 Mandala|Coloriage!
 Jeu de l'oie|Petits chevaux
-Domino|Mikado!
-Bataille navale|Morpion
+Domino|Mah-jong
+Bataille|Mistigri
 Morpion|Pendu
 Charades|Devinettes!
 Quiz|Devinettes
 Rébus|Charades
 Brocante|Vide-grenier!
 Philatélie|Numismatique
-Astronomie|Ornithologie
+Ornithologie|Entomologie
 Télescope|Longue-vue!
 Cuisine|Pâtisserie!
 Méditation|Yoga
@@ -851,19 +851,19 @@ Jet-ski|Ski nautique
 Wakeboard|Ski nautique
 Kitesurf|Planche à voile!
 Paddle|Surf!
-Bodyboard|Paddle
+Bodyboard|Skimboard
 Camping-car|Caravane!
 Auberge de jeunesse|Gîte
 Gîte|Chambre d'hôtes
 Hôtel|Motel!
-Club de vacances|Colonie de vacances
+Club de vacances|Village vacances
 Colonie de vacances|Centre aéré!
 Kick-boxing|Boxe!
 Taekwondo|Karaté
-Kung-fu|Judo
+Kung-fu|Tai-chi
 Sumo|Lutte
 Plongée|Apnée!
-Apnée|Natation
+Apnée|Chasse sous-marine
 Spéléologie|Canyoning
 Canyoning|Rafting!
 Gymnastique|Trampoline
@@ -881,17 +881,16 @@ Rameur|Vélo elliptique
 Pompes|Abdominaux!
 Squat|Fente!
 Traction|Pompes
-Corde à sauter|Hula hoop
-Hula hoop|Yo-yo
-Diabolo|Toupie
+Hula hoop|Cerceau
+Yo-yo|Bilboquet
+Diabolo|Bâton du diable
 Pelote basque|Squash
 Padel|Tennis!
 Cricket|Baseball
 Football américain|Rugby!
 Futsal|Football!
 ULM|Planeur!
-Feu d'artifice|Feu de camp
-Feu de camp|Barbecue
+Feu d'artifice|Feu de Bengale
 Mariage|Baptême
 Bal|Boum!
 Boîte de nuit|Bar!
@@ -899,84 +898,84 @@ Bar|Pub!
 Restaurant|Brasserie
 Série|Film!
 Documentaire|Reportage!
-Dessin animé|Marionnettes
+Dessin animé|Film d'animation!
 Guignol|Marionnettes!
 Podcast|Radio
 Livre audio|Podcast
 Magazine|Journal!
-Mots mêlés|Sudoku
+Mots mêlés|Mots croisés
 Course en sac|Course à l'œuf!
 Poker|Blackjack!
-Blackjack|Roulette
+Blackjack|Baccara
 Rami|Belote
-Boxe|Judo
-Danse|Gym
-Marathon|Sprint
-Cartes|Dés
-Puzzle|Lego
-Ballon|Frisbee
-Camping|Hôtel
-Guitare|Violon
-Cirque|Zoo
-Musée|Bibliothèque
-Cerf-volant|Montgolfière
-Mozart|Beethoven!
-Karaoké|Concert
-Golf|Mini-golf!
+Judo|Jujitsu!
+Danse country|Danse en ligne
+Cross|Trail
+Président|Huit américain
+Maquette|Diorama
+Ballon de basket|Ballon de handball
+Bungalow|Mobil-home!
+Guitare|Banjo
+Cirque|Cabaret
+Planétarium|Observatoire
+Montgolfière|Dirigeable
+Musique classique|Musique baroque
+Concert|Récital
+Baby-foot|Air hockey
 # Maison et objets
 Canapé|Fauteuil
 Chaise|Tabouret!
 Table|Bureau
-Lit|Matelas
+Méridienne|Divan!
 Matelas|Sommier
 Oreiller|Coussin!
-Couette|Couverture!
+Couette|Couverture
 Armoire|Commode
 Placard|Armoire
 Étagère|Bibliothèque
 Buffet|Vaisselier!
 Lampe|Lampadaire
 Lustre|Plafonnier!
-Bougie|Lampe
-Ampoule|Néon!
-Interrupteur|Prise
+Bougeoir|Chandelier
+Ampoule|Néon
+Interrupteur|Variateur
 Rallonge|Multiprise!
 Rideau|Store
 Volet|Store
-Fenêtre|Porte
+Fenêtre|Baie vitrée
 Porte|Portail
 Serrure|Verrou!
-Sonnette|Interphone!
-Boîte aux lettres|Paillasson
+Sonnette|Interphone
+Heurtoir|Sonnette
 Paillasson|Tapis
 Tapis|Moquette!
 Parquet|Carrelage
 Lino|Moquette
 Mur|Cloison!
-Plafond|Plancher!
+Plancher|Parquet
 Escalier|Échelle
 Échelle|Escabeau!
-Escalator|Escalier
+Escalator|Tapis roulant
 Ascenseur|Monte-charge
-Grenier|Cave!
-Cave|Garage
-Garage|Abri de jardin
-Cuisine|Salle de bain
+Grenier|Combles!
+Cave|Cellier!
+Abri de jardin|Cabanon!
+Cuisine|Kitchenette
 Salon|Salle à manger!
-Chambre|Bureau
-Couloir|Entrée
+Chambre|Suite parentale
+Entrée|Vestibule!
 Balcon|Terrasse!
-Véranda|Terrasse
-Jardin|Potager
+Véranda|Jardin d'hiver!
+Potager|Verger
 Réfrigérateur|Congélateur!
-Four|Micro-ondes!
-Plaque de cuisson|Four
+Four|Micro-ondes
+Plaque de cuisson|Gazinière
 Lave-vaisselle|Lave-linge
 Lave-linge|Sèche-linge!
-Grille-pain|Gaufrier
+Grille-pain|Presse-panini
 Bouilloire|Cafetière
 Cafetière|Théière!
-Mixeur|Batteur!
+Mixeur|Batteur
 Batteur|Fouet
 Casserole|Poêle!
 Poêle|Wok
@@ -984,74 +983,74 @@ Marmite|Cocotte!
 Cocotte|Autocuiseur!
 Passoire|Égouttoir
 Passoire|Tamis!
-Spatule|Louche
+Spatule|Maryse
 Louche|Écumoire
 Fourchette|Cuillère
 Couteau|Fourchette
-Cuillère|Baguettes
+Ramequin|Coupelle
 Assiette|Bol
-Bol|Tasse!
+Bol|Tasse
 Tasse|Mug!
 Verre|Gobelet
 Verre|Flûte
 Carafe|Pichet!
 Bouteille|Gourde
 Gourde|Thermos!
-Plateau|Dessous de plat
+Plateau|Desserte
 Saladier|Plat
-Nappe|Set de table!
+Nappe|Set de table
 Serviette|Torchon
 Torchon|Essuie-tout
 Éponge|Serpillière!
 Balai|Aspirateur
-Balai|Pelle
-Aspirateur|Nettoyeur vapeur
+Balai|Balayette
+Serpillière|Mop
 Seau|Bassine
-Saladier|Bassine
+Saladier|Jatte!
 Lessive|Adoucissant!
-Fer à repasser|Planche à repasser
+Fer à repasser|Centrale vapeur
 Fer à repasser|Défroisseur!
 Étendoir|Fil à linge
-Pince à linge|Cintre
-Cintre|Porte-manteau!
+Panier à linge|Sac à linge!
+Cintre|Porte-manteau
 Baignoire|Douche
-Douche|Lavabo
+Lavabo|Vasque!
 Lavabo|Évier!
 Robinet|Mitigeur!
 Toilettes|Bidet
-Brosse à dents|Fil dentaire
-Dentifrice|Bain de bouche!
+Fil dentaire|Brossette
+Dentifrice|Bain de bouche
 Savon|Gel douche
-Shampoing|Gel douche
+Shampoing|Masque capillaire
 Peigne|Brosse!
-Sèche-cheveux|Fer à lisser!
+Sèche-cheveux|Fer à lisser
 Fer à lisser|Fer à friser
 Rasoir|Tondeuse!
 Tondeuse|Débroussailleuse
-Coton-tige|Mouchoir
+Disque démaquillant|Lingette
 Pèse-personne|Balance!
-Thermomètre|Baromètre!
+Thermomètre|Baromètre
 Réveil|Horloge
 Horloge|Pendule!
 Télécommande|Manette
 Ordinateur|Tablette
 Tablette|Liseuse!
-Imprimante|Scanner!
+Imprimante|Scanner
 Téléphone fixe|Smartphone
-Chargeur|Batterie externe!
+Chargeur|Batterie externe
 Box internet|Routeur
 Cheminée|Poêle à bois!
-Radiateur|Poêle à bois
+Radiateur|Convecteur!
 Climatiseur|Ventilateur!
-Ventilateur|Radiateur
-Chaudière|Ballon d'eau chaude
-Humidificateur|Purificateur d'air!
-Détecteur de fumée|Alarme
-Extincteur|Détecteur de fumée
-Coffre-fort|Tirelire!
-Tiroir|Placard
+Ventilateur|Brasseur d'air!
+Chaudière|Pompe à chaleur
+Humidificateur|Purificateur d'air
+Alarme|Sirène
+Extincteur|Couverture anti-feu
+Coffre-fort|Tirelire
+Tiroir|Casier
 Boîte|Caisse!
-Carton|Caisse
+Carton|Cagette
 Valise|Sac de voyage
 Vase|Pot de fleurs!
 Pot de fleurs|Jardinière
@@ -1059,35 +1058,35 @@ Cadre|Tableau!
 Tableau|Poster!
 Bibelot|Statuette
 Pouf|Repose-pied!
-Pouf|Coussin
+Coussin|Traversin
 Hamac|Transat
 Transat|Chaise longue!
-Parasol|Tonnelle!
-Râteau|Pelle
+Parasol|Tonnelle
+Râteau|Balai à feuilles
 Pioche|Bêche
 Bêche|Fourche!
 Arrosoir|Tuyau d'arrosage
-Brouette|Diable!
+Brouette|Diable
 Sécateur|Cisaille!
 Marteau|Maillet
-Tournevis|Clé à molette
-Clé à molette|Pince!
+Tournevis|Visseuse
+Clé à molette|Pince
 Perceuse|Visseuse
 Vis|Clou!
 Clou|Punaise!
-Cheville|Vis
+Vis|Boulon!
 Mètre|Règle
 Ruban adhésif|Colle
-Colle|Agrafe
-Agrafeuse|Perforatrice!
+Colle|Pâte à fixe
+Agrafeuse|Perforatrice
 Ciseaux|Cutter
 Stylo|Crayon!
 Crayon|Feutre!
 Gomme|Correcteur
-Taille-crayon|Gomme
+Correcteur|Effaceur!
 Cahier|Carnet!
 Carnet|Agenda
-Classeur|Pochette!
+Classeur|Pochette
 Trombone|Agrafe
 Calendrier|Agenda
 Lampe de poche|Lampe frontale!
@@ -1095,65 +1094,64 @@ Pile|Batterie
 Briquet|Allumettes
 Bougie|Photophore!
 Encens|Diffuseur
-Désodorisant|Diffuseur
-Moustiquaire|Rideau
+Désodorisant|Parfum d'ambiance!
+Rideau|Voilage!
 Berceau|Couffin!
 Chaise haute|Rehausseur!
-Biberon|Tétine
+Biberon|Tasse à bec
 Poussette|Landau!
 Doudou|Peluche
 Peluche|Poupée
 Malle|Coffre!
-Gamelle|Abreuvoir!
+Gamelle|Abreuvoir
 Aquarium|Bocal
 Cage|Volière!
-Plante verte|Cactus
-Cactus|Bonsaï
+Ficus|Yucca
+Cactus|Aloe vera!
 Paravent|Cloison
-Porte-parapluie|Porte-manteau
+Porte-manteau|Portant
 Patère|Crochet
 Compteur électrique|Disjoncteur!
 Fusible|Disjoncteur
-Rouleau à pâtisserie|Moule à gâteau
+Moule à cake|Moule à manqué!
 Moule à gâteau|Moule à tarte!
 Minuteur|Sablier
 Tire-bouchon|Décapsuleur!
 Ouvre-boîte|Décapsuleur
-Râpe|Économe
-Économe|Couteau
+Râpe|Mandoline
+Économe|Couteau d'office
 Planche à découper|Billot!
 Presse-agrumes|Centrifugeuse!
 Centrifugeuse|Extracteur de jus
-Friteuse|Plancha
 Appareil à raclette|Pierrade
 Crêpière|Gaufrier!
-Machine à café|Bouilloire
+Machine à café|Percolateur!
 Salière|Poivrière
 Moulin à poivre|Poivrière
-Beurrier|Sucrier!
-Dessous de plat|Set de table
-Tablier|Manique!
+Beurrier|Sucrier
+Dessous de plat|Sous-verre
+Manique|Gant de cuisine!
 Film alimentaire|Papier aluminium
 Papier aluminium|Papier cuisson!
 Boîte hermétique|Bocal
 Lampe de chevet|Veilleuse
-Table de chevet|Table basse
+Table de chevet|Bout de canapé
 Table basse|Guéridon!
-Console|Buffet
+Console|Meuble d'entrée
 Banc|Banquette!
 Rocking-chair|Fauteuil
 Lit superposé|Mezzanine
 Futon|Clic-clac!
 Couvre-lit|Plaid!
 Plaid|Couverture
-Lit|Canapé
-Clé|Cadenas
-Shampooing|Savon!
-Miroir|Vitre
-Frigo|Congélateur!
-Grille-pain|Cafetière
-Menottes|Chaîne
-Oreiller|Couette
+Canapé-lit|Convertible!
+Cadenas|Antivol!
+Crème hydratante|Lait corporel
+Miroir|Psyché!
+Frigo|Glacière
+Robot pâtissier|Robot cuiseur
+Corde|Ficelle!
+Taie d'oreiller|Housse de couette!
 # Vêtements et accessoires
 Casquette|Chapeau!
 Bonnet|Béret
@@ -1173,22 +1171,22 @@ Blouson|Veste
 Blazer|Veston!
 Costume|Smoking!
 Cravate|Nœud papillon
-Chemise|Polo!
+Chemise|Polo
 Polo|Tee-shirt
 Tee-shirt|Débardeur!
 Pull|Gilet!
 Sweat|Pull
-Sweat|Jogging
+Sweat|Hoodie!
 Chemisier|Blouse!
 Tunique|Blouse
-Robe|Jupe!
-Jupe|Kilt!
+Robe|Jupe
+Jupe|Kilt
 Pantalon|Jean
-Jean|Salopette
+Jean|Chino
 Short|Bermuda!
 Legging|Collant
 Collant|Bas!
-Chaussettes|Chaussons
+Chaussons|Pantoufles!
 Socquettes|Chaussettes!
 Pyjama|Chemise de nuit
 Nuisette|Chemise de nuit!
@@ -1198,23 +1196,23 @@ Caleçon|Boxer!
 Soutien-gorge|Brassière
 Culotte|String!
 Maillot de bain|Bikini!
-Bikini|Paréo
+Bikini|Trikini!
 Combinaison|Salopette
 Combinaison de ski|Salopette de ski!
 Kimono|Peignoir
-Uniforme|Costume
-Toge|Tunique
+Uniforme|Treillis
+Toge|Soutane
 Poncho|Cape
-Cape|Manteau
-Gilet|Boléro!
+Cape|Pèlerine!
+Gilet|Boléro
 Smoking|Queue-de-pie!
-Robe de mariée|Robe de soirée
+Robe de bal|Robe de soirée!
 Robe de soirée|Robe de cocktail!
-Tailleur|Ensemble
-Survêtement|Short
-Baskets|Espadrilles
+Tailleur|Costume
+Survêtement|Jogging!
+Baskets|Tennis!
 Escarpins|Ballerines
-Ballerines|Mocassins!
+Ballerines|Mocassins
 Bottes|Bottines!
 Bottines|Rangers
 Bottes|Cuissardes!
@@ -1222,17 +1220,17 @@ Sandales|Tongs
 Tongs|Claquettes!
 Espadrilles|Sandales
 Mules|Sabots!
-Sabots|Chaussons
+Sabots|Socques!
 Pantoufles|Mules
-Talons aiguilles|Compensées!
+Talons aiguilles|Compensées
 Derbies|Richelieu
-Montre|Bracelet!
+Montre|Bracelet
 Bracelet|Gourmette!
 Collier|Pendentif
 Collier|Chaîne!
 Bague|Alliance
 Alliance|Chevalière!
-Boucles d'oreilles|Piercing!
+Boucles d'oreilles|Piercing
 Broche|Épingle
 Barrette|Pince à cheveux!
 Chouchou|Élastique
@@ -1243,56 +1241,56 @@ Lunettes de soleil|Masque de ski
 Sac à main|Pochette!
 Sac à dos|Cartable
 Cartable|Sacoche!
-Banane|Sac bandoulière!
+Banane|Sac bandoulière
 Portefeuille|Porte-monnaie
 Porte-monnaie|Porte-cartes!
-Porte-clés|Porte-cartes
-Ceinture|Bretelles!
+Portefeuille|Porte-chéquier
+Ceinture|Bretelles
 Parapluie|Ombrelle
-Parapluie|Imperméable
-Éventail|Ombrelle
+Ombrelle|Parasol
+Éventail|Mini ventilateur
 Cravate|Lavallière!
 Boutons de manchette|Épingle à cravate
-Mouchoir|Lingette
-Casque|Cagoule
+Mouchoir|Carré de soie
+Casquette|Visière
 Bonnet|Cagoule
-Cache-oreilles|Cache-cou
+Moufles|Gants de ski!
 Béret|Képi!
-Képi|Casque
-Sombrero|Chapeau de paille
+Képi|Calot!
+Sombrero|Chapeau de cowboy
 Chapeau de paille|Canotier!
 Haut-de-forme|Melon
-Turban|Bandana
+Fichu|Foulard!
 Diadème|Couronne!
 Couronne|Tiare
 Perruque|Postiche!
-Montre|Chronographe!
-Bleu de travail|Uniforme
+Montre|Chronographe
+Bleu de travail|Combinaison
 Ciré|Coupe-vent
-Coupe-vent|Blouson
-Polaire|Doudoune
+Coupe-vent|Imperméable
+Polaire|Sweat
 Col roulé|Sous-pull!
-Marinière|Chemise
-Caraco|Nuisette
+Marinière|Tee-shirt rayé!
+Nuisette|Déshabillé!
 Body|Justaucorps!
-Justaucorps|Tutu
+Justaucorps|Maillot de gym
 Tutu|Jupon!
 Jupon|Crinoline
 Corset|Bustier!
 Bustier|Soutien-gorge
 Porte-jarretelles|Jarretière!
 Short de bain|Maillot de bain!
-Combishort|Barboteuse
+Combishort|Combipantalon!
 Barboteuse|Grenouillère
-Bavoir|Grenouillère
-Lacets|Scratch!
-Fermeture éclair|Bouton
+Gigoteuse|Nid d'ange!
+Lacets|Scratch
+Œillet|Rivet
 Bouton|Pression!
-Poche|Doublure
-Col|Manche
-Manche|Poignet
-Ourlet|Couture
-Laine|Coton
+Col|Revers
+Poignet|Manchette
+Couture|Surpiqûre
+Ourlet|Biais
+Laine|Mohair
 Soie|Satin!
 Lin|Chanvre
 Velours|Daim!
@@ -1302,18 +1300,18 @@ Cachemire|Laine!
 Dentelle|Broderie
 Paillettes|Strass!
 Rayures|Carreaux
-Pois|Rayures
-Slim|Pattes d'éléphant
-Mini-jupe|Jupe crayon!
-Sari|Kimono
+Pied-de-poule|Vichy
+Slim|Fuseau
+Mini-jupe|Jupe crayon
+Kimono|Yukata!
 Djellaba|Caftan
-Kilt|Pagne
-Sac de sport|Sac à dos
-Cabas|Besace
-Masque de ski|Lunettes de piscine
-Bonnet de bain|Lunettes de piscine
-Jonc|Bague
-Chaîne de cheville|Gourmette
+Pagne|Paréo!
+Sac de sport|Sac polochon
+Cabas|Sac de courses!
+Lunettes de piscine|Masque de plongée
+Bonnet de bain|Charlotte
+Jonc|Bracelet
+Sautoir|Collier
 Médaillon|Pendentif!
 Camée|Broche
 Pin's|Badge!
@@ -1323,289 +1321,285 @@ Panama|Canotier!
 Jambières|Guêtres!
 Robe|Chasuble
 Pantalon|Pantacourt
-Pantacourt|Corsaire
+Pantacourt|Corsaire!
 Caban|Pardessus
 Caban|Duffle-coat!
 Gabardine|Trench
-Tablier|Bleu de travail
-Chapka|Cache-oreilles
+Tablier|Blouse
+Chapka|Bonnet
 Mocassins|Derbies
-Baskets|Crampons
-Chaussures de ski|Après-ski!
-Après-ski|Bottes de pluie
+Baskets|Running!
+Chaussures de ski|Chaussures de snow
+Après-ski|Bottes fourrées!
 Bottes de pluie|Galoches!
 Chaussures de sécurité|Rangers
 Sac à main|Cabas
-Valise|Sac de sport
+Valise|Trolley
 Trousse|Vanity
-Monture|Étui à lunettes
-Masque|Loup!
+Lorgnon|Monocle
+Masque|Loup
 Déguisement|Panoplie
 Top|Caraco!
 Perfecto|Bombers!
 Bombers|Teddy
-Teddy|Polaire
+Teddy|Blouson
 Cardigan|Boléro!
 Mi-bas|Socquettes
 Gaine|Corset!
 Jupe plissée|Mini-jupe!
-Capuche|Col
+Capuche|Cagoule
 Étole|Châle
-Santiags|Cuissardes!
-Babies|Escarpins
+Santiags|Bottes cavalières
+Babies|Ballerines!
 Charentaises|Pantoufles!
 Nu-pieds|Claquettes!
-Semelle|Talon
-Lacets|Œillets
+Embauchoir|Chausse-pied
+Lacets|Cordon
 Créoles|Boucles d'oreilles
-Plumes|Fourrure
-Fourrure|Cuir
+Fourrure|Mouton retourné
+Cuir|Nubuck
 Coton|Lin
-Tweed|Velours
+Velours|Suédine
 Flanelle|Tweed!
 Satin|Taffetas
-Mousseline|Dentelle!
+Mousseline|Organza
 Écossais|Carreaux!
 Fleuri|Imprimé
 Garde-robe|Dressing!
 Dressing|Penderie
 Cabine d'essayage|Vestiaire
 Taille|Pointure
-Retouche|Ourlet!
-Fil|Aiguille
-Aiguille|Dé à coudre
-Visière|Bonnet de bain
-Boa|Étole!
+Retouche|Ourlet
+Aiguille|Épingle
+Pelote|Bobine
+Bandeau éponge|Poignet éponge!
+Boa|Étole
 Sacoche|Porte-documents
 Porte-documents|Attaché-case!
-Sarouel|Pattes d'éléphant
-Corsaire|Legging
-Robe de chambre|Pyjama!
-Bague|Collier
-Chaussette|Chaussure
-Pull|Veste
-Écharpe|Cravate
-Jean|Jogging
-Pyjama|Peignoir
+Sarouel|Pantalon bouffant!
+Legging|Jegging!
+Pyjama|Pyjashort
+Bague|Anneau!
+Ballerines|Slippers
+Pull|Col roulé
+Écharpe|Étole
+Cycliste|Legging!
+Peignoir|Sortie de bain
 # Lieux et nature
 Rivière|Fleuve!
 Lac|Étang!
 Mer|Océan!
-Montagne|Colline!
+Montagne|Colline
 Forêt|Bois!
 Plage|Crique
-Désert|Steppe
-Île|Îlot!
-Volcan|Geyser
-Cascade|Torrent
-Grotte|Gouffre!
-Vallée|Canyon!
-Falaise|Rocher
-Prairie|Champ
-Marais|Tourbière
-Jungle|Mangrove
+Coteau|Versant
+Cap|Promontoire!
+Geyser|Source chaude
+Cascade|Rapides
+Grotte|Gouffre
+Vallée|Canyon
+Falaise|Paroi
+Prairie|Pâturage
+Marais|Marécage!
+Jungle|Forêt tropicale!
 Glacier|Banquise!
-Sommet|Crête
+Sommet|Cime!
 Neige|Grêle
 Pluie|Bruine!
 Orage|Tempête
 Ouragan|Tornade!
 Brouillard|Brume!
-Arc-en-ciel|Aurore boréale
-Soleil|Lune
-Étoile|Planète
-Nuage|Fumée
+Averse|Ondée!
+Soleil|Étoile
+Étoile filante|Météore
+Fumée|Vapeur
 Vent|Brise!
-Éclair|Tonnerre
-Séisme|Tsunami
-Avalanche|Glissement de terrain
+Éclair|Foudre!
+Séisme|Réplique
+Avalanche|Éboulement
 Sable|Gravier
 Caillou|Galet!
-Coquillage|Corail
-Algue|Mousse
-Rose|Tulipe
+Moule|Huître!
+Algue|Varech
+Rose|Églantine!
 Tulipe|Jonquille!
 Marguerite|Pâquerette!
 Chêne|Hêtre!
 Pin|Mélèze!
 Palmier|Cocotier!
 Bouleau|Peuplier!
-Saule|Érable
+Saule|Osier
 Herbe|Gazon!
-Buisson|Haie!
-Lierre|Vigne
-Cactus|Aloe vera
-Racine|Tronc
-Feuille|Pétale
+Buisson|Arbuste!
+Lierre|Vigne vierge
+Cactus|Agave
+Tronc|Souche
+Bourgeon|Pousse
 Branche|Brindille!
 Village|Hameau!
 Ville|Métropole
-Capitale|Préfecture
+Bourg|Village
 Rue|Avenue!
-Boulevard|Ruelle
+Ruelle|Impasse
 Place|Square!
 Parc|Jardin!
 Château|Palais
 Église|Cathédrale
 Mosquée|Synagogue
-Chapelle|Abbaye
+Abbaye|Prieuré
 Monastère|Couvent!
 Musée|Galerie d'art
-Opéra|Salle de concert
+Opéra|Théâtre
 Hôpital|Clinique!
-Pharmacie|Laboratoire
+Pharmacie|Droguerie
 École|Collège
-Lycée|Université
+Université|Grande école
 Mairie|Préfecture
-Prison|Commissariat
+Commissariat|Gendarmerie!
 Tribunal|Cour d'appel
-Banque|Bureau de poste
+Bureau de poste|Relais colis
 Boulangerie|Pâtisserie!
 Boucherie|Charcuterie!
 Épicerie|Supérette!
 Supermarché|Hypermarché!
-Marché|Brocante
-Café|Salon de thé
+Café|Bistrot!
 Hôtel|Auberge!
-Camping|Gîte
-Motel|Chambre d'hôte
+Gîte|Chambre d'hôte!
+Palace|Grand hôtel
 Appartement|Studio
 Maison|Villa
-Cabane|Chalet!
+Cabane|Chalet
 Garage|Atelier
-Cuisine|Salle à manger
 Chambre|Dortoir
-Salle de bain|Toilettes
-Véranda|Pergola
-Couloir|Hall d'entrée
+Salle de bain|Salle d'eau!
+Hall d'entrée|Vestibule!
 Cour|Patio
-Ferme|Grange
+Grange|Hangar
 Étable|Écurie!
-Poulailler|Clapier
-Moulin|Phare
+Poulailler|Pigeonnier
+Moulin|Éolienne
 Pont|Viaduc
-Tunnel|Mine
+Tunnel|Souterrain
 Barrage|Écluse
-Puits|Fontaine
+Puits|Citerne
 Port|Marina
 Quai|Ponton!
 Digue|Jetée!
-Usine|Entrepôt
-Centrale nucléaire|Éolienne
+Entrepôt|Dépôt!
+Usine|Manufacture!
 Cirque|Fête foraine
 Parc d'attractions|Parc aquatique
-Cimetière|Crypte
-Chantier|Carrière
-Plateau|Plaine!
-Steppe|Toundra!
-Oasis|Dune
-Lagon|Atoll
-Récif|Banc de sable
+Crypte|Caveau!
+Carrière|Mine
+Plateau|Plaine
+Steppe|Toundra
+Oasis|Palmeraie
+Lagon|Lagune!
+Récif|Écueil!
 Baie|Golfe
-Détroit|Canal
+Détroit|Bras de mer
 Delta|Estuaire
-Source|Ruisseau
+Fossé|Rigole
 Ruisseau|Torrent!
 Mare|Flaque!
 Bassin|Fontaine
 Colline|Butte!
-Montagne|Volcan
-Désert|Banquise
-Plage|Piscine
-Printemps|Automne
-Été|Hiver
-Aube|Crépuscule
-Lever de soleil|Coucher de soleil!
+Massif|Chaîne de montagnes
+Iceberg|Banquise
+Piscine|Pataugeoire
+Mousson|Saison des pluies
+Solstice|Équinoxe
+Aube|Aurore!
+Crépuscule|Tombée de la nuit
 Comète|Météorite
 Astéroïde|Météorite!
-Galaxie|Univers
-Ciel|Espace
+Galaxie|Nébuleuse
+Espace|Cosmos!
 Mars|Vénus
 Jupiter|Saturne
 Rosée|Givre!
 Verglas|Givre
 Canicule|Sécheresse
 Inondation|Crue!
-Incendie|Éruption
+Incendie|Brasier
 Lave|Magma!
-Cratère|Gouffre
+Gouffre|Abîme!
 Rocher|Pierre!
 Marbre|Granit!
-Argile|Boue
-Terre|Sable
+Argile|Glaise!
+Terre|Terreau
 Coquelicot|Bleuet!
 Lavande|Romarin
 Muguet|Lilas
-Lys|Iris!
-Tournesol|Pissenlit
+Lys|Iris
+Pissenlit|Bouton d'or
 Rose|Pivoine!
-Violette|Pensée!
-Fougère|Mousse
+Violette|Pensée
+Mousse|Lichen
 Bambou|Roseau!
-Olivier|Figuier!
+Olivier|Figuier
 Pommier|Poirier!
 Cerisier|Prunier!
-Platane|Marronnier!
+Platane|Marronnier
 Cyprès|Thuya!
 Sapin|Épicéa!
-Noisetier|Châtaignier!
+Noisetier|Châtaignier
 Vigne|Houblon
-Gland|Pomme de pin
-Écorce|Sève
-Graine|Bourgeon
+Résine|Sève
+Graine|Pépin
 Rivage|Berge!
-Horizon|Paysage
-Campagne|Banlieue
-Centre-ville|Quartier
-Cité|Lotissement!
+Paysage|Panorama
+Banlieue|Périphérie
+Quartier|Arrondissement
+Cité|Lotissement
 Immeuble|Gratte-ciel!
 Tour|Donjon
-Remparts|Douves
+Remparts|Muraille
 Fort|Citadelle!
 Ruines|Vestiges!
-Pyramide|Temple
-Verger|Vignoble!
-Serre|Pépinière!
-Champ|Rizière
-Refuge|Bivouac!
-Station de ski|Station balnéaire
+Temple|Sanctuaire
+Verger|Vignoble
+Serre|Pépinière
+Potager|Jardin ouvrier
+Refuge|Bivouac
+Station balnéaire|Ville côtière
 Thermes|Spa!
-Clairière|Sous-bois!
+Clairière|Sous-bois
 Sentier|Chemin!
-Mer|Lac
+Réservoir|Retenue d'eau
 Étang|Mare
 Île|Atoll
-Archipel|Continent
-Pôle Nord|Pôle Sud!
-Équateur|Tropique!
+Littoral|Côte
+Pôle Nord|Grand Nord
+Équateur|Tropique
 Savane|Brousse!
-Taïga|Toundra
-Orchidée|Jasmin
-Ortie|Chardon!
-Trèfle|Luzerne!
+Taïga|Forêt boréale!
+Jasmin|Fleur d'oranger
+Ortie|Chardon
+Trèfle|Luzerne
 Blé|Orge!
-Maïs|Tournesol
-Glycine|Chèvrefeuille!
-Lagune|Marécage
+Seigle|Avoine
+Glycine|Chèvrefeuille
+Embouchure|Confluent
 Crique|Calanque!
-Jardin botanique|Arboretum!
-Lanterne|Lampadaire
-Grotte|Abri sous roche
+Jardin botanique|Arboretum
+Lampadaire|Réverbère!
+Grotte|Caverne!
 Pinède|Chênaie!
-Haute mer|Large
-Bocage|Lande!
-Vague|Marée
-Neige|Pluie
-Sapin|Palmier
-Paris|Londres
-Forêt|Jungle!
-Église|Mosquée
-Supermarché|Marché
-Banque|Distributeur
-Pharmacie|Hôpital
-Coquillage|Étoile de mer
-Mars|Jupiter!
-Cascade|Fontaine
+Houle|Ressac
+Garrigue|Maquis!
+Vague|Déferlante
+Flocon|Grêlon
+Conifère|Résineux!
+Zone industrielle|Zone commerciale
+Bosquet|Taillis!
+Basilique|Cathédrale!
+Marché couvert|Halles
+Banque|Bureau de change
+Dispensaire|Centre de santé
+Coquillage|Conque
+Mars|Jupiter
+Lavoir|Abreuvoir
 # Transports
 Voiture|Camion
 Bus|Car!
@@ -1617,251 +1611,240 @@ Moto|Scooter!
 Cyclomoteur|Scooter
 Avion|Hélicoptère
 Planeur|Deltaplane!
-Montgolfière|Dirigeable!
 Fusée|Navette spatiale
 Bateau|Navire!
 Voilier|Catamaran!
-Yacht|Paquebot
+Paquebot|Transatlantique!
 Ferry|Bac!
 Péniche|Barge!
-Barque|Radeau
-Sous-marin|Porte-avions
+Barque|Canot!
+Sous-marin|Submersible!
 Jet-ski|Hors-bord!
 Taxi|VTC!
-Ambulance|Corbillard
-Camion de pompiers|Dépanneuse
+Ambulance|Camion de pompiers
+Dépanneuse|Fourrière
 Fourgon|Camionnette!
-Tracteur|Moissonneuse!
+Tracteur|Moissonneuse
 Bulldozer|Pelleteuse!
-Grue|Chariot élévateur
+Chariot élévateur|Transpalette!
 Limousine|Berline!
 Cabriolet|Coupé!
-Break|Monospace!
+Break|Monospace
 Quad|Buggy!
 Kart|Autotamponneuse
-Tandem|Monocycle
-Skateboard|Roller!
-Patins à glace|Luge
-Traîneau|Motoneige
+Draisienne|Vélo enfant
+Skateboard|Longboard!
+Motoneige|Dameuse
 Téléphérique|Télésiège!
 Télécabine|Funiculaire!
-Ascenseur|Escalator!
+Ascenseur|Escalator
 Calèche|Diligence!
-Charrette|Brouette
+Charrette|Carriole!
 Fauteuil roulant|Déambulateur
 TGV|TER!
-Wagon|Locomotive
+Locomotive|Motrice!
 Gare|Station!
 Aéroport|Héliport
-Quai|Voie
+Hall de gare|Salle d'attente
 Arrêt de bus|Abribus!
 Ticket|Billet!
-Billet|Réservation
+Carte d'embarquement|Billet d'avion
 Passeport|Carte d'identité
-Visa|Passeport
-Valise|Sac à dos
-Bagage cabine|Bagage en soute!
-Pilote|Steward
+Visa|Laissez-passer
+Bagage cabine|Bagage en soute
+Pilote|Commandant de bord
 Steward|Hôtesse de l'air!
-Contrôleur|Conducteur
+Contrôleur|Poinçonneur
 Chauffeur|Conducteur!
 Autoroute|Nationale!
-Route|Piste
-Péage|Douane
+Route|Départementale
+Douane|Poste-frontière
 Rond-point|Carrefour!
-Feu rouge|Panneau stop!
-Passage piéton|Trottoir
-Piste cyclable|Couloir de bus
-Parking|Aire de repos
+Feu rouge|Panneau stop
+Trottoir|Bas-côté
+Piste cyclable|Bande cyclable!
+Aire de repos|Aire de service!
 Station-service|Borne de recharge
 Essence|Gazole!
 Électrique|Hybride!
-Batterie|Réservoir
-Moteur|Boîte de vitesses
+Réservoir|Jerrican
+Carburateur|Injecteur
 Volant|Guidon!
-Pédale|Levier
-Frein|Accélérateur
-Embrayage|Accélérateur
+Levier de vitesse|Sélecteur
+Pédale de frein|Pédale d'embrayage
+Régulateur de vitesse|Limiteur de vitesse!
 Pneu|Jante!
-Roue|Pneu
-Roue de secours|Cric
-Phare|Clignotant
+Roue|Enjoliveur
+Roue de secours|Galette
+Phare|Antibrouillard
 Clignotant|Warning!
 Klaxon|Sirène
-Rétroviseur|Pare-brise
-Essuie-glace|Pare-soleil
+Pare-brise|Lunette arrière
+Essuie-glace|Lave-glace!
 Ceinture de sécurité|Airbag!
 Siège auto|Rehausseur!
-Coffre|Boîte à gants
-Capot|Coffre
-Plaque d'immatriculation|Carte grise!
-Permis de conduire|Carte grise!
-Auto-école|Contrôle technique
-Amende|Radar
-Radar|Alcootest
-Embouteillage|Travaux
-Accident|Panne!
-Crevaison|Panne
+Boîte à gants|Vide-poche!
+Coffre de toit|Galerie
+Plaque d'immatriculation|Carte grise
+Permis de conduire|Permis bateau
+Contrôle technique|Révision
+Contravention|Retrait de points
+Alcootest|Éthylotest!
+Embouteillage|Ralentissement!
+Accident|Panne
+Crevaison|Éclatement
 Covoiturage|Autostop!
 Location de voiture|Autopartage!
 Vélo électrique|Trottinette électrique
 Vélo de course|VTT
 Hélice|Réacteur!
-Aile|Hélice
-Cockpit|Cabine!
+Carlingue|Fuselage!
+Cockpit|Cabine
 Hublot|Lucarne!
-Ancre|Bouée
-Bouée|Gilet de sauvetage!
-Voile|Mât!
+Ancre|Grappin
+Bouée|Gilet de sauvetage
+Voile|Foc
 Gouvernail|Barre!
-Proue|Poupe!
-Bâbord|Tribord!
-Cale|Pont
-Escale|Correspondance!
-Décollage|Atterrissage!
-Embarquement|Enregistrement!
-Douane|Contrôle de sécurité
+Proue|Étrave!
+Coursive|Passerelle
+Cale|Soute!
+Escale|Correspondance
+Décollage|Envol!
+Embarquement|Enregistrement
+Portique de sécurité|Détecteur de métaux
 Turbulence|Trou d'air!
-Décalage horaire|Escale
-Classe affaires|Première classe!
-Croisière|Traversée!
-Voyage|Excursion
-Itinéraire|GPS
+Navette aéroport|Bus aéroport
+Classe affaires|Première classe
+Croisière|Traversée
+Excursion|Visite guidée
+Itinéraire|Trajet
 Carte routière|Atlas!
-Aller simple|Aller-retour!
-Horaire|Retard
-Retard|Annulation!
-Grève|Annulation
-Terminus|Départ
-Aiguillage|Passage à niveau
+Abonnement|Carte de réduction
+Horaire|Tableau des départs
+Retard|Annulation
+Grève|Manifestation
+Terminus|Gare d'arrivée
+Passage à niveau|Barrière
 Rail|Traverse!
-Monorail|Funiculaire
+Monorail|Métro aérien
 Navette|Minibus!
-Camion-citerne|Semi-remorque!
-Remorque|Attelage
-Poids lourd|Utilitaire!
-Vélo-taxi|Pousse-pousse!
-Gondole|Pirogue
+Camion-citerne|Semi-remorque
+Remorque|Bétaillère
+Poids lourd|Utilitaire
+Vélo-taxi|Pousse-pousse
+Gondole|Bateau-mouche
 Pirogue|Canoë
-Chalutier|Cargo
+Chalutier|Thonier
 Cargo|Porte-conteneurs!
-Pétrolier|Porte-conteneurs
-Remorqueur|Brise-glace
-Hydravion|Aéroglisseur
-Drone|Hélicoptère
-Jet privé|Avion de ligne!
-Avion de chasse|Bombardier!
+Pétrolier|Méthanier!
+Remorqueur|Bateau-pilote
+Aéroglisseur|Hydroglisseur!
+Drone|Avion télécommandé
+Jet privé|Avion de ligne
+Avion de chasse|Bombardier
 Char|Blindé!
-Porte-avions|Frégate!
-Station spatiale|Satellite
+Porte-avions|Frégate
+Satellite|Sonde spatiale
 Fusée|Missile
-Side-car|Tricycle
+Side-car|Trike
 Gyropode|Hoverboard!
 Carrosse|Calèche!
-Gilet jaune|Triangle de signalisation!
-Casque|Genouillère
-Antivol|Cadenas!
-Dynamo|Sonnette
-Selle|Guidon
-Chaîne|Dérailleur!
-Béquille|Garde-boue
+Gilet jaune|Triangle de signalisation
+Sonnette|Avertisseur
+Selle|Siège
+Chaîne|Dérailleur
+Garde-boue|Bavette
 Bus de nuit|Train de nuit
-Wagon-restaurant|Voiture-bar!
+Wagon-restaurant|Voiture-bar
 Couchette|Wagon-lit!
-Siège couloir|Siège hublot!
-Vol direct|Vol avec escale!
-Contrôle de vitesse|Limitation de vitesse
+Siège couloir|Siège hublot
+Vol direct|Vol avec escale
+Limitation de vitesse|Zone 30
 Ralentisseur|Dos-d'âne!
 Bretelle|Échangeur!
 Sens unique|Impasse
 Priorité à droite|Cédez le passage!
-Pont-levis|Pont suspendu
-Marche arrière|Créneau
-Démarrage|Calage
+Pont-levis|Pont tournant
+Créneau|Stationnement en bataille
+Panne sèche|Panne de batterie
 Mobil-home|Roulotte!
-Voiture|Vélo
-Avion|Bateau
-Train|Car
+Citadine|Compacte
+Long-courrier|Moyen-courrier
+Train régional|Intercités
 Tramway|Bus
-Taxi|Ambulance
-Sous-marin|Paquebot
-Yacht|Voilier
-Ferry|Péniche
+Taxi|Chauffeur privé
+Canot pneumatique|Annexe
+Yacht|Vedette!
+Bateau-bus|Navette fluviale
 Roller|Patins à glace
-Traîneau|Charrette
-Brouette|Chariot
-Montgolfière|Planeur
-Téléphérique|Ascenseur
-Tracteur|Bulldozer
-Grue|Pelleteuse
-Camion|Semi-remorque
-Limousine|Cabriolet
-Break|Berline
-Monospace|Camping-car
+Chariot de supermarché|Panier à roulettes
+Remonte-pente|Téléski!
+Tracteur|Motoculteur
+Grue|Nacelle
+Camion-benne|Camion-poubelle
+Voiture de sport|Supercar
+SUV|4x4
+Camping-car|Van aménagé
 Caravane|Mobil-home
-Tandem|Vélo-taxi
-Monocycle|Gyropode
-Bobsleigh|Motoneige
-Diligence|Carrosse
-Poussette|Fauteuil roulant
-TGV|Locomotive
-Wagon|Couchette
-Gare|Aéroport
-Valise|Bagage cabine
-Pilote|Capitaine
-Autoroute|Périphérique
-Péage|Parking
-Trottoir|Piste cyclable
-Essence|Électrique
-Moteur|Réacteur
-Volant|Pédale
-Frein|Klaxon
-Rétroviseur|Essuie-glace
-Pare-brise|Pare-soleil
-Voiture|Moto
-Bateau|Sous-marin
-Fusée|Satellite
+Vélo cargo|Biporteur
+Monocycle|Monoroue
+Ski de fond|Ski de randonnée
+Fiacre|Voiture à cheval
+Train express|Train direct
+Wagon|Compartiment
+Terminal|Aérogare!
+Tapis à bagages|Carrousel
+Capitaine|Skipper
+Périphérique|Rocade!
+Parcmètre|Horodateur!
+Voie verte|Chemin de halage
+Biocarburant|Éthanol
+Moteur|Propulseur
+Tableau de bord|Compteur
+Frein à disque|Frein à tambour!
+Rétroviseur|Caméra de recul
+Toit ouvrant|Toit panoramique
+Motocross|Enduro!
+Kayak|Paddle
+Astronaute|Cosmonaute!
 Camion|Camionnette!
-Péage|Radar
+Aire de covoiturage|Parking relais
 # Tech et numérique
-Wi-Fi|Bluetooth!
+Wi-Fi|Bluetooth
 Ordinateur portable|Ordinateur de bureau!
 Smartphone|Tablette
-Clavier|Souris
+Imprimante laser|Imprimante jet d'encre
 Souris|Pavé tactile!
-Écran|Moniteur!
+Moniteur|Téléviseur
 Photocopieuse|Imprimante
 Clé USB|Disque dur
 Disque dur|SSD!
 Carte mémoire|Clé USB
-Webcam|Micro
+Micro|Dictaphone
 Casque|Écouteurs!
 Enceinte|Barre de son
-Haut-parleur|Micro
-Chargeur|Batterie!
-Câble|Adaptateur
-Prise|Rallonge
+Haut-parleur|Mégaphone
+Câble HDMI|Câble USB!
 Routeur|Modem!
 Fibre optique|ADSL!
 Antenne|Parabole!
-Satellite|Antenne
 Internet|Intranet
 Site web|Application
 Navigateur|Moteur de recherche
-Moteur de recherche|Annuaire
+Wiki|Encyclopédie
 Courriel|SMS
 SMS|Messagerie instantanée!
 Appel vidéo|Visioconférence!
 Réseau social|Forum
-Blog|Podcast
+Podcast|Émission de radio
 Streaming|Téléchargement
-Téléchargement|Mise à jour
-Vidéo|Photo
+Mise à niveau|Mise à jour!
+Vidéo|Clip
 Selfie|Portrait
-Emoji|GIF
-Hashtag|Mention!
+Émoticône|Emoji!
+Hashtag|Mention
 Like|Partage
-Abonné|Influenceur
+Abonné|Fan
 Influenceur|Streamer
 Mot de passe|Code PIN
 Identifiant|Mot de passe
@@ -1872,314 +1855,305 @@ Antivirus|Pare-feu
 Spam|Hameçonnage!
 Hameçonnage|Arnaque
 Logiciel|Application
-Logiciel|Jeu vidéo
-Jeu vidéo|Console
-Console|Manette
+Jeu vidéo|Jeu en ligne
+Console|Borne d'arcade
 Réalité virtuelle|Réalité augmentée!
-Intelligence artificielle|Robot
-Robot|Drone
+Intelligence artificielle|Assistant virtuel
 Algorithme|Programme
 Bug|Plantage
-Plantage|Redémarrage
-Redémarrage|Mise en veille
+Plantage|Écran figé
+Redémarrage|Réinitialisation!
 Mise en veille|Hibernation!
 Fichier|Dossier!
-Dossier|Archive
-Copier|Coller!
+Archive|Fichier compressé
+Copier|Dupliquer!
 Couper|Supprimer
-Corbeille|Archive
+Corbeille|Poubelle
 Raccourci|Icône
-Fond d'écran|Écran de veille!
+Fond d'écran|Écran de veille
 Fenêtre|Onglet
-Onglet|Favori
-Favori|Historique
+Favori|Marque-page!
+Historique|Journal d'activité
 Cookie|Cache
-Pixel|Résolution
+Résolution|Définition
 Octet|Bit!
 Mégaoctet|Gigaoctet!
 Processeur|Carte graphique
-Mémoire vive|Processeur
+Mémoire vive|Mémoire morte
 Carte mère|Carte graphique
-Ventilateur|Dissipateur!
-Serveur|Data center!
-Cloud|Serveur
+Ventilateur|Dissipateur
+Serveur|Data center
+Cloud|Stockage en ligne!
 Base de données|Tableur
 Tableur|Traitement de texte
 Traitement de texte|Bloc-notes
-Diaporama|Vidéo
-Capture d'écran|Photo
+Diaporama|Album photo
+Capture d'écran|Enregistrement d'écran
 QR code|Code-barres!
-NFC|Bluetooth!
+NFC|Bluetooth
 Paiement sans contact|Paiement mobile!
 Cryptomonnaie|Blockchain
 Montre connectée|Bracelet connecté!
 Enceinte connectée|Assistant vocal!
 Domotique|Objet connecté
 Téléviseur|Vidéoprojecteur
-Télécommande|Interrupteur
 Lecteur DVD|Magnétoscope
 CD|DVD!
 Vinyle|Cassette
-Baladeur|Radio
-Radio|Talkie-walkie
+Poste de radio|Chaîne hi-fi
+Talkie-walkie|Babyphone
 Téléphone fixe|Téléphone portable!
 Répondeur|Messagerie vocale!
-Fax|Photocopieuse
+Fax|Télex
 Calculatrice|Boulier
 Appareil photo|Caméscope
 Caméra|Webcam
-Objectif|Flash
+Objectif|Lentille!
 Trépied|Perche à selfie
 GPS|Boussole
-Carte SIM|Carte mémoire!
+Carte SIM|Carte mémoire
 Opérateur|Fournisseur d'accès
 Forfait|Abonnement!
 Réseau|Connexion
-Connexion|Bande passante
-Débit|Latence!
+Bande passante|Débit!
+Débit|Latence
 Hors ligne|Mode avion
 Notification|Alerte!
 Sonnerie|Vibreur!
-Mode silencieux|Mode avion!
-Écran tactile|Stylet
-Stylet|Tablette graphique!
+Mode silencieux|Mode avion
+Écran tactile|Pavé tactile
+Stylet|Tablette graphique
 Liseuse|Livre numérique!
-Courriel|Newsletter
+Courriel|Lettre
 Pièce jointe|Lien
-Lien|QR code
-Adresse IP|Adresse mail
-Nom de domaine|Hébergeur
+Lien|Adresse web
+Adresse IP|Adresse MAC
+Nom de domaine|URL!
 Hébergeur|Data center
-Pseudonyme|Avatar!
+Pseudonyme|Surnom!
 Avatar|Photo de profil!
 Tchat|Forum!
 Vidéo en direct|Replay!
 Tutoriel|Mode d'emploi!
 Mise à jour|Correctif!
-Sauvegarde|Restauration!
+Sauvegarde|Archivage
 Sauvegarde|Synchronisation
-Chiffrement|Compression
-Clavier|Pavé numérique!
+Chiffrement|Codage
+Clavier|Pavé numérique
 Touche|Bouton!
 Curseur|Pointeur!
-Clic droit|Double-clic!
-Glisser-déposer|Copier
-Zoom|Loupe!
-Imprimante 3D|Découpeuse laser!
+Clic droit|Double-clic
+Glisser-déposer|Déplacer
+Zoom|Loupe
+Imprimante 3D|Découpeuse laser
 Puce|Circuit imprimé!
-Transistor|Résistance!
-Câble|Wi-Fi
+Transistor|Résistance
+Câble|Fil!
 Ethernet|Fibre optique!
 Lecteur MP3|Baladeur!
-Lunettes connectées|Montre connectée
+Lunettes connectées|Casque VR
 Mème|GIF!
-Story|Publication!
-Publication|Commentaire
-Message privé|Commentaire!
-Groupe de discussion|Liste de diffusion!
+Story|Publication
+Publication|Article
+Message privé|Commentaire
+Groupe de discussion|Liste de diffusion
 Newsletter|Liste de diffusion!
-Cyberharcèlement|Usurpation d'identité
+Usurpation d'identité|Faux profil
 Vie privée|Données personnelles!
-Données personnelles|Cookie
-Géolocalisation|Reconnaissance faciale
-Clavier virtuel|Dictée vocale!
-Dictée vocale|Traduction automatique
-Correcteur orthographique|Traduction automatique!
+Cookie|Traceur!
+Géolocalisation|Partage de position!
+Clavier virtuel|Dictée vocale
+Dictée vocale|Commande vocale!
+Correcteur orthographique|Correcteur grammatical!
 Alarme|Sonnerie
 Écran plat|Écran cathodique!
-Ampoule connectée|Prise connectée!
-Prise connectée|Thermostat connecté
-Caméra de surveillance|Interphone!
+Ampoule connectée|Prise connectée
+Thermostat connecté|Radiateur connecté
+Caméra de surveillance|Détecteur de mouvement
 Interphone|Visiophone!
 Aspirateur robot|Tondeuse robot!
-Voiture autonome|Pilote automatique!
-Écran|Vidéoprojecteur
+Voiture autonome|Pilote automatique
+Vidéoprojecteur|Rétroprojecteur!
 Hotline|Service client!
 Mot-clé|Hashtag!
-Référencement|Publicité en ligne
+Publicité en ligne|Spot publicitaire
 Bannière|Pop-up!
 Pop-up|Notification
-Boutique en ligne|Petites annonces!
-Panier|Liste de souhaits!
+Boutique en ligne|Petites annonces
+Panier|Liste de souhaits
 Application bancaire|Banque en ligne!
-Licence|Clé d'activation!
+Licence|Clé d'activation
 Bêta|Démo!
-Bug|Faille de sécurité!
+Bug|Faille de sécurité
 Terminal|Ligne de commande!
-Ligne de commande|Interface graphique
+Interface graphique|Interface tactile
 Code binaire|Code Morse
-Langage de programmation|Code source
+Langage de programmation|Langage de balisage
 Code source|Algorithme
-Onduleur|Multiprise
-Piratage|Contrefaçon
+Onduleur|Batterie de secours
+Contrefaçon|Copie illégale!
 Cyberattaque|Piratage!
-Rançongiciel|Cheval de Troie!
-Captcha|Code de vérification!
+Rançongiciel|Cheval de Troie
+Captcha|Code de vérification
 Double authentification|Code de vérification!
-Télétravail|Visioconférence
-Jeu en ligne|Jeu de société
+Télétravail|Coworking
+Jeu mobile|Jeu sur console
 Pavé tactile|Trackball
-Ordinateur|Calculatrice
-Page d'accueil|Menu!
+Ordinateur|Station de travail
+Page d'accueil|Page de démarrage!
 Menu|Barre d'outils
 Barre des tâches|Barre d'outils!
 Paramètres|Panneau de configuration!
-Smartphone|Ordinateur portable
-Imprimante 3D|Scanner
-Navigateur|Site web
-Réseau social|Blog
-Streaming|Télévision
-Selfie|Capture d'écran
-Abonné|Like
-Spam|Arnaque
-Développeur|Graphiste
-Technicien|Hotline
+Smartphone|Téléphone à clapet
+Scanner|Photocopieuse
+Site web|Page web!
+Blog|Journal en ligne
+Streaming|Replay en ligne!
+Selfie|Photo de groupe
+Like|Cœur
+Spam|Démarchage téléphonique
+Technicien|Réparateur!
 Fichier|Pièce jointe
-Couper|Glisser-déposer
-Corbeille|Supprimer
-Raccourci|Fond d'écran
-Pixel|Zoom
-Mémoire vive|Carte mère
-Ventilateur|Onduleur
-Base de données|Cloud
+Effacer|Supprimer!
+Formatage|Effacement
+Raccourci clavier|Combinaison de touches!
+Recadrage|Rognage
+Carte mère|Carte d'extension
+Ventilateur|Refroidissement liquide
+Base de données|Annuaire
 Vinyle|CD
-Cassette|Magnétoscope
-Répondeur|Fax
-Objectif|Trépied
-Opérateur|Forfait
-Débit|Réseau
-Téléphone|Talkie-walkie
-Télévision|Projecteur
-Email|SMS
-Virus|Bug
-GPS|Carte
+Cassette vidéo|Cassette audio!
+Cabine téléphonique|Téléphone fixe
+Trépied|Monopode
+Forfait|Carte prépayée
+Débit|Vitesse de connexion!
+Téléphone sans fil|Téléphone fixe!
+Box internet|Décodeur
+SMS|MMS!
+Ver informatique|Virus
+Application de navigation|GPS!
 Emoji|Sticker!
 # Imaginaire et fêtes
 Vampire|Zombie!
 Loup-garou|Vampire!
 Sorcière|Fée
 Dragon|Dinosaure
-Licorne|Pégase!
-Sirène|Nymphe!
+Licorne|Pégase
+Sirène|Nymphe
 Ogre|Géant
 Elfe|Lutin!
 Fantôme|Esprit
-Zombie|Momie!
+Zombie|Momie
 Troll|Gobelin!
 Génie|Fée
 Magicien|Sorcier!
-Baguette magique|Bâton magique!
+Baguette magique|Bâton magique
 Chaudron|Marmite
 Potion|Élixir!
 Formule magique|Incantation!
 Boule de cristal|Miroir magique
 Tapis volant|Balai volant
-Chapeau pointu|Cape
 Citrouille|Courge
 Halloween|Carnaval
 Noël|Nouvel An
 Père Noël|Saint Nicolas!
-Sapin|Houx
 Guirlande|Boule de Noël
 Bûche de Noël|Galette des rois
 Chandeleur|Mardi gras!
-Fève|Couronne
-Réveillon|Bal masqué
+Fève|Figurine
+Réveillon|Saint-Sylvestre!
 Cadeau|Surprise
-Ruban|Papier cadeau
-Chaussette de Noël|Calendrier de l'Avent
+Ruban|Bolduc!
+Chaussette de Noël|Botte de Noël
 Renne|Cerf
 Œuf de Pâques|Lapin de Pâques
 Pâques|Pentecôte
 Chasse aux œufs|Chasse au trésor
-Carnaval|Défilé
+Défilé|Parade
 Masque|Déguisement
 Costume|Déguisement!
 Confettis|Serpentins!
 Feu d'artifice|Pétard
 Bougie|Chandelle!
 Gâteau d'anniversaire|Pièce montée
-Anniversaire|Fête des mères
+Anniversaire|Fête du prénom
 Fête des pères|Fête des mères!
-Saint-Valentin|Mariage
+Saint-Valentin|Anniversaire de mariage
 Mariage|Fiançailles
 Baptême|Communion!
 Barbe à papa|Pomme d'amour!
-Fête nationale|Fête de la musique
-Défilé militaire|Bal des pompiers
+Fête nationale|Défilé militaire
+Bal des pompiers|Bal populaire
 Poisson d'avril|Blague
 Farce|Canular!
 Super-héros|Justicier
-Cape|Masque
-Invisibilité|Téléportation
+Invisibilité|Camouflage
 Télépathie|Télékinésie!
 Super-force|Super-vitesse!
 Vol|Lévitation
-Superpouvoir|Talent
-Armure|Bouclier
+Superpouvoir|Don
+Armure|Cotte de mailles
 Épée|Sabre!
-Chevalier|Prince
-Princesse|Reine!
+Chevalier|Paladin
+Princesse|Reine
 Roi|Empereur
-Trône|Sceptre
 Prince charmant|Chevalier servant!
-Cendrillon|Blanche-Neige!
+Cendrillon|Blanche-Neige
 Conte de fées|Légende
 Légende|Mythe!
-Fable|Conte!
-Grimoire|Parchemin
-Parchemin|Carte au trésor
+Fable|Conte
+Grimoire|Livre de sorts
+Parchemin|Papyrus
 Trésor|Butin
 Pirate|Corsaire!
 Coffre au trésor|Malle
 Sortilège|Malédiction!
 Malédiction|Envoûtement!
-Bénédiction|Vœu
-Vœu|Prière
-Étoile filante|Comète!
-Lampe magique|Lanterne
+Bénédiction|Prière
+Fontaine à vœux|Puits à souhaits!
+Étoile filante|Comète
+Lampe magique|Lampe à huile
 Lanterne|Lampion!
 Talisman|Amulette!
-Porte-bonheur|Trèfle à quatre feuilles
-Fer à cheval|Trèfle à quatre feuilles
+Porte-bonheur|Grigri
+Fer à cheval|Patte de lapin
 Chat noir|Corbeau
 Phénix|Griffon
 Centaure|Minotaure!
 Cyclope|Géant
 Kraken|Pieuvre géante
 Extraterrestre|Martien!
-Soucoupe volante|Fusée
+Soucoupe volante|Vaisseau spatial
 Robot|Androïde!
 Cyborg|Robot
-Machine à remonter le temps|Téléporteur
-Rêve|Cauchemar
+Téléporteur|Portail magique
+Cauchemar|Terreur nocturne
 Marchand de sable|Petite souris
 Sorcellerie|Magie noire!
 Vaudou|Sorcellerie
 Prestidigitateur|Illusionniste!
-Tour de magie|Tour de cartes!
+Tour de magie|Tour de cartes
 Lapin blanc|Colombe
-Haut-de-forme|Chapeau melon!
+Haut-de-forme|Chapeau melon
 Gnome|Nain!
 Gnome|Lutin!
-Ange|Démon
+Ange|Chérubin
 Diable|Démon!
-Paradis|Enfer
-Auréole|Ailes
-Squelette|Fantôme
+Paradis|Éden
+Auréole|Halo!
+Squelette|Crâne
 Maison hantée|Château hanté!
 Cercueil|Tombeau!
 Toussaint|Halloween
-Épouvantail|Citrouille
-Toile d'araignée|Chauve-souris
-Kermesse|Brocante
+Épouvantail|Homme de paille
+Chauve-souris|Hibou
 Fête de village|Kermesse!
-Fanfare|Majorette
-Ballon|Guirlande
+Fanfare|Harmonie
+Ballon|Baudruche!
 Cotillons|Confettis!
 Champagne|Cidre
 Toast|Discours
-Crèche|Santon!
+Crèche|Nativité
 Rois mages|Bergers
 Ramadan|Carême
 Nouvel An chinois|Fête des lanternes
@@ -2190,156 +2164,141 @@ Sorcière|Magicienne!
 Hydre|Dragon
 Sphinx|Griffon
 Titan|Colosse!
-Oracle|Voyante!
+Oracle|Voyante
 Voyante|Astrologue
 Horoscope|Tarot
 Tarot|Boule de cristal
-Pleine lune|Éclipse
+Pleine lune|Croissant de lune
 Passage secret|Porte dérobée!
 Invocation|Incantation!
 Licorne|Cheval
-Super-héros|Super-vilain
+Super-vilain|Méchant!
 Repaire secret|Base secrète!
 Identité secrète|Double vie!
-Mutant|Extraterrestre
+Mutant|Hybride
 Ninja|Samouraï!
 Cow-boy|Shérif!
-Pentagramme|Grimoire
+Pentagramme|Cercle magique
 Alliance|Bague de fiançailles!
-Dragée|Faire-part
 Faire-part|Carton d'invitation!
-Piñata|Chasse au trésor
+Piñata|Pochette surprise
 Croque-mitaine|Père Fouettard!
 Sorcier|Druide!
-Druide|Enchanteur!
-Philtre|Poison
-Poison|Antidote
-Rouet|Fuseau!
-Fête des lumières|Feu d'artifice
-Feu de la Saint-Jean|Feu de camp
-Guimauve|Barbe à papa
-Marché de Noël|Brocante
+Druide|Enchanteur
+Philtre|Breuvage
+Poison|Venin!
+Rouet|Fuseau
+Fête des lumières|Illuminations!
+Feu de joie|Bûcher
+Marché de Noël|Village de Noël!
 Vin chaud|Chocolat chaud!
-Bonhomme de neige|Igloo
+Bonhomme de neige|Sculpture de glace
 Étrennes|Cadeau
 Gui|Houx!
-Sirène|Dauphin
-Viking|Chevalier
-Pont-levis|Douves
-Catapulte|Canon
+Sirène|Ondine!
+Viking|Barbare
+Pont-levis|Herse
+Catapulte|Trébuchet!
 Ogre|Troll!
-Elfe|Ange
+Elfe|Farfadet
 Bouquet de fleurs|Boîte de chocolats
 Carte de vœux|Carte postale
-Lettre au Père Noël|Liste de cadeaux
+Liste de cadeaux|Liste de Noël
 Pain d'épices|Sablé de Noël
-Dinde|Chapon!
-Foie gras|Huîtres
-Marrons glacés|Chocolats
+Huîtres|Moules!
+Marrons glacés|Fruits confits
 Feu de joie|Feu de camp
 Fête de quartier|Fête des voisins!
-Brioche des rois|Galette des rois!
-Météore|Étoile filante!
-Lampion|Bougie
-Bouquet de la mariée|Robe de mariée
+Robe de mariée|Robe de soirée
 Jeu de piste|Rallye
-Noël|Halloween
-Mariage|Anniversaire
+Noël|Hanoukka
+Mariage|Pacs
 Pirate|Viking
-Ange|Fantôme
-Sirène|Licorne
-Roi|Président
-Police|Armée
-Empreinte|ADN
-Père Noël|Lapin de Pâques
-Super-héros|Super-méchant
-Trésor|Coffre-fort
+Fantôme|Spectre!
+Sirène|Triton!
+Roi|Pharaon
+Garde royal|Mousquetaire
+Lutin|Korrigan!
+Super-méchant|Génie du mal
+Butin|Magot!
 # Culture et musique
 Guitare électrique|Basse
 Contrebasse|Violoncelle!
-Violon|Mandoline
 Piano|Synthétiseur
-Clavecin|Orgue!
-Harmonica|Flûte de Pan
+Clavecin|Orgue
+Flûte de Pan|Ocarina
 Flûte traversière|Flûte à bec!
-Saxophone|Trompette
 Trombone|Tuba!
-Cor de chasse|Clairon
-Batterie|Tambour!
+Trompette|Clairon
+Batterie|Tambour
 Tambour|Djembé
 Cymbale|Gong
-Triangle|Xylophone
+Xylophone|Marimba
 Harpe|Lyre!
 Banjo|Mandoline!
-Cornemuse|Biniou
+Cornemuse|Biniou!
 Maracas|Castagnettes!
-Tambourin|Maracas
-Métronome|Diapason!
-Partition|Solfège
-Note|Gamme
+Bongos|Congas
+Diapason|Accordeur
+Partition|Tablature
+Gamme|Arpège
 Clé de sol|Clé de fa!
-Rythme|Mélodie
+Noire|Blanche
 Tempo|Rythme
 Refrain|Couplet!
-Chanson|Poème
-Mélodie|Harmonie
-Orchestre|Fanfare
-Soliste|Choriste!
+Soliste|Choriste
 Ténor|Baryton!
-Soprano|Ténor
+Soprano|Alto
 Reggae|Ska!
 Techno|Électro!
 Disco|Funk!
-Opéra|Opérette!
-Musique classique|Musique baroque
+Opérette|Vaudeville
 Chanson française|Variété!
-Punk|Métal!
+Punk|Métal
 Country|Folk
 Gospel|Soul!
 Rumba|Cha-cha
 Danse classique|Danse contemporaine!
-Ballet|Comédie musicale
-Claquettes|Flamenco
+Tango|Paso doble
+Salsa|Bachata
 Cassette|CD
-Jukebox|Radio
+Tourne-disque|Gramophone!
 Enceinte|Haut-parleur!
-Ampli|Enceinte
 Album|Single
-Clip vidéo|Bande-annonce
+Bande-annonce|Teaser
 Hymne|Cantique
 Berceuse|Comptine!
 Sérénade|Ballade
 Symphonie|Concerto!
-Sonate|Prélude
+Prélude|Ouverture
 Peinture à l'huile|Acrylique!
-Pinceau|Palette
-Chevalet|Palette
-Tableau|Affiche
-Portrait|Paysage
-Nature morte|Paysage
+Pinceau|Rouleau
+Chevalet|Lutrin
+Tableau|Toile
+Portrait|Caricature
+Paysage|Marine
 Sculpture|Statue!
-Statue|Buste!
+Statue|Buste
 Argile|Pâte à modeler
 Poterie|Céramique!
 Mosaïque|Vitrail
-Fresque|Graffiti
-Graffiti|Tag
-Photographie|Peinture
+Fresque|Trompe-l'œil
+Graffiti|Tag!
+Photographie|Diapositive
 Appareil photo|Caméra
-Croquis|Caricature
-Caricature|Bande dessinée
-Manga|Dessin animé
-Origami|Découpage
+Croquis|Esquisse!
+Bande dessinée|Roman graphique
+Manga|Comics
+Découpage|Collage
 Calligraphie|Enluminure
 Gravure|Estampe!
-Tapisserie|Broderie
-Comédie|Tragédie
+Broderie|Point de croix
+Comédie|Farce
 Tragédie|Drame!
 Acteur|Figurant
-Figurant|Cascadeur
-Metteur en scène|Réalisateur!
-Rideau|Coulisses
-Coulisses|Loge
+Cascadeur|Doublure!
+Projecteur|Spot
+Salle de concert|Auditorium
 Scène|Estrade
 Applaudissements|Ovation!
 Entracte|Mi-temps
@@ -2347,70 +2306,63 @@ Marionnette|Pantin!
 Funambule|Trapéziste!
 Humoriste|Imitateur
 Cabaret|Music-hall!
-Improvisation|Répétition
+Répétition générale|Première
 Balcon|Parterre
-Souffleur|Régisseur
-Roman|Nouvelle!
-Poème|Fable
-Poésie|Prose
-Rime|Vers!
+Régisseur|Machiniste
+Poésie|Slam
+Rime|Vers
 Sonnet|Haïku
 Roman policier|Thriller!
 Science-fiction|Fantastique!
-Roman d'amour|Roman d'aventure!
 Biographie|Mémoires!
-Journal intime|Carnet
-Autobiographie|Journal intime
+Journal intime|Carnet de bord
+Recueil|Anthologie
 Dictionnaire|Encyclopédie!
-Atlas|Encyclopédie
-Livre|Magazine
-Auteur|Éditeur
-Lecteur|Spectateur
-Spectateur|Auditeur
-Chapitre|Paragraphe
-Préface|Postface!
-Prologue|Épilogue!
-Couverture|Reliure!
-Proverbe|Citation
+Atlas|Mappemonde
+Éditeur|Imprimeur
+Bibliothèque|Médiathèque
+Paragraphe|Alinéa
+Préface|Avant-propos!
+Prologue|Introduction
+Couverture|Jaquette
+Proverbe|Dicton
 Scénario|Synopsis!
-Poète|Romancier
+Poète|Parolier
 Western|Péplum
 Film d'horreur|Thriller
 Comédie romantique|Mélodrame!
 Film d'action|Film d'aventure!
 Série|Feuilleton!
 Film muet|Film en noir et blanc!
-Court-métrage|Long-métrage!
 Sous-titres|Doublage
 Pop-corn|Chips
-Écran|Projecteur
-Tapis rouge|Cérémonie
+Ciné-club|Cinémathèque
+Tapis rouge|Montée des marches
 Statuette|Trophée
 Effets spéciaux|Images de synthèse!
-Cascade|Effets spéciaux
-Suite|Remake
+Cascade|Acrobatie
+Remake|Reboot
 Saga|Trilogie!
 Bande originale|Générique
 Casting|Audition!
-Instrument à vent|Instrument à cordes
+Guitare classique|Guitare folk
 Archet|Médiator
-Bal musette|Guinguette
-Rappeur|Chanteur
-Groupe|Duo
+Bal musette|Guinguette!
+Rappeur|Slameur
+Boys band|Girls band
 Duo|Trio!
-Quatuor|Quintette
-Mélomane|Cinéphile
+Quatuor|Quintette!
+Fan|Groupie
 Art abstrait|Art moderne!
-Impressionnisme|Cubisme!
-Surréalisme|Cubisme!
+Impressionnisme|Pointillisme!
+Surréalisme|Dadaïsme!
 Rock|Métal
-Journaliste|Chroniqueur
-Télévision|Cinéma
-Jeu télévisé|Téléréalité!
+Émission|Programme
+Jeu télévisé|Téléréalité
 Présentateur|Animateur!
 Cithare|Harpe
-Peintre|Dessinateur!
-Kiosque|Librairie
+Peintre|Dessinateur
+Librairie|Bouquiniste
 # Corps et santé
 Bras|Jambe
 Main|Pied
@@ -2419,26 +2371,26 @@ Genou|Coude!
 Cheville|Poignet!
 Épaule|Hanche
 Cou|Nuque!
-Dos|Ventre
+Dos|Reins
 Ventre|Estomac
 Cœur|Poumon
 Foie|Rein!
-Cerveau|Crâne
+Cerveau|Cervelle
 Os|Cartilage
 Muscle|Tendon!
 Tendon|Ligament!
 Veine|Artère!
-Œil|Oreille
-Nez|Bouche
+Oreille|Tympan
+Bouche|Lèvres
 Dent|Gencive
 Langue|Palais
-Sourcils|Moustache
+Sourcils|Cils
 Cheveux|Poils!
 Barbe|Moustache!
 Front|Tempe
-Joue|Menton
+Grain de beauté|Tache de rousseur
 Talon|Plante du pied
-Paume|Poing
+Ongle|Cuticule
 Mollet|Cuisse!
 Thorax|Abdomen!
 Colonne vertébrale|Moelle épinière!
@@ -2455,98 +2407,90 @@ Amygdales|Végétations
 Pupille|Iris!
 Rétine|Cornée
 Infirmière|Aide-soignante!
-Pharmacie|Droguerie
 Kiné|Ostéopathe!
 Sage-femme|Puéricultrice
-Urgences|Réanimation!
-Ambulance|Camion de pompiers
-Ambulancier|Brancardier
-Brancard|Fauteuil roulant
+Urgences|Réanimation
+Brancard|Civière!
 Béquilles|Canne!
 Plâtre|Attelle!
 Pansement|Bandage!
 Sparadrap|Pansement
 Compresse|Coton
-Désinfectant|Savon
-Seringue|Perfusion
+Désinfectant|Eau oxygénée
+Perfusion|Transfusion
 Piqûre|Vaccin!
-Vaccin|Prise de sang
+Seringue|Aiguille
 Prise de sang|Analyse d'urine
 Radiographie|Échographie!
 Scanner|IRM!
-Stéthoscope|Thermomètre
+Stéthoscope|Otoscope
 Thermomètre|Tensiomètre
-Ordonnance|Arrêt maladie
+Ordonnance|Feuille de soins
 Comprimé|Gélule!
-Sirop|Pastille!
+Sirop|Pastille
 Pommade|Crème!
 Collyre|Sérum physiologique
 Antibiotique|Antiviral!
 Paracétamol|Ibuprofène!
-Opération|Consultation
+Anesthésie générale|Anesthésie locale!
 Points de suture|Agrafes
 Cicatrice|Croûte
 Bleu|Bosse
-Entorse|Fracture!
+Entorse|Fracture
 Fracture|Luxation!
 Brûlure|Coup de soleil
-Ampoule|Verrue
+Cor|Durillon
 Coupure|Égratignure
 Rhume|Grippe!
-Grippe|Angine!
-Toux|Éternuement!
-Fièvre|Frissons
+Grippe|Angine
+Toux|Éternuement
+Fièvre|Température!
 Mal de tête|Migraine!
-Mal de dos|Torticolis
-Mal de ventre|Nausée
-Nausée|Vertige!
-Allergie|Asthme
+Mal de dos|Lumbago
+Mal de ventre|Indigestion
+Nausée|Vertige
+Allergie|Rhume des foins
 Varicelle|Rougeole!
 Oreillons|Rubéole!
 Bronchite|Pneumonie!
 Gastro|Intoxication alimentaire
 Diabète|Cholestérol
 Tension|Pouls
-Insomnie|Fatigue
-Somnambulisme|Ronflement
+Insomnie|Nuit blanche
+Somnambulisme|Terreur nocturne
 Hoquet|Rot
-Bâillement|Éternuement
+Bâillement|Soupir
 Crampe|Courbature!
 Démangeaison|Picotement
 Chair de poule|Frissons!
 Faim|Soif
-Sueur|Larmes
+Larmes|Sanglots
 Goût|Odorat
 Ouïe|Vue
 Shampooing|Gel douche
 Peigne|Brosse à cheveux
-Déodorant|Parfum
+Déodorant|Anti-transpirant!
 Parfum|Eau de toilette!
-Coton-tige|Cure-dent
+Cure-dent|Fil dentaire
 Serviette|Gant de toilette
 Douche|Bain!
-Baignoire|Lavabo
-Crème solaire|Après-soleil
-Crème hydratante|Lait corporel!
+Crème solaire|Huile solaire
 Coupe-ongles|Lime à ongles!
 Épilation|Rasage
-Pèse-personne|Toise
+Tour de taille|Tour de hanches
 Jogging|Marche rapide
 Pilates|Stretching!
 Musculation|Haltérophilie!
-Haltère|Poids
-Abdos|Pompes!
+Haltère|Kettlebell
 Pompes|Tractions!
 Gainage|Abdos
-Respiration|Méditation
-Méditation|Relaxation!
+Yoga|Tai-chi
+Méditation|Relaxation
 Sieste|Grasse matinée
 Spa|Thalasso!
 Régime|Jeûne
-Protéines|Vitamines
-Nutritionniste|Diététicien!
+Vitamines|Compléments alimentaires
 Podomètre|Montre connectée
-Natation|Aquagym
 Coach sportif|Préparateur physique!
 Narines|Sinus
 Mâchoire|Menton
@@ -2555,9 +2499,9 @@ Paupière|Cils
 Molaire|Canine!
 Incisive|Canine!
 Carie|Tartre
-Appareil dentaire|Dentier!
+Appareil dentaire|Dentier
 Myopie|Presbytie!
-Daltonisme|Myopie
+Hypermétropie|Astigmatisme!
 Prothèse|Implant
 Battement de cœur|Pouls
 Globule rouge|Globule blanc!
@@ -2567,106 +2511,99 @@ Microbe|Virus!
 Bactérie|Microbe
 Épidémie|Pandémie!
 Quarantaine|Confinement!
-Masque chirurgical|Gel hydroalcoolique
-Infirmerie|Pharmacie
+Masque chirurgical|Masque FFP2!
+Infirmerie|Cabinet médical
 Trousse de secours|Boîte à pharmacie!
-Bouche-à-bouche|Massage cardiaque!
-Défibrillateur|Massage cardiaque
+Bouche-à-bouche|Massage cardiaque
+Défibrillateur|Stimulateur cardiaque
 Convalescence|Rééducation
-Carnet de santé|Ordonnance
+Carnet de santé|Carnet de vaccination
 Mutuelle|Sécurité sociale
-Bouillotte|Poche de glace
-Tisane|Sirop
+Bouillotte|Coussin chauffant
+Tisane|Grog
 Inhalation|Aérosol
 Homéopathie|Phytothérapie!
 Acupuncture|Réflexologie!
 Hanche|Bassin!
-Orteil|Talon
-Coude|Épaule
-Sang|Sueur
+Index|Majeur
+Annulaire|Auriculaire
+Salive|Bave
 Pharmacien|Herboriste
 Bain moussant|Sels de bain
 Gargarisme|Bain de bouche
-Rééducation|Kiné
-Hôpital|Maison de retraite
-Ronflement|Apnée du sommeil!
+Massage|Shiatsu
+Maison de retraite|EHPAD!
+Ronflement|Apnée du sommeil
 Mal de mer|Mal des transports!
 Insolation|Coup de chaleur
 # École et bureau
 Stylo plume|Stylo bille!
 Feutre|Surligneur!
-Correcteur|Effaceur!
 Règle|Équerre!
-Équerre|Rapporteur!
-Compas|Rapporteur
-Cahier|Classeur
-Trousse|Cartable
+Équerre|Rapporteur
+Crayon à papier|Porte-mine!
+Classeur|Trieur
 Agenda|Cahier de textes
 Punaise|Épingle
 Copie simple|Copie double!
-Papier calque|Papier millimétré
+Papier millimétré|Papier quadrillé!
 Tableau noir|Tableau blanc!
 Craie|Marqueur
-Marqueur|Surligneur!
+Marqueur|Surligneur
 Bureau|Pupitre
 Cantine|Self!
-Récréation|Pause déjeuner
+Récréation|Interclasse
 Cour de récréation|Préau
 Maîtresse|Professeur
 Directeur|Proviseur!
-Proviseur|Principal!
-Surveillant|Gardien
 Élève|Étudiant!
-Écolier|Collégien!
+Écolier|Collégien
 Collégien|Lycéen!
-Maternelle|Crèche!
+Maternelle|Crèche
 Collège|Lycée!
-Université|Grande école
 Amphithéâtre|Salle de classe
-Internat|Demi-pension
-Rentrée|Vacances
+Internat|Pensionnat!
+Vacances de printemps|Vacances d'hiver!
 Devoirs|Leçons!
 Interrogation|Contrôle!
-Examen|Concours!
+Examen|Concours
 Bac|Brevet!
 Licence|Master!
 Master|Doctorat!
-Diplôme|Certificat!
+Diplôme|Certificat
 Bulletin|Relevé de notes
-Moyenne|Coefficient
+Moyenne|Médiane!
 Punition|Retenue
-Mathématiques|Physique!
+Mathématiques|Physique
 Physique|Chimie!
 Histoire|Géographie
 Anglais|Espagnol!
 Allemand|Espagnol!
 Latin|Grec!
-Biologie|Chimie!
-Philosophie|Littérature
-Musique|Arts plastiques
-Économie|Droit
+Biologie|Chimie
+Philosophie|Psychologie
+Arts plastiques|Dessin
+Économie|Gestion!
 Informatique|Technologie!
 Algèbre|Géométrie!
 Géométrie|Trigonométrie!
-Addition|Soustraction!
-Multiplication|Division!
-Fraction|Pourcentage!
-Équation|Théorème
+Addition|Multiplication!
+Soustraction|Division!
+Fraction|Pourcentage
+Théorème|Axiome
 Grammaire|Orthographe!
 Conjugaison|Grammaire!
-Dictée|Rédaction
+Exposé|Présentation
 Rédaction|Dissertation!
 Récitation|Poésie
-Lecture|Écriture
+Écriture|Calligraphie
 Alphabet|Abécédaire
 Carte de géographie|Globe terrestre
 Microscope|Loupe!
-Éprouvette|Pipette
-Blouse|Tablier!
-Laboratoire|Salle de classe
+Éprouvette|Tube à essai!
+Salle de sciences|Laboratoire
 Ordinateur portable|Ordinateur fixe!
-Photocopieuse|Scanner
-Standard|Accueil
+Trombone|Pince à papier
 Courriel|Courrier
 Réunion|Conférence
 Visioconférence|Conférence téléphonique!
@@ -2676,55 +2613,48 @@ Stage|Alternance
 Collègue|Camarade
 Manager|Chef d'équipe
 Secrétaire|Assistante!
-Comptable|Trésorier!
 Comptabilité|Facturation
 Salaire|Prime
 CDI|CDD!
-Démission|Licenciement!
-Retraite|Congé
+Démission|Licenciement
+Congé maternité|Congé parental!
 Congés payés|RTT!
-Télétravail|Présentiel
-Open space|Bureau individuel
+Open space|Bureau partagé!
 Machine à café|Fontaine à eau
 Pause café|Pause déjeuner!
 Restaurant d'entreprise|Cantine
 Badge|Pointeuse
 Dossier|Chemise
 Tampon|Cachet
-Enveloppe|Timbre
-Lettre recommandée|Colis
+Lettre|Carte postale
+Lettre recommandée|Lettre suivie!
 Signature|Paraphe
 Planning|Emploi du temps!
-Ordre du jour|Compte rendu
+Ordre du jour|Programme
 Compte rendu|Procès-verbal!
 Rapport|Bilan
-Budget|Devis
 Devis|Facture!
-Client|Fournisseur
+Client|Prospect
 Fournisseur|Prestataire!
 Entretien d'embauche|Entretien annuel
 CV|Lettre de motivation
-Promotion|Augmentation!
+Promotion|Augmentation
 Bloc-notes|Carnet!
-Broyeuse|Corbeille
+Broyeuse|Massicot
 Sous-main|Tapis de souris
 Heures supplémentaires|Astreinte
-Grève|Manifestation
 Syndicat|Comité d'entreprise
-Employeur|Salarié
+Salarié|Fonctionnaire
 Cadre|Employé
-Intérimaire|Saisonnier!
 Indépendant|Auto-entrepreneur!
 Start-up|PME
-Siège social|Succursale
+Succursale|Filiale!
 Paperboard|Tableau blanc!
-Vidéoprojecteur|Rétroprojecteur!
 Gobelet|Mug
-Costume|Tailleur
 Thèse|Mémoire!
 Mémoire|Rapport de stage
 Soutenance|Oral
-Oral|Écrit
+Partiel|Contrôle continu
 Sortie scolaire|Classe verte!
 Classe de neige|Classe verte!
 Voyage scolaire|Sortie scolaire!
@@ -2734,27 +2664,26 @@ Fiche de révision|Antisèche
 Bourse|Prêt étudiant
 Colocation|Résidence universitaire
 Tuteur|Mentor!
-Professeur principal|Professeur particulier!
+Remplaçant|Vacataire
 Cours particulier|Soutien scolaire
 Cours magistral|Travaux dirigés
 Crayon de couleur|Feutre
 Cahier|Bloc-notes
 Ardoise|Tableau noir!
-Craie|Ardoise
-Gymnase|Piscine
-Inspecteur|Directeur
+Craie|Pastel
+Gymnase|Salle de sport
+Conseiller d'orientation|Psychologue scolaire
 Sonnerie|Cloche
 Bon point|Tableau d'honneur
 Tableau d'honneur|Félicitations
 Avertissement|Blâme!
-Exclusion|Avertissement
+Exclusion|Renvoi!
 Absence|Retard
-Chaise|Table
 Casier|Vestiaire
 Cahier de vacances|Cahier d'exercices
 Pochette|Enveloppe
 Attache parisienne|Agrafe
-Ramette de papier|Cartouche d'encre
+Papier A4|Papier A3
 Cartouche d'encre|Toner!
 Sauvegarde|Archive
 Hôtesse d'accueil|Standardiste!
@@ -2766,10 +2695,9 @@ Chiffre d'affaires|Bénéfice
 Bon de commande|Bon de livraison!
 Conseil de classe|Réunion parents-professeurs
 Note de service|Circulaire
-Imprimante|Fax
-Carte de visite|Badge
-Bureau|Open space
-Salle de réunion|Salle de pause
+Carte de visite|Carte professionnelle
+Bureau|Poste de travail
+Salle de réunion|Salle de conférence
 Salle des profs|Salle de pause
 Préavis|Période d'essai
 Recruteur|Chasseur de têtes
@@ -2777,620 +2705,527 @@ Rattrapage|Repêchage!
 Week-end|Jour férié
 # Police et justice
 Prison|Maison d'arrêt
-Menottes|Bracelet électronique
-Commissariat|Gendarmerie!
-Enquête|Instruction!
-Témoin|Victime
+Menottes|Entraves
+Enquête|Instruction
+Victime|Plaignant
 Suspect|Coupable
-Garde à vue|Interrogatoire
-Empreinte digitale|ADN!
+Garde à vue|Détention provisoire
+Empreinte digitale|ADN
 Plainte|Main courante
 Amende|Contravention!
-Radar|Éthylotest
+Radar fixe|Radar mobile!
 Gyrophare|Sirène!
-Voiture de police|Fourgon
+Fourgon|Car de police
 Détective|Inspecteur
-Commissaire|Capitaine!
-Juré|Témoin
+Commissaire|Capitaine
+Juré|Assesseur
 Verdict|Sentence!
 Acquittement|Relaxe
-Prison ferme|Sursis
-Cambriolage|Vol à l'arraché
+Sursis|Mise à l'épreuve
+Vol à l'arraché|Pickpocket!
 Escroquerie|Abus de confiance!
-Pickpocket|Cambrioleur
+Voleur à l'étalage|Chapardeur
 Braquage|Cambriolage
-Rançon|Chantage!
+Rançon|Chantage
 Enlèvement|Séquestration!
-Casier judiciaire|Fichier
-Mandat|Convocation
+Casier judiciaire|Antécédents
+Convocation|Citation à comparaître
 Perquisition|Fouille
-Scène de crime|Salle d'audience
+Scène de crime|Périmètre de sécurité
 Indice|Preuve!
-Alibi|Mobile
-Médecin légiste|Expert!
+Mobile|Motif!
+Médecin légiste|Expert judiciaire
 Police scientifique|Brigade criminelle
 Brigade canine|Brigade montée
-Chien policier|Maître-chien
-Uniforme|Gilet pare-balles
+Chien policier|Chien renifleur!
+Gilet pare-balles|Gilet tactique!
 Képi|Casquette
-Matraque|Bouclier
+Matraque|Tonfa
 Insigne|Carte de police!
-Sifflet|Mégaphone
 Patrouille|Ronde!
 Barrage routier|Contrôle routier
 Excès de vitesse|Feu rouge grillé
 Fourrière|Sabot!
-Procès-verbal|Avertissement
-Gardien de prison|Agent de sécurité
-Cellule|Parloir
-Évasion|Libération
-Liberté conditionnelle|Libération!
+Procès-verbal|Contravention
+Gardien de prison|Geôlier!
+Cellule|Mitard
+Évasion|Cavale
+Liberté conditionnelle|Semi-liberté
 Détenu|Prévenu!
-Accusé|Plaignant
+Accusé|Inculpé
 Partie civile|Plaignant
 Robe d'avocat|Toge!
-Marteau du juge|Balance de la justice
+Robe de juge|Robe d'avocat
 Code pénal|Code civil!
 Loi|Règlement
-Constitution|Décret
+Décret|Arrêté!
 Assises|Correctionnelle!
 Prud'hommes|Tribunal de commerce!
 Cour de cassation|Conseil d'État!
 Plaidoirie|Réquisitoire
 Serment|Promesse
-Parjure|Diffamation
+Parjure|Faux témoignage!
 Calomnie|Diffamation!
 Faussaire|Contrefacteur!
-Faux billet|Faux passeport
+Faux billet|Fausse monnaie!
 Contrebande|Trafic
-Frontière|Douane!
-Garde-côte|Maître-nageur
-Gendarme mobile|CRS!
+Frontière|Douane
+Garde-côte|Police maritime
 Motard|Agent de circulation
-Polar|Thriller!
-Série policière|Film d'espionnage
-Espion|Agent secret
+Polar|Thriller
+Série policière|Film policier
+Agent secret|Agent infiltré
 Agent double|Taupe!
-Mafia|Gang!
+Mafia|Gang
 Parrain|Caïd!
 Voleur|Brigand
 Gangster|Bandit!
-Complice|Receleur
-Butin|Magot!
+Complice|Acolyte!
 Coffre-fort|Chambre forte
-Alarme|Caméra de surveillance
+Alarme|Détecteur de mouvement
 Vidéosurveillance|Écoute téléphonique
 Filature|Planque!
 Portrait-robot|Photo d'identité
-Tapissage|Confrontation!
-Aveux|Déposition!
+Tapissage|Confrontation
+Aveux|Déposition
 Rapport|Compte rendu
-Dossier|Pièce à conviction
+Dossier|Procédure
 Scellé|Pièce à conviction
-Gants|Combinaison
+Combinaison|Surblouse
 Juge des enfants|Juge d'instruction!
 Procureur|Substitut!
-Bâtonnier|Président du tribunal
+Bâtonnier|Avocat
 Audience|Séance!
-Huis clos|Audience
+Comparution immédiate|Flagrant délit
 Appel|Pourvoi
 Grâce|Amnistie!
-Travaux d'intérêt général|Amende
+Travaux d'intérêt général|Stage de citoyenneté
 Interdiction de séjour|Assignation à résidence!
 Contrôle d'identité|Contrôle routier
 Police municipale|Police nationale
-Garde champêtre|Gardien de la paix!
-Numéro d'urgence|Standard
+Garde champêtre|Policier municipal
+Numéro d'urgence|Police secours
 Fausse alerte|Canular!
 Crime|Délit!
 Infraction|Contravention
 Vandalisme|Tag!
-Squat|Effraction
-Serrurier|Pied-de-biche
+Squat|Campement illégal
+Pied-de-biche|Pince-monseigneur!
 Cagoule|Masque!
 Lampe torche|Projecteur
-Moto de police|Voiture banalisée
-Course-poursuite|Embuscade
+Voiture de police|Voiture banalisée
+Course-poursuite|Traque
 Négociateur|Médiateur
 GIGN|RAID!
-Tireur d'élite|Démineur
-Bombe|Colis suspect
+Tireur d'élite|Tireur embusqué!
+Bombe|Explosif
 Colis suspect|Bagage abandonné!
-Garde du corps|Chauffeur
+Garde du corps|Agent de sécurité
 Détecteur de métaux|Portique
-Jury|Public
+Greffier|Huissier d'audience
 Assesseur|Greffier!
 Commission rogatoire|Mandat d'arrêt!
 Extradition|Expulsion!
 Asile|Refuge
-Balance de la justice|Glaive!
-Enquêteur|Journaliste!
+Balance|Glaive!
+Enquêteur|Détective
 Interrogatoire|Audition
-Mensonge|Vérité
+Mensonge|Bobard
 Détecteur de mensonge|Sérum de vérité
 Empreinte de pas|Trace de pneu!
-Cheveu|Fibre!
+Cheveu|Fibre
 Loupe|Lampe UV
-Laboratoire|Morgue
-Autopsie|Prise de sang
+Morgue|Institut médico-légal
+Autopsie|Dissection
 Otage|Prisonnier!
 Prisonnier|Bagnard
 Bagne|Prison!
 Cachot|Cellule!
-Juge|Arbitre!
+Juge|Arbitre
 Arbitre|Médiateur
-Code de la route|Code pénal
+Code du travail|Code civil
 Points de permis|Retrait de permis
 Éthylotest|Test salivaire!
-Stupéfiants|Contrebande
-Chien renifleur|Brigade canine!
-Accident|Constat
-Assurance|Constat
+Cannabis|Cocaïne
+Maître-chien|Dresseur
+Accident|Carambolage
+Constat amiable|Déclaration de sinistre
 Délit de fuite|Refus d'obtempérer!
-Agent de police|Gardien de la paix!
-Lieutenant|Brigadier!
+Agent de police|Policier!
+Lieutenant|Brigadier
 Brigadier|Sergent
 Sergent|Caporal
-Commissaire|Préfet
-Ministre de l'Intérieur|Ministre de la Justice!
+Commissaire|Commandant!
+Garde des Sceaux|Ministre de l'Intérieur!
 Émeute|Manifestation
 Lacrymogène|Fumigène!
 Canon à eau|Lance à incendie
-Bouclier|Casque
+Casque|Visière
 Ceinture|Holster!
-Sifflet|Klaxon
 Police secours|SAMU!
-Ambulance|Fourgon
 Disparition|Fugue!
-Avis de recherche|Affiche
+Avis de recherche|Alerte enlèvement
 Récompense|Prime
 Chasseur de primes|Mercenaire
 Shérif|Marshal!
 Mystère|Énigme!
 Énigme|Devinette
 Enquête de voisinage|Porte-à-porte!
-Voisin|Concierge
+Concierge|Gardien d'immeuble
 Intrusion|Effraction
-Pirate informatique|Virus
-Cybercriminalité|Usurpation d'identité
+Virus|Rançongiciel
+Cybercriminalité|Cyberattaque
 Hameçonnage|Usurpation d'identité!
 Mot de passe|Code secret!
-Banque|Coffre-fort
 Braqueur|Cambrioleur
-Recel|Contrefaçon!
+Recel|Blanchiment
 Témoignage|Déposition!
-Salle d'audience|Parquet!
+Salle d'audience|Prétoire!
 Jugement|Délibéré
-Condamnation|Acquittement
+Condamnation|Peine
 Huissier|Notaire!
 Divorce|Séparation!
 Héritage|Testament!
-Testament|Contrat
+Testament|Legs
 Contrat|Bail
-Litige|Dispute
+Litige|Contentieux!
 # Vacances et voyage
-Camping|Caravane
-Auberge de jeunesse|Chambre d'hôte!
-Gîte|Chambre d'hôte
-Avion|Train
-Billet d'avion|Carte d'embarquement
 Bagage à main|Bagage en soute!
-Décalage horaire|Fatigue
-Lunettes de soleil|Chapeau de paille
+Crème solaire|Après-soleil
 Chapeau de paille|Casquette
-Parasol|Parapluie
-Serviette de plage|Paréo
+Serviette de plage|Natte de plage
 Bronzage|Coup de soleil
 Château de sable|Pâté de sable!
-Seau|Pelle
-Coquillage|Galet
-Sable|Galet!
-Surf|Bodyboard
-Masque et tuba|Palmes
-Bateau|Voilier
-Croisière|Ferry
+Pelle|Râteau
+Vague|Houle!
+Surf|Bodyboard!
+Masque de plongée|Lunettes de natation
 Paquebot|Ferry!
-Phare|Bouée
-Désert|Savane
-Jungle|Forêt tropicale!
-Safari|Zoo
+Bouée|Brassards
+Île déserte|Atoll
+Zoo|Parc animalier
 Randonnée|Trekking!
 Télésiège|Téléski
 Téléphérique|Télécabine!
 Chalet|Refuge!
-Raquettes|Ski de fond!
+Raquettes|Ski de fond
 Moniteur de ski|Guide de montagne
-Guide touristique|Office de tourisme
-Carte postale|Souvenir
-Selfie|Photo de groupe
-Album photo|Diaporama
-Monument|Statue
-Cathédrale|Basilique!
+Office de tourisme|Point information
 Visite guidée|Audioguide!
-Excursion|Randonnée
-Road trip|Tour du monde
-Tour du monde|Croisière
-Sac de couchage|Matelas gonflable
-Lampe frontale|Lampe torche
-Glacière|Thermos
-Pique-nique|Barbecue
-Boussole|Carte routière
+Excursion|Expédition
+Road trip|Voyage en van
+Tour du monde|Tour d'Europe
+Matelas gonflable|Tapis de sol
+Lampe frontale|Lampe torche!
+Glacière|Sac isotherme!
+Barbecue|Méchoui
+Jumelles|Longue-vue!
 GPS|Carte routière
 Autoroute|Route nationale!
-Péage|Aire de repos
-Aire de repos|Station-service!
-Location de voiture|Covoiturage
-Taxi|Navette!
+Aire de repos|Station-service
 Métro|Tramway
-Passager|Conducteur
-Réservation|Annulation
-Formule tout compris|Demi-pension!
-Demi-pension|Pension complète
-Buffet|Room service
+Acompte|Arrhes!
+Hôtel-club|Village vacances
+Demi-pension|Pension complète!
+Buffet|Self-service
 Réception|Conciergerie!
 Clé|Badge
-Chambre double|Suite!
-Lit double|Lits jumeaux
+Chambre double|Chambre triple!
+Lit double|Lits jumeaux!
 Minibar|Frigo!
-Piscine|Jacuzzi!
-Spa|Hammam!
-Massage|Manucure
+Piscine|Jacuzzi
+Manucure|Pédicure!
 Mini-club|Garderie
 Juillet|Août!
-Vacances scolaires|Pont!
 Voyage de noces|Escapade romantique
-Voyage organisé|Voyage en solo
-Routard|Touriste!
+Voyage organisé|Circuit accompagné
+Routard|Baroudeur!
 Touriste|Voyageur!
-Expatrié|Nomade
-Nomade|Vagabond
+Séjour linguistique|Échange scolaire
+Sac à dos|Sac de voyage
 Carnet de voyage|Journal intime!
-Devise|Monnaie!
-Bureau de change|Distributeur
-Pourboire|Addition
+Euro|Dollar
+Chèque de voyage|Carte prépayée
+Pourboire|Bakchich
 Souvenir|Cadeau
 Aimant de frigo|Porte-clés!
-Marché nocturne|Fête foraine
+Marché nocturne|Marché artisanal
 Plage de sable|Plage de galets
-Crique|Lagon!
-Récif de corail|Lagon
-Requin|Dauphin
-Méduse|Oursin
-Crabe|Crevette
-Moustique|Guêpe
-Anti-moustique|Moustiquaire!
-Trousse de secours|Trousse de toilette
-Brosse à dents|Dentifrice
-Adaptateur|Chargeur!
-Oreiller de voyage|Bouchons d'oreilles
-Cadenas|Étiquette
-Chariot|Tapis roulant
-Terminal|Porte d'embarquement
+Trousse de toilette|Vanity
+Shampoing|Gel douche
+Bouchons d'oreilles|Casque antibruit
+Aéroport|Aérodrome!
 Boutique hors taxes|Boutique de souvenirs!
-Hublot|Couloir!
-Classe affaires|Classe économique
+Hublot|Couloir
 Turbulences|Trou d'air!
-Ceinture de sécurité|Gilet de sauvetage
-Plateau-repas|Pique-nique
-Wagon-restaurant|Wagon-lit!
-Composteur|Contrôleur
+Gilet de sauvetage|Bouée de sauvetage
+Plateau-repas|Panier-repas
+Contrôleur|Chef de bord
 Sac banane|Pochette!
-Trolley|Valise!
-Plan|Itinéraire
-Itinéraire|Trajet
-Destination|Départ
-Vol direct|Vol de nuit
-Montgolfière|Parapente
-Saut à l'élastique|Saut en parachute
-Accrobranche|Escalade
+Plan de ville|Plan de métro
+Destination|Étape
+Vol charter|Vol low-cost
 Via ferrata|Escalade!
-Pêche|Plongée
-Minigolf|Pétanque!
-Cascade|Geyser
-Igloo|Chalet
-Cabane|Yourte!
-Yourte|Tipi
-Bungalow|Mobil-home!
-Mobil-home|Camping-car
-Village vacances|Résidence de tourisme!
+Igloo|Hôtel de glace
+Transat|Bain de soleil
+Yourte|Tipi!
+Camping sauvage|Bivouac!
+Résidence de tourisme|Appart-hôtel!
 Location saisonnière|Échange de maison
-Campagne|Ville
-Ferme|Gîte
+Ferme|Ranch
 Thalasso|Cure thermale!
-Dépaysement|Exotisme!
-Aventure|Découverte
-Farniente|Sieste!
+Dépaysement|Exotisme
+Aventure|Exploration
+Farniente|Sieste
 Panorama|Point de vue!
-Belvédère|Point de vue
-Col|Sommet!
+Belvédère|Table d'orientation
+Col|Sommet
 #! Soirée et apéro
 Bière ambrée|Bière blanche!
 Rosé|Vin blanc
 Prosecco|Cava!
-Whisky|Bourbon
-Rhum|Vodka
 Tequila|Mezcal!
 Pastis|Anisette!
-Spritz|Bellini
-Calvados|Eau-de-vie!
-Limoncello|Grappa
-Margarita|Daïquiri!
-Piña colada|Blue lagoon
-Cosmopolitan|Margarita!
-Cuba libre|Gin tonic
-Gin tonic|Whisky coca
-Sirop|Soda
-Jus de fruits|Smoothie!
-Mocktail|Cocktail!
-Cocktail|Shot
-Shaker|Doseur
+Spritz|Americano
+Calvados|Pommeau!
+Limoncello|Amaretto
+Piña colada|Planteur
+Cuba libre|Whisky coca!
+Gin tonic|Vodka tonic!
+Grenadine|Menthe à l'eau
+Jus de fruits|Smoothie
+Bière sans alcool|Vin sans alcool
+Shaker|Verre à mélange
 Glaçon|Glace pilée!
 Paille|Touillette!
-Citron vert|Menthe fraîche
-Olive|Cacahuète
-Chips|Cacahuète
-Saucisson|Chorizo
-Fromage|Charcuterie
-Planche apéro|Plateau de fromages
-Tapenade|Houmous!
+Menthe fraîche|Basilic
+Olive|Cornichon
+Saucisson|Chorizo!
+Plateau de charcuterie|Plateau de fromages
+Tapenade|Caviar d'aubergine
 Guacamole|Houmous
 Gressins|Crackers
 Nachos|Chips!
-Pop-corn|Bonbons
-Pizza|Quiche
-Mini-pizza|Feuilleté!
-Verrine|Mise en bouche
+Pop-corn|Barbe à papa
+Pizza|Flammekueche
+Feuilleté|Friand!
+Verrine|Cuillère apéritive
 Canapé|Toast!
 Bouchon|Capsule
-Bouteille|Canette!
+Bouteille|Canette
 Magnum|Jéroboam!
 Flûte|Coupe!
-Verre à pied|Gobelet
+Verre à pied|Verre ballon!
 Pinte|Demi!
-Pression|Bouteille
+Fût|Tonneau!
 Happy hour|After work
-Apéro|Digestif
+Pot de départ|Pot de retraite!
 Digestif|Trou normand!
-Pub|Brasserie
-Bar à vin|Cave
+Pub|Bistrot
+Bar à vin|Bar à tapas
 Terrasse|Rooftop!
 Guinguette|Bal populaire!
 Bal masqué|Soirée déguisée
-Soirée déguisée|Soirée à thème!
-Anniversaire|Pendaison de crémaillère
+Soirée à thème|Soirée blanche
+Pendaison de crémaillère|Inauguration
 Enterrement de vie de garçon|Enterrement de vie de jeune fille!
 Réveillon|Nouvel An!
-Fête des voisins|Garden-party!
-Garden-party|Cocktail dînatoire
-Buffet|Cocktail dînatoire
-DJ|Chanteur
+Garden-party|Réception
+Cocktail dînatoire|Apéro dînatoire!
+DJ|Animateur
 Platines|Table de mixage!
-Piste de danse|Scène
+Piste de danse|Podium
 Videur|Physionomiste!
-Vestiaire|Toilettes
+Vestiaire|Consigne
 Carré VIP|Table réservée
 Blind test|Quiz!
-Micro|Enceinte
+Enceinte|Caisson de basses
 Boule à facettes|Stroboscope
-Stroboscope|Laser
-Machine à fumée|Canon à confettis
-Ballons|Guirlandes
-Guirlande lumineuse|Bougie
+Lumière noire|Néon
+Guirlande|Banderole
 Feu d'artifice|Feux de Bengale
-Beer pong|Baby-foot
-Billard|Fléchettes
-Fléchettes|Bowling
-Jeu à boire|Jeu de cartes
-Action ou vérité|Je n'ai jamais!
-Loup-garou|Jeu de rôle
+Fléchettes|Lancer de hache
+Action ou vérité|Je n'ai jamais
+Loup-garou|Murder party
 Mimes|Charades!
 Tarot|Belote
-Slow|Rock!
-Salsa|Bachata!
+Rock|Swing
 Chenille|Farandole!
 Playlist|Compilation!
-Musique électro|Techno
-Rap|RnB!
+Techno|House
+Rap|RnB
 Années 80|Années 90
-Festival|Rave!
 Rave|Free party!
-Fête de la musique|Concert
-Gueule de bois|Mal de crâne
-Lendemain de fête|Gueule de bois
+Fête de la musique|Bal du 14 Juillet
+Eau pétillante|Eau plate
 Aspirine|Paracétamol!
 Café serré|Café allongé
-Brunch|Goûter
-Kebab|Burger!
+Kebab|Tacos
 Burger|Hot-dog
 Frites|Potatoes!
 Fast-food|Food truck
 Livraison|À emporter
-Capitaine de soirée|Chauffeur
-Dernier verre|Verre de l'amitié!
-Tchin-tchin|Santé
-Tournée|Addition!
-Ardoise|Note!
-Serveur|Sommelier
-Mixologue|Barman!
-Dégustation|Œnologie
-Hydromel|Cidre
-Pétillant|Mousseux
+Navette|Bus de nuit
+Dernier verre|Coup de l'étrier
+Chanson à boire|Chanson paillarde
+Cagnotte|Pot commun
+Ardoise|Note
+Serveur|Maître d'hôtel
 Brut|Demi-sec!
-Liqueur|Sirop!
-Amaretto|Limoncello
-Absinthe|Pastis!
-Saké|Grappa
-Irish coffee|Chocolat viennois
-Hoquet|Bâillement
-Fou rire|Hoquet
+Crème de cassis|Crème de mûre!
+Kir|Communard!
+Absinthe|Chartreuse
+Grappa|Marc!
+Chocolat viennois|Café viennois
+Hoquet|Éternuement
+Fou rire|Éclat de rire!
 Selfie|Photomaton!
 Invitation|Faire-part
-Invité|Hôte!
-Pique-assiette|Invité surprise!
+Invité|Plus-un
+Pique-assiette|Squatteur
 Voisin|Colocataire
-Soirée pyjama|Soirée jeux
-Soirée film|Soirée jeux
-Plaid|Coussin
-Fondue|Tartiflette!
+Soirée jeux|Soirée quiz
+Soirée film|Soirée série
 Pierrade|Plancha
-Apéro dînatoire|Repas assis
-Dress code|Tenue de soirée
-Talons|Baskets
-Maquillage|Parfum
-Before|After!
-Ticket d'entrée|Bracelet!
-Liste d'invités|Plan de table
-Animation|Spectacle
+Buffet|Banquet
+Escarpins|Sandales à talons
+Saké|Soju!
+Ticket d'entrée|Bracelet
+Plan de table|Marque-place
+Magicien|Illusionniste!
 Stand-up|Café-théâtre
-Casino|Hippodrome
-Jeton|Pièce
+Mise|Pari
 Pétanque|Palets
-Tireuse à bière|Fontaine à eau
-Sushis|Tacos
+Sushis|Makis!
 Crêpes|Gaufres
-Salle des fêtes|Gymnase
-Limonade|Diabolo
-Diabolo|Monaco
+Salle des fêtes|Salle polyvalente!
+Limonade|Orangeade
+Jus d'orange|Jus de pamplemousse
 Panaché|Monaco!
-Chant de supporters|Hymne
-Match de foot|Écran géant
-Seau à glace|Glacière
-Nappe|Serviettes
-Gobelet|Assiette en carton
-Ménage|Vaisselle
+Supporter|Ultra
+Match de foot|Match de rugby
+Seau à glace|Vasque à champagne
+Nappe|Chemin de table
+Assiette en carton|Assiette en plastique!
+Ménage|Rangement
 #! Coquin
-Nuisette|Porte-jarretelles!
+Nuisette|Babydoll!
 String|Tanga!
 Corset|Guêpière
-Bas résille|Collants
-Déshabillé|Peignoir
-Body|Combinaison
-Culotte|Shorty
-Dentelle|Satin
-Talons aiguilles|Cuissardes
+Bas|Collants!
+Déshabillé|Négligé!
+Body|Bustier
+Culotte|Shorty!
+Dentelle|Résille
+Talons aiguilles|Stilettos!
 Jarretière|Jarretelle!
-Slip|Boxer
-Kimono|Robe de chambre
-Push-up|Balconnet
-Soie|Velours
-Négligé|Babydoll!
-Menottes|Bandeau
-Plumeau|Plume
+Slip|Boxer!
+Push-up|Balconnet!
+Menottes|Liens en satin
+Plume|Pinceau
 Fouet|Cravache!
-Huile de massage|Bougie parfumée
+Huile de massage|Lait corporel
 Dés coquins|Cartes coquines
 Masque vénitien|Loup!
-Foulard|Cravate
-Lubrifiant|Préservatif
-Vibromasseur|Canard vibrant
-Chantilly|Chocolat fondu
-Glaçon|Bougie
-Boules de geisha|Œuf vibrant!
+Foulard|Bandeau!
+Bougie de massage|Huile chauffante
+Chocolat fondu|Caramel
+Action ou vérité|Bouteille tournante
 Tenue de soubrette|Tenue d'infirmière
-Poupée gonflable|Mannequin
-Miroir au plafond|Lit à baldaquin
-Draps de soie|Pétales de rose
-Champagne|Fraises
-Huîtres|Gingembre
-Peinture comestible|Culotte comestible!
-Strip-poker|Bouteille tournante!
-Infirmière|Docteur!
-Policier|Pompier
-Secrétaire|Patron!
-Plombier|Livreur de pizza
+Costume de pompier|Costume de policier
+Lit rond|Lit à eau!
+Draps de soie|Parure en satin
+Champagne|Prosecco!
+Huîtres|Caviar
+Body painting|Tatouage éphémère
+Gage coquin|Défi coquin
+Infirmière|Docteur
+Plombier|Électricien!
 Masseuse|Kiné
-Gladiateur|Centurion
-Princesse|Chevalier
+Gladiateur|Centurion!
 Femme fatale|Séductrice
 Séducteur|Dragueur!
-Bad boy|Gentleman
-Cougar|Sugar daddy
-Toy boy|Gigolo
+Bad boy|Rebelle
+Cougar|Croqueuse d'hommes
+Toy boy|Jeune amant
 Stripteaseur|Gogo danseur
 Dominatrice|Maîtresse
-Soumission|Domination
+Jeu de rôle|Mise en scène
 Clin d'œil|Sourire en coin
 Phrase d'accroche|Compliment
 Galoche|Pelle!
-Suçon|Bisou
-Râteau|Vent
-Numéro de téléphone|Texto
-Sexto|Nude!
+Bisou|Smack!
+Râteau|Vent!
+Texto|Message vocal
+Sexto|Message coquin
 Selfie coquin|Photo sexy!
-Like|Match
-Swipe|Like
-Appli de rencontre|Speed dating
+Pseudo|Surnom
+Appli de rencontre|Site de rencontre
 Premier rendez-vous|Rencard!
-Coup de foudre|Coup d'un soir
-Coup d'un soir|Aventure
-Ex|Retour de flamme
-Ghosting|Silence radio
+Amour fou|Grand amour
+Coup d'un soir|Aventure!
+Ex|Premier amour
+Ghosting|Silence radio!
 Flirt|Drague!
 Séduction|Charme
-Œillade|Clin d'œil!
-Chatouilles|Guilis!
+Œillade|Clin d'œil
+Chatouilles|Papouilles
 Câlin|Étreinte
 Bisou esquimau|Bisou papillon!
-Patin|French kiss!
-Fessée|Fouet
-Jeu de pieds|Genou contre genou
-Mains enlacées|Bras dessus dessous!
-Slow|Tango
-Lambada|Salsa!
-Danse lascive|Twerk
+Baiser volé|Baiser fougueux
+Bisou dans le cou|Bisou sur l'épaule
+Pied sous la table|Genou contre genou
+Mains enlacées|Doigts entrelacés!
+Slow|Danse collée
+Lambada|Salsa
+Déhanché|Twerk
 Pole dance|Lap dance
-Strip-tease|Lap dance!
-Effeuillage|Burlesque
-Cabaret|Peep-show
-Sex-shop|Boutique de lingerie
-Plan à trois|Échangisme!
-Club libertin|Boîte de nuit
+Strip-tease|Effeuillage!
+Burlesque|Cabaret
+Plumes|Paillettes
+Boutique coquine|Boutique de lingerie
+Triangle amoureux|Rivalité amoureuse
+Boîte de nuit|Bar dansant
 Love hôtel|Motel
-Chambre d'hôtel|Suite nuptiale
+Chambre d'hôtel|Chambre d'hôtes!
 Nudisme|Naturisme!
 Plage nudiste|Camp naturiste
-Bronzage intégral|Monokini!
-Seins nus|Monokini
-Bain moussant|Douche à deux
-Jacuzzi|Sauna
-Bain de minuit|Plage nudiste
-Ascenseur|Escalier
+Bikini|Monokini
+Maillot échancré|Trikini
+Douche à deux|Bain à deux
+Bain de minuit|Piscine nocturne
 Banquette arrière|Siège passager!
-Cabine d'essayage|Toilettes
-Toilettes d'avion|Wagon-lit
-Bureau|Photocopieuse
-Cinéma|Drive-in
-Plage|Dune
-Botte de foin|Grange
-Cuisine|Plan de travail
+Bureau|Salle de réunion
+Cinéma|Drive-in!
+Grange|Grenier
+Plan de travail|Table de cuisine
 Machine à laver|Sèche-linge
-Tente|Sac de couchage
-Jardin|Hamac
+Hamac|Balancelle
 Parking|Garage
-Bateau|Yacht!
-Lit à eau|Matelas gonflable
-Missionnaire|Andromaque
-Cuillère|Câlin en cuillère!
-Soixante-neuf|Tête-bêche
-Lotus|Yoga
+Yacht|Voilier!
+Matelas gonflable|Lit de camp
+Chambre à coucher|Alcôve
+Se blottir|Se lover
+Oreiller|Traversin!
+Shiatsu|Massage thaï
 Tantra|Kamasutra!
-Amazone|Cavalière!
-Coup rapide|Longue nuit
+Rodéo|Taureau mécanique
+Nuit torride|Nuit d'amour
 Préliminaires|Mise en bouche
 Septième ciel|Nirvana
-Feu d'artifice|Grimper aux rideaux
+Extase|Volupté
 Grimper aux rideaux|Septième ciel!
 Simuler|Faire semblant!
-Sieste crapuleuse|Grasse matinée
+Sieste crapuleuse|Sieste câline
 Partie de jambes|Galipettes!
-Batifoler|Galipettes
+Batifoler|Folâtrer
 Polissonnerie|Coquinerie!
 Libido|Désir!
 Fantasme|Rêve érotique
-Fantasme|Tabou
+Fantasme|Désir secret
 Tabou|Interdit
 Pudeur|Timidité
-Rougir|Glousser
+Rougir|Bafouiller
 Frisson|Chair de poule!
 Chaud bouillant|Torride!
 Sensuel|Érotique!
@@ -3399,125 +3234,117 @@ Libertin|Volage
 Infidélité|Adultère!
 Amant|Maîtresse
 Cocu|Trompé!
-Alibi|Mensonge
-Cinq à sept|Pause déjeuner
-Rendez-vous galant|Dîner aux chandelles
-Dîner aux chandelles|Pique-nique romantique
+Alibi|Excuse
+Cinq à sept|Rendez-vous secret
+Rendez-vous galant|Tête-à-tête
+Dîner aux chandelles|Souper intime!
 Saint-Valentin|Anniversaire de couple
-Bouquet de roses|Boîte de chocolats
+Bouquet de roses|Bouquet de pivoines
 Mot doux|Lettre d'amour
-Poème|Sérénade
+Sérénade|Chanson d'amour
 Chéri|Mon amour!
 Mon trésor|Mon cœur!
 Lune de miel|Nuit de noces!
-Mariage|PACS
 Demande en mariage|Fiançailles!
-Jarretière|Bouquet de mariée
-Robe de mariée|Voile
+Bouquet de mariée|Couronne de fleurs
+Voile de mariée|Traîne
 EVG|EVJF!
-Gâteau coquin|Pailles rigolotes
-Homme-objet|Femme fatale
+Gâteau coquin|Bonbons coquins
+Homme-objet|Femme-objet
 Fesses|Postérieur!
 Poitrine|Décolleté!
-Décolleté|Dos nu!
-Nombril|Hanche
-Lobe d'oreille|Nuque
-Six pack|Tablettes de chocolat
-Abdos|Pectoraux
+Décolleté|Dos nu
+Hanche|Taille
+Six pack|Abdos!
+Pectoraux|Biceps
 Tatouage|Piercing
-Grain de beauté|Fossettes
-Lèvres|Langue
 Rouge à lèvres|Gloss!
-Parfum|Phéromones
-Sueur|Buée
+Buée|Vapeur
 Courbes|Formes!
 Sextoy|Gadget coquin!
-Tiroir secret|Table de nuit
+Tiroir secret|Boîte secrète
 Téléphone rose|Messagerie coquine!
 Webcam|Visio coquine
-Film pour adultes|Film érotique!
-Magazine coquin|Calendrier sexy!
-Roman érotique|Roman sentimental
-Calendrier des pompiers|Calendrier sexy
+Film érotique|Film sensuel
+Magazine coquin|Bande dessinée coquine
+Roman érotique|Nouvelle érotique
+Calendrier des pompiers|Calendrier sexy!
 Pin-up|Vamp!
-Starlette|Bimbo
-Éventail|Plume
-Massage|Caresse
-Massage tantrique|Massage thaï!
+Starlette|Vedette
+Éventail|Ombrelle
+Massage|Modelage
+Massage tantrique|Massage sensuel
 Caresse|Effleurement!
-Souffle chaud|Murmure!
+Murmure|Chuchotement!
 Chuchoter|Susurrer!
 Gémissement|Soupir!
-Voix suave|Accent italien
-Accent italien|Accent espagnol!
-Latin lover|Bellâtre
-Beau gosse|Bombe
-Canon|Bombe
-Sexy|Glamour
+Voix suave|Voix grave
+Accent italien|Accent espagnol
+Latin lover|Don Juan
+Beau gosse|Apollon
+Canon|Bombe!
+Sexy|Aguicheuse
 Coquette|Charmeuse!
-Sublime|Irrésistible
+Sublime|Magnifique!
 Tenue d'Adam|Tenue d'Ève!
 Petite tenue|Sous-vêtements
-Nu intégral|Bronzage intégral
-Pyjama|Nuisette
-Dormir nu|Pyjama
-Petit-déjeuner au lit|Réveil coquin!
-Saint-Valentin|Cupidon!
+Peignoir ouvert|Serviette nouée
+Grasse matinée|Câlin du matin
+Petit-déjeuner au lit|Brunch au lit
+Cœur en chocolat|Bonbon en cœur
 Cupidon|Éros!
 Aphrodite|Vénus!
 Fraises|Cerises!
-Aubergine|Pêche
-Banane|Concombre
-Courgette|Concombre
-Emoji flamme|Emoji diable
+Figue|Grenade
+Mangue|Papaye
+Emoji flamme|Emoji piment
 Cocktail aphrodisiaque|Philtre d'amour!
-Philtre d'amour|Potion magique
+Potion magique|Élixir
 Gingembre|Piment
 Sex-appeal|Charisme!
 Alchimie|Complicité!
 Tension sexuelle|Attirance!
 Coup de cœur|Coup de foudre
 Week-end en amoureux|Escapade romantique!
-Lit king size|Lit à baldaquin
+Lit king size|Grand lit!
 Ne pas déranger|Porte verrouillée
-Voisins|Murs fins
-Grincement de lit|Tête de lit
-Tête de lit|Sommier!
-Couette|Draps!
+Voisin de palier|Voisine d'en face
+Grincement|Craquement
+Tête de lit|Sommier
+Couette|Draps
 Cigarette d'après|Câlin d'après
-Douche froide|Glaçon
+Douche froide|Bain glacé
 Désir|Envie!
 Chaleur|Fièvre
 Ivresse|Pompette!
-Shot|Body shot
-Body shot|Strip-poker
-Wingman|Entremetteuse
-Entremetteuse|Agence matrimoniale!
-Agence matrimoniale|Site de rencontre
-Annonce coquine|Petite annonce
+Shot|Petit verre
+Body shot|Shot coquin
+Wingman|Complice
+Entremetteuse|Marieuse!
+Agence matrimoniale|Club de rencontres
+Annonce coquine|Annonce galante
 Blind date|Rendez-vous arrangé!
 Crush|Béguin!
-Béguin|Flamme
+Béguin|Toquade
 Flamme|Passion!
 Ami avec avantages|Sex friend!
 Relation libre|Couple ouvert!
-Polyamour|Couple ouvert
-Trouple|Plan à trois
+Polyamour|Amour libre
+Trouple|Ménage à trois
 Échangisme|Libertinage!
-Orgie|Bacchanale!
-Soirée mousse|Toga party
-Bal masqué|Carnaval
+Bacchanale|Toga party
+Soirée mousse|Pool party
+Bal masqué|Mascarade
 Cœur brisé|Chagrin d'amour!
 Regard brûlant|Regard de braise!
 Talons|Escarpins!
-Robe fendue|Mini-jupe
-Mini-jupe|Short moulant
+Robe fendue|Jupe fendue
+Mini-jupe|Mini-short
 Chemise ouverte|Torse nu
 Cuir|Latex!
 Latex|Vinyle!
-Bain à remous|Spa
 Clair de lune|Coucher de soleil!
-Coucher de soleil|Plage déserte
+Ciel étoilé|Pluie d'étoiles
 Île déserte|Plage déserte!
-Lingerie fine|Sous-vêtements!
-Cadeau coquin|Surprise
+Lingerie fine|Dessous chic!
+Cadeau coquin|Coffret coquin
