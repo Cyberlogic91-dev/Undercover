@@ -1,4 +1,2 @@
-Nouveautés de la version 2.1 :
-- Numéro de version affiché dans les Réglages
-- Mises à jour automatiques : l'appli détecte les nouvelles versions et les installe en un geste
-- Narrateur vocal, thèmes saisonniers, championnat de la soirée, badges et partage du résultat (2.0)
+Nouveautés de la version 2.2 :
+- L'écran reste allumé pendant toute la partie : plus de mise en veille quand on se passe le téléphone ou pendant le chrono
