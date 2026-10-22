@@ -57,9 +57,9 @@ jobs:
       - name: Compiler l'APK
         if: env.SKIP == 'false'
         env:
-          UC_STORE_PASSWORD: ${{ secrets.UC_STORE_PASSWORD }}
-          UC_KEY_ALIAS: ${{ secrets.UC_KEY_ALIAS }}
-          UC_KEY_PASSWORD: ${{ secrets.UC_KEY_PASSWORD }}
+          UC_STORE_PASSWORD: ${{ secrets.UC_STORE_PASSWORD || 'android' }}
+          UC_KEY_ALIAS: ${{ secrets.UC_KEY_ALIAS || 'androiddebugkey' }}
+          UC_KEY_PASSWORD: ${{ secrets.UC_KEY_PASSWORD || 'android' }}
         run: |
           chmod +x gradlew
           ./gradlew assembleRelease --no-daemon
