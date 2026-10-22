@@ -37,9 +37,7 @@ Kotlin + Jetpack Compose, Gradle 8.14, JDK 17+.
 
 1. Augmenter `versionCode` et `versionName` dans `app/build.gradle.kts`.
 2. Décrire les nouveautés dans `CHANGELOG-latest.md` (elles s'affichent dans l'appli).
-3. Pousser un tag identique : `git tag v2.2 && git push origin v2.2`.
-
-GitHub Actions compile l'APK, le signe avec la clé stockée dans les secrets du dépôt (`UC_KEYSTORE_B64`, `UC_STORE_PASSWORD`, `UC_KEY_ALIAS`, `UC_KEY_PASSWORD`) et publie la release. Les téléphones la reçoivent automatiquement.
+3. Pousser sur `main` : dès qu'un nouveau numéro de version arrive, GitHub Actions compile l'APK, le signe avec la clé stockée dans les secrets du dépôt (`UC_KEYSTORE_B64`, `UC_STORE_PASSWORD`, `UC_KEY_ALIAS`, `UC_KEY_PASSWORD`) et publie la release. Les téléphones la reçoivent automatiquement.
 
 > ⚠️ Toujours signer avec **la même clé** : sinon Android refuse d'installer la mise à jour par-dessus.
 

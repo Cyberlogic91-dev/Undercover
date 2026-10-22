@@ -1,10 +1,15 @@
 name: Release APK
 
-# Publier une version : changer versionName/versionCode dans app/build.gradle.kts,
-# puis pousser un tag du même numéro, ex. :  git tag v2.2 && git push origin v2.2
+# Publication automatique : dès qu'un nouveau versionName arrive sur main
+# (app/build.gradle.kts), l'APK est compilé, signé et publié en release « vX.Y ».
+# Si la release de cette version existe déjà, rien n'est fait.
 on:
   push:
-    tags: ['v*']
+    branches: [main]
+    paths:
+      - 'app/build.gradle.kts'
+      - 'CHANGELOG-latest.md'
+      - '.github/workflows/release.yml'
   workflow_dispatch:
 
 permissions:
@@ -16,7 +21,21 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Version à publier
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+          if gh release view "v$VERSION" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "La release v$VERSION existe déjà : rien à publier."
+            echo "SKIP=true" >> "$GITHUB_ENV"
+          else
+            echo "SKIP=false" >> "$GITHUB_ENV"
+          fi
+
       - uses: actions/setup-java@v5
+        if: env.SKIP == 'false'
         with:
           distribution: temurin
           java-version: '21'
@@ -24,19 +43,19 @@ jobs:
       # Le SDK Android est déjà installé sur les machines ubuntu-latest (ANDROID_HOME)
 
       - name: Clé de signature
+        if: env.SKIP == 'false'
         env:
           KEYSTORE_B64: ${{ secrets.UC_KEYSTORE_B64 }}
         run: |
           if [ -z "$KEYSTORE_B64" ]; then
-            echo "::warning::Secrets de signature absents : ajoute UC_KEYSTORE_B64, UC_STORE_PASSWORD, UC_KEY_ALIAS et UC_KEY_PASSWORD (Settings › Secrets and variables › Actions). Rien n'est publié."
-            echo "HAS_KEY=false" >> "$GITHUB_ENV"; exit 0
+            echo "::error::Secrets de signature absents : UC_KEYSTORE_B64, UC_STORE_PASSWORD, UC_KEY_ALIAS, UC_KEY_PASSWORD (Settings › Secrets and variables › Actions)."
+            exit 1
           fi
           echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/release.keystore"
           echo "UC_KEYSTORE=$RUNNER_TEMP/release.keystore" >> "$GITHUB_ENV"
-          echo "HAS_KEY=true" >> "$GITHUB_ENV"
 
       - name: Compiler l'APK
-        if: env.HAS_KEY == 'true'
+        if: env.SKIP == 'false'
         env:
           UC_STORE_PASSWORD: ${{ secrets.UC_STORE_PASSWORD }}
           UC_KEY_ALIAS: ${{ secrets.UC_KEY_ALIAS }}
@@ -44,22 +63,14 @@ jobs:
         run: |
           chmod +x gradlew
           ./gradlew assembleRelease --no-daemon
-          VERSION=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
-          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
           cp app/build/outputs/apk/release/app-release.apk "Undercover-v$VERSION.apk"
 
-      - name: Vérifier la version du tag
-        if: env.HAS_KEY == 'true' && startsWith(github.ref, 'refs/tags/')
-        run: |
-          TAG="${GITHUB_REF_NAME#v}"
-          if [ "$TAG" != "$VERSION" ]; then echo "::error::Tag v$TAG ≠ versionName $VERSION"; exit 1; fi
-
       - name: Publier la release
-        if: env.HAS_KEY == 'true'
+        if: env.SKIP == 'false'
         uses: softprops/action-gh-release@v2
         with:
-          overwrite_files: true
           tag_name: v${{ env.VERSION }}
+          target_commitish: ${{ github.sha }}
           name: Undercover ${{ env.VERSION }}
           body_path: CHANGELOG-latest.md
           files: Undercover-v${{ env.VERSION }}.apk
