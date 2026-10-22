@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp" android:height="96dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- emblème original : chapeau de détective + loup (masque) -->
+    <path android:fillColor="#FFFFFFFF" android:pathData="M34,48 L40,30 Q54,25 68,30 L74,48 Z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M24,48 L84,48 Q84,54 77,54 L31,54 Q24,54 24,48 Z"/>
+    <path android:fillColor="#33000000" android:pathData="M36,43 L72,43 L73.5,47 L34.5,47 Z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M28,61 Q28,58 32,58 L76,58 Q80,58 80,61 L80,65 Q80,76 67,76 Q58,76 54,68 Q50,76 41,76 Q28,76 28,65 Z"/>
+    <path android:fillColor="#FFFFB300" android:pathData="M36,65 Q36,62 40,62 L47,62 Q50,62 50,65 Q50,71 43,71 Q36,71 36,65 Z"/>
+    <path android:fillColor="#FFFFB300" android:pathData="M58,65 Q58,62 61,62 L68,62 Q72,62 72,65 Q72,71 65,71 Q58,71 58,65 Z"/>
+</vector>

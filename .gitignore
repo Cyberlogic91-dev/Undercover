@@ -1,0 +1,17 @@
+# Gradle / Android
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Clés de signature et artefacts : ne JAMAIS publier
+*.jks
+*.keystore
+*.apk
+*.aab

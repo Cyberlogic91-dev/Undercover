@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.Undercover" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+    </style>
+    <color name="bg">#FF0A0D1E</color>
+    <color name="ic_bg">#FF14183A</color>
+</resources>

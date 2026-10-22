@@ -1,0 +1,58 @@
+name: Release APK
+
+# Publier une version : changer versionName/versionCode dans app/build.gradle.kts,
+# puis pousser un tag du même numéro, ex. :  git tag v2.2 && git push origin v2.2
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Clé de signature
+        env:
+          KEYSTORE_B64: ${{ secrets.UC_KEYSTORE_B64 }}
+        run: |
+          if [ -z "$KEYSTORE_B64" ]; then echo "::error::Secret UC_KEYSTORE_B64 manquant"; exit 1; fi
+          echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/release.keystore"
+          echo "UC_KEYSTORE=$RUNNER_TEMP/release.keystore" >> "$GITHUB_ENV"
+
+      - name: Compiler l'APK
+        env:
+          UC_STORE_PASSWORD: ${{ secrets.UC_STORE_PASSWORD }}
+          UC_KEY_ALIAS: ${{ secrets.UC_KEY_ALIAS }}
+          UC_KEY_PASSWORD: ${{ secrets.UC_KEY_PASSWORD }}
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon
+          VERSION=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+          cp app/build/outputs/apk/release/app-release.apk "Undercover-v$VERSION.apk"
+
+      - name: Vérifier la version du tag
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          TAG="${GITHUB_REF_NAME#v}"
+          if [ "$TAG" != "$VERSION" ]; then echo "::error::Tag v$TAG ≠ versionName $VERSION"; exit 1; fi
+
+      - name: Publier la release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ env.VERSION }}
+          name: Undercover ${{ env.VERSION }}
+          body_path: CHANGELOG-latest.md
+          files: Undercover-v${{ env.VERSION }}.apk
