@@ -576,7 +576,7 @@ internal fun UpdateCard(vm: GameViewModel) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
                 Text("Mises à jour automatiques", fontWeight = FontWeight.Bold)
-                Text("Vérifie les nouvelles versions sur GitHub au lancement.", color = Muted, fontSize = 13.sp)
+                Text("À chaque lancement, l'appli télécharge et installe toute seule les nouvelles versions.", color = Muted, fontSize = 13.sp)
             }
             Switch(vm.autoUpdate, vm::changeAutoUpdate)
         }
@@ -644,5 +644,46 @@ internal fun UpdateDialog(vm: GameViewModel) {
         dismissButton = {
             if (u is GameViewModel.UpdateState.Available) TextButton({ vm.skipUpdate(r) }) { Text("Plus tard") }
         }
+    )
+}
+
+
+/** Écran affiché juste avant l'installation automatique. */
+@Composable
+internal fun AutoInstallOverlay(vm: GameViewModel) {
+    val r = vm.autoInstalling ?: return
+    androidx.compose.ui.window.Dialog(onDismissRequest = {}) {
+        Column(
+            Modifier.clip(RoundedCornerShape(24.dp)).background(Color(0xF2141830))
+                .border(2.dp, Teal, RoundedCornerShape(24.dp)).padding(24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            androidx.compose.foundation.Image(androidx.compose.ui.res.painterResource(R.drawable.ic_logo), null, Modifier.size(84.dp))
+            Spacer(Modifier.height(8.dp))
+            Text("Mise à jour ${r.version}", fontWeight = FontWeight.Black, fontSize = 20.sp, color = Teal)
+            Spacer(Modifier.height(6.dp))
+            Text("Installation en cours… L'appli va se fermer quelques secondes, puis il suffira de la rouvrir.",
+                textAlign = TextAlign.Center, fontSize = 14.sp, color = White)
+            Spacer(Modifier.height(14.dp))
+            LinearProgressIndicator(Modifier.fillMaxWidth(), color = Teal, trackColor = Surf2)
+        }
+    }
+}
+
+/** « Undercover est à jour » : affiché une fois après une mise à jour. */
+@Composable
+internal fun UpdatedNoticeDialog(vm: GameViewModel) {
+    val (v, notes) = vm.updatedNotice ?: return
+    AlertDialog(
+        onDismissRequest = vm::dismissUpdatedNotice,
+        icon = { Text("✅", fontSize = 36.sp) },
+        title = { Text("Mise à jour ${v} installée") },
+        text = {
+            Column(Modifier.heightIn(max = 320.dp).verticalScroll(rememberScrollState())) {
+                if (notes.isNotBlank()) Text(notes.replace("**", "").replace("### ", "").replace("## ", ""), fontSize = 14.sp)
+                else Text("Undercover est à jour. Bonne partie !")
+            }
+        },
+        confirmButton = { TextButton(vm::dismissUpdatedNotice) { Text("Super !") } }
     )
 }

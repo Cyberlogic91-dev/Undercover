@@ -1,7 +1,11 @@
 package app.undercover.game
 
 import android.content.Context
+import android.app.PendingIntent
+import android.content.BroadcastReceiver
 import android.content.Intent
+import android.content.pm.PackageInstaller
+import android.widget.Toast
 import android.net.Uri
 import android.os.Build
 import android.provider.Settings
@@ -99,6 +103,28 @@ object Updater {
             .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
     }
 
+    /**
+     * Installation via PackageInstaller. Sur Android 12+, quand l'appli se met à jour elle-même,
+     * Android peut installer SANS demander de confirmation (après la toute première mise à jour).
+     */
+    fun installSession(ctx: Context, apk: File) {
+        val installer = ctx.packageManager.packageInstaller
+        val params = PackageInstaller.SessionParams(PackageInstaller.SessionParams.MODE_FULL_INSTALL).apply {
+            setAppPackageName(ctx.packageName)
+            if (Build.VERSION.SDK_INT >= 31) setRequireUserAction(PackageInstaller.SessionParams.USER_ACTION_NOT_REQUIRED)
+        }
+        val id = installer.createSession(params)
+        installer.openSession(id).use { session ->
+            session.openWrite("undercover.apk", 0, apk.length()).use { out ->
+                apk.inputStream().use { it.copyTo(out) }
+                session.fsync(out)
+            }
+            val flags = PendingIntent.FLAG_UPDATE_CURRENT or (if (Build.VERSION.SDK_INT >= 31) PendingIntent.FLAG_MUTABLE else 0)
+            val pi = PendingIntent.getBroadcast(ctx, id, Intent(ctx, InstallReceiver::class.java), flags)
+            session.commit(pi.intentSender)
+        }
+    }
+
     fun install(ctx: Context, apk: File) {
         val uri = FileProvider.getUriForFile(ctx, "${ctx.packageName}.fileprovider", apk)
         ctx.startActivity(Intent(Intent.ACTION_VIEW).setDataAndType(uri, "application/vnd.android.package-archive")
@@ -107,5 +133,25 @@ object Updater {
 
     fun openPage(ctx: Context) {
         ctx.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(PAGE)).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
+    }
+}
+
+
+/** Reçoit le résultat de l'installation ; si Android demande une confirmation, on l'affiche. */
+class InstallReceiver : BroadcastReceiver() {
+    override fun onReceive(ctx: Context, intent: Intent) {
+        when (intent.getIntExtra(PackageInstaller.EXTRA_STATUS, PackageInstaller.STATUS_FAILURE)) {
+            PackageInstaller.STATUS_PENDING_USER_ACTION -> {
+                @Suppress("DEPRECATION")
+                val confirm: Intent? = if (Build.VERSION.SDK_INT >= 33) intent.getParcelableExtra(Intent.EXTRA_INTENT, Intent::class.java)
+                else intent.getParcelableExtra(Intent.EXTRA_INTENT)
+                confirm?.let { ctx.startActivity(it.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
+            }
+            PackageInstaller.STATUS_SUCCESS -> {}
+            else -> {
+                val msg = intent.getStringExtra(PackageInstaller.EXTRA_STATUS_MESSAGE) ?: "erreur inconnue"
+                Toast.makeText(ctx, "Mise à jour impossible : $msg", Toast.LENGTH_LONG).show()
+            }
+        }
     }
 }

@@ -52,6 +52,8 @@ internal fun MenuScreen(vm: GameViewModel) {
     if (showGroups) GroupsDialog(vm) { showGroups = false }
     LaunchedEffect(Unit) { vm.autoCheckUpdate() }
     UpdateDialog(vm)
+    UpdatedNoticeDialog(vm)
+    AutoInstallOverlay(vm)
 
     val float = rememberInfiniteTransition(label = "float")
     val dy by float.animateFloat(-6f, 6f, infiniteRepeatable(tween(2200, easing = FastOutSlowInEasing), RepeatMode.Reverse), label = "dy")
@@ -110,6 +112,11 @@ internal fun MenuScreen(vm: GameViewModel) {
                 }
                 Text("›", fontSize = 26.sp, color = Amber)
             }
+        }
+        (vm.update as? GameViewModel.UpdateState.Downloading)?.let { d ->
+            Spacer(Modifier.height(10.dp))
+            Text("⬇️ Mise à jour ${d.release.version} en téléchargement… ${(d.progress * 100).toInt()} %",
+                color = Teal, fontSize = 12.sp, fontWeight = FontWeight.Bold)
         }
         Text("${vm.slots.size} joueurs prêts · ${vm.totalFresh} paires de mots inédites", color = Muted, fontSize = 12.sp, modifier = Modifier.padding(top = 8.dp))
         Spacer(Modifier.height(22.dp))

@@ -190,6 +190,10 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
             update = when {
                 r == null -> if (manual) UpdateState.Failed("Impossible de joindre GitHub. Vérifie ta connexion.") else UpdateState.Idle
                 Updater.isNewer(r.version, appVersion) -> {
+                    if (!manual && autoUpdate) {
+                        // Mode automatique : on télécharge en arrière-plan, puis on installe depuis le menu
+                        downloadUpdate(r, auto = true); return@launch
+                    }
                     if (manual || r.version != skippedVersion) showUpdateDialog = true
                     UpdateState.Available(r)
                 }
@@ -198,24 +202,45 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
         }
     }
 
-    /** Vérification discrète au démarrage, au plus toutes les 6 heures. */
+    private var checkedThisLaunch = false
+
+    /** Vérification discrète à chaque lancement de l'appli (une fois par lancement). */
     fun autoCheckUpdate() {
-        if (!autoUpdate) return
-        if (System.currentTimeMillis() - prefs.getLong("lastCheck", 0) < 6 * 3600_000L) return
+        if (update is UpdateState.Ready) { tryAutoInstall(); return }
+        if (!autoUpdate || checkedThisLaunch) return
+        checkedThisLaunch = true
         checkUpdate(manual = false)
     }
 
     fun skipUpdate(r: Release) { skippedVersion = r.version; prefs.edit().putString("skipVersion", r.version).apply(); showUpdateDialog = false }
 
-    fun downloadUpdate(r: Release) {
+    /** Mise à jour téléchargée automatiquement, en attente d'installation (au retour sur le menu). */
+    private var pendingAutoInstall = false
+    /** Écran « Installation de la mise à jour… » affiché juste avant l'installation. */
+    var autoInstalling by mutableStateOf<Release?>(null); private set
+
+    fun downloadUpdate(r: Release, auto: Boolean = false) {
         val ctx = getApplication<Application>()
         update = UpdateState.Downloading(r, 0f)
         viewModelScope.launch {
             update = runCatching {
                 val f = Updater.download(ctx, r) { p -> update = UpdateState.Downloading(r, p) }
                 UpdateState.Ready(r, f)
-            }.getOrElse { UpdateState.Failed(it.message ?: "Échec du téléchargement") }
-            (update as? UpdateState.Ready)?.let { installUpdate() }
+            }.getOrElse { if (auto) UpdateState.Idle else UpdateState.Failed(it.message ?: "Échec du téléchargement") }
+            if (update is UpdateState.Ready) {
+                if (auto) { pendingAutoInstall = true; tryAutoInstall() } else installUpdate()
+            }
+        }
+    }
+
+    /** Installe la mise à jour automatique, mais seulement depuis le menu (jamais en pleine partie). */
+    fun tryAutoInstall() {
+        val ready = update as? UpdateState.Ready ?: return
+        if (!pendingAutoInstall || screen != Screen.MENU || autoInstalling != null) return
+        autoInstalling = ready.release
+        viewModelScope.launch {
+            delay(2500)
+            if (screen == Screen.MENU) installUpdate() else autoInstalling = null
         }
     }
 
@@ -223,9 +248,19 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
     fun installUpdate() {
         val ctx = getApplication<Application>()
         val ready = update as? UpdateState.Ready ?: return
-        if (!Updater.canInstall(ctx)) { Updater.openInstallPermission(ctx); return }
-        Updater.install(ctx, ready.file)
+        if (!Updater.canInstall(ctx)) { autoInstalling = null; Updater.openInstallPermission(ctx); return }
+        // Mémorise la version pour afficher « mise à jour installée » au prochain lancement
+        prefs.edit().putString("justUpdatedTo", ready.release.version).putString("justUpdatedNotes", ready.release.notes).apply()
+        pendingAutoInstall = false
+        runCatching { Updater.installSession(ctx, ready.file) }
+            .onFailure { autoInstalling = null; Updater.install(ctx, ready.file) } // repli : installeur classique
     }
+
+    /** Notes de la version qui vient d'être installée (affichées une fois). */
+    var updatedNotice by mutableStateOf<Pair<String, String>?>(
+        prefs.getString("justUpdatedTo", null)?.takeIf { it == appVersion }?.let { it to (prefs.getString("justUpdatedNotes", "") ?: "") }
+    )
+    fun dismissUpdatedNotice() { updatedNotice = null; prefs.edit().remove("justUpdatedTo").remove("justUpdatedNotes").apply() }
 
     // ---- thème ----
     var themeChoice by mutableStateOf(runCatching { ThemeChoice.valueOf(prefs.getString("theme", "AUTO")!!) }.getOrDefault(ThemeChoice.AUTO)); private set
@@ -297,7 +332,7 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
     /** Ouvre un écran secondaire (règles, réglages, stats) en mémorisant d'où l'on vient. */
     fun open(s: Screen) { returnTo = screen; screen = s }
     fun back() { screen = returnTo }
-    fun goMenu() { pauseTimer(); screen = Screen.MENU }
+    fun goMenu() { pauseTimer(); screen = Screen.MENU; tryAutoInstall() }
     var players by mutableStateOf(listOf<Player>()); private set
     var distribIndex by mutableIntStateOf(0); private set
     var revealed by mutableStateOf(false); private set
