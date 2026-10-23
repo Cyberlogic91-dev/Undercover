@@ -3109,242 +3109,320 @@ Nappe|Chemin de table
 Assiette en carton|Assiette en plastique!
 Ménage|Rangement
 #! Coquin
-Nuisette|Babydoll!
 String|Tanga!
-Corset|Guêpière
-Bas|Collants!
-Déshabillé|Négligé!
+Porte-jarretelles|Jarretière!
+Bas résille|Collants résille!
+Nuisette|Déshabillé!
 Body|Bustier
-Culotte|Shorty!
-Dentelle|Résille
-Talons aiguilles|Stilettos!
-Jarretière|Jarretelle!
-Slip|Boxer!
-Push-up|Balconnet!
-Menottes|Liens en satin
-Plume|Pinceau
-Fouet|Cravache!
-Huile de massage|Lait corporel
-Dés coquins|Cartes coquines
-Masque vénitien|Loup!
-Foulard|Bandeau!
-Bougie de massage|Huile chauffante
-Chocolat fondu|Caramel
-Action ou vérité|Bouteille tournante
-Tenue de soubrette|Tenue d'infirmière
-Costume de pompier|Costume de policier
-Lit rond|Lit à eau!
-Draps de soie|Parure en satin
-Champagne|Prosecco!
-Huîtres|Caviar
-Body painting|Tatouage éphémère
-Gage coquin|Défi coquin
-Infirmière|Docteur
-Plombier|Électricien!
-Masseuse|Kiné
-Gladiateur|Centurion!
-Femme fatale|Séductrice
-Séducteur|Dragueur!
-Bad boy|Rebelle
-Cougar|Croqueuse d'hommes
-Toy boy|Jeune amant
-Stripteaseur|Gogo danseur
-Dominatrice|Maîtresse
-Jeu de rôle|Mise en scène
-Clin d'œil|Sourire en coin
-Phrase d'accroche|Compliment
-Galoche|Pelle!
-Bisou|Smack!
-Râteau|Vent!
-Texto|Message vocal
-Sexto|Message coquin
-Selfie coquin|Photo sexy!
-Pseudo|Surnom
-Appli de rencontre|Site de rencontre
-Premier rendez-vous|Rencard!
-Amour fou|Grand amour
-Coup d'un soir|Aventure!
-Ex|Premier amour
-Ghosting|Silence radio!
-Flirt|Drague!
-Séduction|Charme
-Œillade|Clin d'œil
-Chatouilles|Papouilles
-Câlin|Étreinte
-Bisou esquimau|Bisou papillon!
-Baiser volé|Baiser fougueux
-Bisou dans le cou|Bisou sur l'épaule
-Pied sous la table|Genou contre genou
-Mains enlacées|Doigts entrelacés!
-Slow|Danse collée
-Lambada|Salsa
-Déhanché|Twerk
-Pole dance|Lap dance
-Strip-tease|Effeuillage!
-Burlesque|Cabaret
-Plumes|Paillettes
-Boutique coquine|Boutique de lingerie
-Triangle amoureux|Rivalité amoureuse
-Boîte de nuit|Bar dansant
-Love hôtel|Motel
-Chambre d'hôtel|Chambre d'hôtes!
-Nudisme|Naturisme!
-Plage nudiste|Camp naturiste
-Bikini|Monokini
-Maillot échancré|Trikini
-Douche à deux|Bain à deux
-Bain de minuit|Piscine nocturne
-Banquette arrière|Siège passager!
-Bureau|Salle de réunion
-Cinéma|Drive-in!
-Grange|Grenier
-Plan de travail|Table de cuisine
-Machine à laver|Sèche-linge
-Hamac|Balancelle
-Parking|Garage
-Yacht|Voilier!
-Matelas gonflable|Lit de camp
-Chambre à coucher|Alcôve
-Se blottir|Se lover
-Oreiller|Traversin!
-Shiatsu|Massage thaï
-Tantra|Kamasutra!
-Rodéo|Taureau mécanique
-Nuit torride|Nuit d'amour
-Préliminaires|Mise en bouche
-Septième ciel|Nirvana
-Extase|Volupté
-Grimper aux rideaux|Septième ciel!
-Simuler|Faire semblant!
-Sieste crapuleuse|Sieste câline
-Partie de jambes|Galipettes!
-Batifoler|Folâtrer
-Polissonnerie|Coquinerie!
-Libido|Désir!
-Fantasme|Rêve érotique
-Fantasme|Désir secret
-Tabou|Interdit
-Pudeur|Timidité
-Rougir|Bafouiller
-Frisson|Chair de poule!
-Chaud bouillant|Torride!
-Sensuel|Érotique!
-Coquin|Polisson!
-Libertin|Volage
-Infidélité|Adultère!
-Amant|Maîtresse
-Cocu|Trompé!
-Alibi|Excuse
-Cinq à sept|Rendez-vous secret
-Rendez-vous galant|Tête-à-tête
-Dîner aux chandelles|Souper intime!
-Saint-Valentin|Anniversaire de couple
-Bouquet de roses|Bouquet de pivoines
-Mot doux|Lettre d'amour
-Sérénade|Chanson d'amour
-Chéri|Mon amour!
-Mon trésor|Mon cœur!
-Lune de miel|Nuit de noces!
-Demande en mariage|Fiançailles!
-Bouquet de mariée|Couronne de fleurs
-Voile de mariée|Traîne
-EVG|EVJF!
-Gâteau coquin|Bonbons coquins
-Homme-objet|Femme-objet
-Fesses|Postérieur!
-Poitrine|Décolleté!
+Corset|Guêpière!
+Soutien-gorge|Brassière
+Push-up|Balconnet
+Culotte|Shorty
+Boxer|Caleçon!
+Slip|Boxer
+Kimono en soie|Peignoir en satin
+Talons aiguilles|Escarpins!
+Cuissardes|Bottes en cuir
+Tenue en latex|Combinaison vinyle
+Robe moulante|Robe fendue
 Décolleté|Dos nu
-Hanche|Taille
-Six pack|Abdos!
-Pectoraux|Biceps
-Tatouage|Piercing
-Rouge à lèvres|Gloss!
-Buée|Vapeur
-Courbes|Formes!
-Sextoy|Gadget coquin!
-Tiroir secret|Boîte secrète
-Téléphone rose|Messagerie coquine!
-Webcam|Visio coquine
-Film érotique|Film sensuel
-Magazine coquin|Bande dessinée coquine
-Roman érotique|Nouvelle érotique
-Calendrier des pompiers|Calendrier sexy!
-Pin-up|Vamp!
-Starlette|Vedette
-Éventail|Ombrelle
-Massage|Modelage
-Massage tantrique|Massage sensuel
-Caresse|Effleurement!
-Murmure|Chuchotement!
-Chuchoter|Susurrer!
-Gémissement|Soupir!
-Voix suave|Voix grave
-Accent italien|Accent espagnol
-Latin lover|Don Juan
-Beau gosse|Apollon
-Canon|Bombe!
-Sexy|Aguicheuse
-Coquette|Charmeuse!
-Sublime|Magnifique!
-Tenue d'Adam|Tenue d'Ève!
-Petite tenue|Sous-vêtements
-Peignoir ouvert|Serviette nouée
-Grasse matinée|Câlin du matin
-Petit-déjeuner au lit|Brunch au lit
-Cœur en chocolat|Bonbon en cœur
-Cupidon|Éros!
-Aphrodite|Vénus!
-Fraises|Cerises!
-Figue|Grenade
-Mangue|Papaye
-Emoji flamme|Emoji piment
-Cocktail aphrodisiaque|Philtre d'amour!
-Potion magique|Élixir
-Gingembre|Piment
-Sex-appeal|Charisme!
-Alchimie|Complicité!
-Tension sexuelle|Attirance!
-Coup de cœur|Coup de foudre
-Week-end en amoureux|Escapade romantique!
-Lit king size|Grand lit!
-Ne pas déranger|Porte verrouillée
-Voisin de palier|Voisine d'en face
-Grincement|Craquement
-Tête de lit|Sommier
-Couette|Draps
-Cigarette d'après|Câlin d'après
-Douche froide|Bain glacé
-Désir|Envie!
-Chaleur|Fièvre
-Ivresse|Pompette!
-Shot|Petit verre
-Body shot|Shot coquin
-Wingman|Complice
-Entremetteuse|Marieuse!
-Agence matrimoniale|Club de rencontres
-Annonce coquine|Annonce galante
-Blind date|Rendez-vous arrangé!
-Crush|Béguin!
-Béguin|Toquade
-Flamme|Passion!
-Ami avec avantages|Sex friend!
+Dentelle|Transparence
+Lingerie fine|Dessous chics!
+Babydoll|Nuisette
+Soubrette|Infirmière sexy
+Body résille|Catsuit
+Cache-tétons|Pasties!
+Mini-jupe|Short moulant
+Bikini brésilien|Monokini
+Bas autofixants|Bas couture!
+Pompier sexy|Policier sexy
+Pantalon en cuir|Jupe en cuir
+Lingerie ouverte|Culotte fendue!
+Tanga|Micro-string!
+Stimulateur clitoridien|Vibromasseur!
+Godemichet|Gode-ceinture!
+Rosebud|Plug anal
+Boules de geisha|Œufs vibrants!
+Œufs vibrants|Culotte vibrante
+Anneau pénien|Cockring!
+Masturbateur|Vagin de poche!
+Poupée gonflable|Poupée sexuelle
+Lubrifiant|Gel intime!
+Huile de massage|Bougie de massage
+Préservatif|Capote!
+Préservatif féminin|Digue dentaire
+Wand|Baguette vibrante
+Vibro connecté|Sextoy télécommandé!
+Pompe à pénis|Anneau pénien
+Stimulateur prostatique|Plug anal
+Dés coquins|Cartes coquines!
+Plume|Plumeau!
+Pinces à tétons|Pinces à seins
+Kit bondage|Coffret coquin
+Sextoy|Jouet intime!
+Balançoire coquine|Fauteuil tantrique
+Coussin de positionnement|Fauteuil tantrique
+Vibro rabbit|Vibro double
+Vibromasseur à succion|Stimulateur clitoridien
+Chantilly|Chocolat fondu
+Lubrifiant chauffant|Gel effet froid
+Gel retardant|Spray retardant!
+Aphrodisiaque|Philtre d'amour
+Préservatif parfumé|Préservatif nervuré
+Bougie basse température|Cire chaude!
+Godemichet|Vibromasseur
+Menottes|Cordes
+Bandeau|Masque
+Paddle|Tapette
+Collier|Laisse
+Bâillon|Bâillon boule!
+Shibari|Bondage!
+Cordes|Liens en soie
+Dominatrice|Maîtresse!
+Soumis|Dominé
+Dominant|Maître!
+Mot de sécurité|Safeword!
+Jeu de rôle|Scénario coquin
+Fétichisme des pieds|Fétichisme des talons!
+Cuir|Latex
+Cagoule en latex|Masque en cuir
+Croix de Saint-André|Pilori
+Glaçon|Cire de bougie
+Chatouilles|Effleurements
+Fouet|Martinet!
+Cravache|Fouet
+Martinet|Cravache!
+Domination|Soumission
+Voyeurisme|Exhibitionnisme
+Fétichisme|Fantasme
+Dirty talk|Mots crus!
+Attaché au lit|Menotté au lit!
+Collier de cuir|Harnais
+Contrôle de l'orgasme|Edging
+Fessée|Paddle
+Donjon|Chambre rouge
+Menottes en fourrure|Menottes en cuir!
+Club libertin|Club échangiste!
+Jacuzzi|Spa
+Douche|Baignoire
+Plage naturiste|Camp naturiste!
+Cabine d'essayage|Vestiaire
+Ascenseur|Cage d'escalier
+Banquette arrière|Voiture garée
+Love hôtel|Hôtel à l'heure!
+Chambre d'hôtel|Suite nuptiale
+Sous la couette|Sous les draps!
+Table de cuisine|Plan de travail
+Bureau|Salle de réunion
+Toilettes d'avion|Wagon-lit
+Piscine de nuit|Bain de minuit!
+Tente|Camping-car
+En pleine nature|Dans les bois
+Dernier rang|Drive-in
+Sex-shop|Love store!
+Soirée libertine|Soirée échangiste!
+Plan à trois|Trio!
+Orgie|Partouze!
+Week-end coquin|Escapade romantique
+Nuit de noces|Lune de miel
+Câlin du matin|Réveil coquin
+Sieste crapuleuse|Galipette
+Se faire surprendre|Flagrant délit
+Strip-poker|Action ou vérité
+Action ou vérité|Dés coquins
+Massage naturiste|Massage tantrique
+Hammam|Sauna
+Peep-show|Cabaret érotique
+Burlesque|Effeuillage
+Strip-tease|Effeuillage!
+Lap dance|Pole dance
+Gogo danseuse|Danseuse de cabaret
+Sexto|Message coquin!
+Nude|Photo osée!
+Photo osée|Selfie sexy
+Appli de rencontre|Site de rencontre!
+Swiper à droite|Matcher
+Match|Crush
+Premier rendez-vous|Rencard!
+Plan cul|Sex friend!
+Coup d'un soir|One night stand!
+Drague|Flirt!
+Clin d'œil|Regard insistant
+Suçon|Morsure
+Galoche|Pelle!
+French kiss|Galoche
+Bisou dans cou|Mordillement
+Main baladeuse|Jeu de pieds
+Phrase d'accroche|Technique de drague
+Compliment|Regard de braise
+Ghosting|Vent
+Appel vidéo coquin|Visio coquine!
+Message vocal sexy|Appel coquin
+Bio de profil|Photo de profil
 Relation libre|Couple ouvert!
-Polyamour|Amour libre
-Trouple|Ménage à trois
+Polyamour|Relation libre
+Adultère|Infidélité!
+Cinq à sept|Liaison secrète!
+Séducteur|Dragueur!
+Charmeur|Tombeur!
+Tentatrice|Séductrice
+Préliminaires|Caresses
+Sextape|Vidéo coquine!
+Webcam coquine|Show privé
+Levrette|Missionnaire
+Cuillère|Andromaque
+Kamasutra|Tantra
+Quickie|Coup rapide!
 Échangisme|Libertinage!
-Bacchanale|Toga party
-Soirée mousse|Pool party
-Bal masqué|Mascarade
-Cœur brisé|Chagrin d'amour!
-Regard brûlant|Regard de braise!
-Talons|Escarpins!
-Robe fendue|Jupe fendue
-Mini-jupe|Mini-short
-Chemise ouverte|Torse nu
-Cuir|Latex!
-Latex|Vinyle!
-Clair de lune|Coucher de soleil!
-Ciel étoilé|Pluie d'étoiles
-Île déserte|Plage déserte!
-Lingerie fine|Dessous chic!
-Cadeau coquin|Coffret coquin
+Fantasme|Rêve érotique
+Amant|Amante
+Andromaque|Amazone!
+Cavalière|Cow-girl
+Cow-girl inversée|Amazone inversée!
+Cuillère|Câlin collé
+Soixante-neuf|Tête-bêche!
+Brouette|Chandelle
+Lotus|Yab-yum
+Levrette debout|Levrette couchée!
+Position debout|Contre le mur
+Face à face|Corps à corps
+Position assise|Sur les genoux
+Sur la table|Sur le bureau!
+Ciseaux|Croix
+Douche à deux|Bain à deux!
+Sexe en voiture|Banquette arrière
+Cabine d'essayage|Ascenseur
+Plage naturiste|Plage nudiste!
+Love room|Chambre à thème
+Hôtel à l'heure|Love room
+Position du papillon|Position de l'enclume!
+Chevauchée|Rodéo
+Cunnilingus|Fellation
+Fellation|Gâterie
+Anulingus|Feuille de rose!
+Masturbation|Plaisir solitaire!
+Doigté|Caresse intime
+Effleurement|Frôlement
+French kiss|Baiser langoureux
+Massage érotique|Massage tantrique!
+Bougie de massage|Huile chauffante
+Bisous au cou|Souffle chaud!
+Effeuillage|Déshabillage!
+Pole dance|Danse lascive
+Sodomie|Pénétration anale
+Pénétration|Va-et-vient!
+Faux orgasme|Orgasme simulé!
+Gang bang|Plan à plusieurs
+Plan à trois|Triolisme!
+Trio|Ménage à trois
+Sexe oral|Sexe anal
+Sexe tantrique|Slow sex!
+Galipettes|Batifolage!
+Faire l'amour|Coucher ensemble
+Jambes en l'air|Galipettes
+Câlin coquin|Câlin torride!
+Mordillement|Léchouille
+Chatouilles|Plume
+Coups de reins|Déhanché!
+Main baladeuse|Pelotage
+Peloter|Tripoter!
+Préliminaires torrides|Mise en bouche
+Bisous mouillés|Baisers volés
+Gémissement|Cri de plaisir!
+Orgasme|Jouissance!
+Orgasme multiple|Orgasme simultané
+Extase|Septième ciel
+Point G|Clitoris
+Clitoris|Bouton magique
+Tétons|Mamelons!
+Seins|Poitrine!
+Fesses|Popotin
+Croupe|Chute de reins!
+Zones érogènes|Points sensibles
+Lobe d'oreille|Creux du cou
+Érection|Excitation
+Excitation|Désir
+Désir|Envie!
+Libido|Appétit sexuel!
+Frisson|Chair de poule
+Pénis|Verge!
+Vagin|Vulve!
+Testicules|Bourses
+Prépuce|Gland
+Femme fontaine|Squirt!
+Éjaculation|Jouissance
+Sueur|Moiteur!
+Peau contre peau|Corps nus
+Endurance|Performance
+Montée du désir|Tension sexuelle
+Coup de foudre|Alchimie
+Petite mort|Grand frisson!
+Panne|Fiasco!
+Gaule du matin|Érection matinale
+Pectoraux|Abdos
+Tablettes de chocolat|Abdos
+Fossettes de Vénus|Chute de reins
+Pubis|Toison
+Épilation intégrale|Ticket de métro!
+Couple libre|Relation ouverte
+One night stand|Aventure d'un soir!
+Sex friend|Ami avec avantages!
+Plan régulier|Sex friend
+Amant|Maîtresse
+Liaison|Aventure
+Candaulisme|Cuckold!
+Couple échangiste|Couple libertin!
+Soirée libertine|Soirée coquine
+Boîte échangiste|Club privé
+Application de rencontre|Site de rencontre!
+Swipe|Match
+Rendez-vous galant|Premier rencard
+Drague|Séduction
+Speed dating|Soirée célibataires
+Photo coquine|Selfie sexy!
+Sexting|Message coquin!
+Appel coquin|Téléphone rose
+Webcam coquine|Visio sexy!
+Walk of shame|Retour matinal
+Tromperie|Coup de canif
+Ex sexy|Retour de flamme
+Pacte libertin|Contrat de couple
+Tombeur|Don Juan
+Bombe|Canon!
+Mec canon|Beau gosse
+Allumeuse|Aguicheuse!
+Infirmière|Doctoresse
+Pompier|Policier
+Soubrette|Femme de chambre!
+Plombier|Livreur!
+Patron|Secrétaire
+Secrétaire|Assistante
+Dominatrice|Domina!
+Dominant|Soumis
+Parfait inconnu|Bel inconnu
+Masseur|Kiné!
+Hôtesse de l'air|Steward!
+Coach sportif|Moniteur de ski
+Diablesse|Ange
+Rêve érotique|Rêve humide!
+Gage coquin|Action ou vérité
+Strip poker|Action ou vérité
+Yeux bandés|Mains attachées!
+Bondage|Ligotage!
+Claque aux fesses|Tape aux fesses
+Mot de sûreté|Safe word!
+Tenue d'Adam|Tenue d'Ève!
+Nu intégral|Nudité
+Voyeur|Exhibitionniste
+Femme fatale|Vamp
+Cougar|Femme mûre!
+Gigolo|Escort boy
+Strip-teaseur|Go-go danseur!
+Pirate|Corsaire
+Agent secret|Espion!
+Prisonnier|Gardien
+Fantasme à trois|Fantasme de groupe
+Sexe au bureau|Sexe au travail
+Sexe en public|Sexe en extérieur
+Fétichisme des pieds|Fétichisme des bas
+Jeu de séduction|Jeu de domination

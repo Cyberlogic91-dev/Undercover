@@ -1,3 +1,3 @@
-Nouveautés de la version 2.5 :
-- Mises à jour 100 % automatiques : la nouvelle version se télécharge en arrière-plan et s'installe toute seule depuis le menu (jamais pendant une partie)
-- Après une mise à jour, un message récapitule les nouveautés
+Nouveautés de la version 2.6 :
+- Partie coquine : uniquement des mots coquins
+- Catégorie Coquin entièrement refaite : 317 paires vraiment osées (réservé aux adultes)

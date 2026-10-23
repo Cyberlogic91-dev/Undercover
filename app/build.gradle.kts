@@ -11,8 +11,8 @@ android {
         applicationId = "app.undercover.game"
         minSdk = 26
         targetSdk = 35
-        versionCode = 18
-        versionName = "2.5"
+        versionCode = 19
+        versionName = "2.6"
     }
     // Signature : en CI, la clé vient des secrets GitHub (UC_KEYSTORE…) ; en local, clé de debug.
     // Il faut TOUJOURS la même clé, sinon les mises à jour ne s'installent pas par-dessus.
