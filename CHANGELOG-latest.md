@@ -1,6 +1,3 @@
-Nouveautés de la version 2.3 :
-- Mots resserrés : les 3 333 paires ont été revues pour que les deux mots soient vraiment proches (Café / Thé, Tigre / Lion…). L'Undercover est beaucoup plus dur à démasquer !
-- Définitions (bouton « i ») pour tous les nouveaux mots
-- L'écran reste allumé pendant la partie (2.2)
-
-Télécharge la mise à jour directement depuis l’appli : Réglages › Rechercher une mise à jour.
+Nouveautés de la version 2.4 :
+- Nouveau crédit : « Développé par CYBERLOGIC »
+- Lien de téléchargement permanent vers la dernière version

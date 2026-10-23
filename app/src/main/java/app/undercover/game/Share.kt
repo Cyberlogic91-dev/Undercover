@@ -50,7 +50,7 @@ object ShareImage {
     }
 
     private fun footer(c: Canvas, f: Fonts, h: Int) {
-        c.drawText("Développé par Mickaël Monestier", W / 2f, h - 50f, paint(f.regular, 30f, 0xFF9AA3B8.toInt()))
+        c.drawText("Développé par CYBERLOGIC", W / 2f, h - 50f, paint(f.regular, 30f, 0xFF9AA3B8.toInt()))
     }
 
     private fun avatar(c: Canvas, f: Fonts, img: ImageBitmap?, name: String, cx: Float, cy: Float, r: Float, ring: Int) {

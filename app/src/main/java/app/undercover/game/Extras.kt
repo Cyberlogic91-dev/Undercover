@@ -569,7 +569,7 @@ internal fun UpdateCard(vm: GameViewModel) {
             Column(Modifier.weight(1f)) {
                 Text("Undercover", fontWeight = FontWeight.Black, fontSize = 17.sp)
                 Text("Version ${vm.appVersion} (build ${vm.appCode})", color = Teal, fontWeight = FontWeight.Bold, fontSize = 14.sp)
-                Text("Développé par Mickaël Monestier", color = Muted, fontSize = 12.sp)
+                Text("Développé par CYBERLOGIC", color = Muted, fontSize = 12.sp)
             }
         }
         Spacer(Modifier.height(10.dp))

@@ -143,7 +143,7 @@ internal fun MenuScreen(vm: GameViewModel) {
             Text("Remerciements", fontSize = 13.sp, fontWeight = FontWeight.Bold)
         }
         Spacer(Modifier.height(10.dp))
-        Text("Développé par Mickaël Monestier", color = Muted.copy(alpha = .7f), fontSize = 12.sp)
+        Text("Développé par CYBERLOGIC", color = Muted.copy(alpha = .7f), fontSize = 12.sp)
         Spacer(Modifier.height(16.dp))
     }
 }
@@ -195,7 +195,7 @@ internal fun IntroOverlay(theme: SeasonTheme, onDone: () -> Unit) {
             Box(Modifier.graphicsLayer { alpha = textAlpha.value; translationY = (1 - textAlpha.value) * 30f }) { Wordmark(44) }
             Text("Qui est l'imposteur ?", color = Muted, fontSize = 16.sp, modifier = Modifier.graphicsLayer { alpha = tagAlpha.value })
             Spacer(Modifier.height(28.dp))
-            Text("Développé par Mickaël Monestier", color = Muted.copy(alpha = .7f), fontSize = 12.sp, modifier = Modifier.graphicsLayer { alpha = tagAlpha.value })
+            Text("Développé par CYBERLOGIC", color = Muted.copy(alpha = .7f), fontSize = 12.sp, modifier = Modifier.graphicsLayer { alpha = tagAlpha.value })
         }
     }
 }

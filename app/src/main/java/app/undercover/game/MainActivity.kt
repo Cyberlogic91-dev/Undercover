@@ -394,7 +394,7 @@ private fun RulesScreen(vm: GameViewModel) {
         }
         Spacer(Modifier.height(10.dp))
         BigButton("Compris !") { vm.back() }
-        Text("Développé par Mickaël Monestier", color = Muted.copy(alpha = .7f), fontSize = 12.sp,
+        Text("Développé par CYBERLOGIC", color = Muted.copy(alpha = .7f), fontSize = 12.sp,
             modifier = Modifier.fillMaxWidth().padding(vertical = 12.dp), textAlign = TextAlign.Center)
     }
 }

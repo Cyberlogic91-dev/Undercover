@@ -56,7 +56,7 @@ internal fun ThanksScreen(vm: GameViewModel) {
             Image(painterResource(R.drawable.ic_logo), null, Modifier.size(90.dp))
             Wordmark(26)
             Spacer(Modifier.height(6.dp))
-            Text("Développé par Mickaël Monestier", fontWeight = FontWeight.Bold, fontSize = 14.sp)
+            Text("Développé par CYBERLOGIC", fontWeight = FontWeight.Bold, fontSize = 14.sp)
             Text("avec beaucoup d'amour ❤️", color = Muted, fontSize = 13.sp)
             Spacer(Modifier.height(22.dp))
             BigButton("Retour") { vm.back() }

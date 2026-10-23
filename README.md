@@ -8,7 +8,7 @@
 
 Jeu d'ambiance **Undercover** pour Android, 100 % hors ligne, en français : on se passe le téléphone, chacun découvre son mot secret… et il faut démasquer l'imposteur.
 
-**Développé par Mickaël Monestier.**
+**Développé par CYBERLOGIC.**
 
 ## 📲 Installer
 
