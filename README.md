@@ -1,4 +1,10 @@
-# Undercover 🕵️
+<p align="center"><img src="docs/assets/logo.svg" width="140" alt="Logo Undercover"></p>
+<h1 align="center">Undercover 🕵️</h1>
+<p align="center"><b>Démasque l'imposteur !</b> Le jeu d'ambiance gratuit pour Android — hors ligne, sans pub.</p>
+<p align="center">
+  <a href="https://cyberlogic91-dev.github.io/Undercover/"><b>🌐 Page de téléchargement</b></a> ·
+  <a href="https://github.com/Cyberlogic91-dev/Undercover/releases/latest"><b>📲 Dernière version</b></a>
+</p>
 
 Jeu d'ambiance **Undercover** pour Android, 100 % hors ligne, en français : on se passe le téléphone, chacun découvre son mot secret… et il faut démasquer l'imposteur.
 
