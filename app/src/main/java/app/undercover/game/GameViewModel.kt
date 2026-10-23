@@ -142,7 +142,7 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
 
     /** Catégories effectivement jouées. */
     val categories: Set<String> get() =
-        if (spicyGame) Words.adultCategories
+        if (spicyGame) Words.spicyCategories
         else Words.visibleCategories(adultMode).filter { it !in categoriesOff }.toSet()
     val visibleCategories get() = Words.visibleCategories(adultMode)
     /** Sélection des réglages (hors partie coquine). */

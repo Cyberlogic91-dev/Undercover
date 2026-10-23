@@ -60,6 +60,9 @@ object Words {
         }.getOrDefault(emptyMap())
     }
 
+    /** Catégories de la « Partie coquine » : uniquement les mots coquins. */
+    val spicyCategories: Set<String> get() = adultCategories.filter { it.contains("Coquin", ignoreCase = true) }.toSet().ifEmpty { adultCategories }
+
     fun visibleCategories(adultMode: Boolean) = categories.filter { adultMode || it !in adultCategories }
 
     /** Paires correspondant aux réglages ; si rien ne correspond, on élargit progressivement. */
