@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     # Environnement protégé : configurer un « Required reviewer » dans
-    # Settings › Environments › release, et y ranger le secret UC_KEYSTORE_B64.
+    # Settings › Environments › release, et y ranger les secrets de signature.
     # Ainsi, aucune version ne peut être signée et publiée sans validation manuelle.
     environment: release
     steps:
@@ -68,6 +68,18 @@ jobs:
           echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/release.keystore"
           echo "UC_KEYSTORE=$RUNNER_TEMP/release.keystore" >> "$GITHUB_ENV"
 
+      - name: Nouvelle clé de signature (rotation)
+        if: env.SKIP == 'false'
+        env:
+          NEW_KEYSTORE_B64: ${{ secrets.UC_NEW_KEYSTORE_B64 }}
+        run: |
+          if [ -z "$NEW_KEYSTORE_B64" ]; then
+            echo "::error::Secret UC_NEW_KEYSTORE_B64 absent (nouvelle clé de signature)."
+            exit 1
+          fi
+          echo "$NEW_KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/new.p12"
+          echo "UC_NEW_KEYSTORE=$RUNNER_TEMP/new.p12" >> "$GITHUB_ENV"
+
       - name: Compiler l'APK
         if: env.SKIP == 'false'
         env:
@@ -77,8 +89,18 @@ jobs:
         run: |
           chmod +x gradlew
           ./gradlew testReleaseUnitTest assembleRelease --no-daemon
-          cp app/build/outputs/apk/release/app-release.apk "Undercover-v$VERSION.apk"
-          cp app/build/outputs/apk/release/app-release.apk "Undercover.apk"
+
+      - name: Signer avec rotation de clé (v3)
+        if: env.SKIP == 'false'
+        env:
+          UC_STORE_PASSWORD: ${{ secrets.UC_STORE_PASSWORD || 'android' }}
+          UC_KEY_ALIAS: ${{ secrets.UC_KEY_ALIAS || 'androiddebugkey' }}
+          UC_KEY_PASSWORD: ${{ secrets.UC_KEY_PASSWORD || 'android' }}
+          UC_NEW_PASSWORD: ${{ secrets.UC_NEW_PASSWORD }}
+        run: |
+          bash signing/sign-release.sh app/build/outputs/apk/release/app-release.apk "Undercover-v$VERSION.apk"
+          cp "Undercover-v$VERSION.apk" Undercover.apk
+          rm -f "$RUNNER_TEMP/new.p12" "$RUNNER_TEMP/release.keystore"
 
       - name: Publier la release
         if: env.SKIP == 'false'
