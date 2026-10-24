@@ -93,7 +93,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun App(vm: GameViewModel = viewModel()) {
+fun App(vm: GameViewModel = viewModel(), ovm: app.undercover.game.online.OnlineViewModel = viewModel()) {
     var confirmQuit by remember { mutableStateOf(false) }
     val inGame = vm.screen !in setOf(Screen.PODIUM, Screen.THANKS, Screen.TUTORIAL, Screen.MENU, Screen.SETUP, Screen.RULES, Screen.SETTINGS, Screen.STATS, Screen.END)
     BackHandler(enabled = vm.screen != Screen.MENU) {
@@ -124,6 +124,7 @@ fun App(vm: GameViewModel = viewModel()) {
                 Screen.TUTORIAL -> TutorialScreen(vm)
                 Screen.THANKS -> ThanksScreen(vm)
                 Screen.PODIUM -> PodiumScreen(vm)
+                Screen.ONLINE -> OnlineScreen(vm, ovm)
             }
         }
     }
@@ -377,6 +378,7 @@ private fun RulesScreen(vm: GameViewModel) {
             "Victoire" to "Les Civils gagnent s'ils éliminent tous les Undercover et Mr. White. Les imposteurs gagnent s'il ne reste plus qu'un seul Civil en jeu.",
             "Égalité" to "En cas d'égalité, les joueurs concernés redonnent un indice, puis on revote uniquement entre eux. Si l'égalité persiste, l'appli tire au sort.",
             "Garde du corps 🛡️ (option)" to "Un Civil reçoit en plus ce rôle secret. Une seule fois dans la partie, quand le groupe veut éliminer quelqu'un, il peut se dévoiler pour le sauver (mais pas lui-même). Le vote est annulé et le joueur sauvé est intouchable au tour suivant. Attention : un imposteur peut bluffer et prétendre être le Garde du corps… l'appli démasquera le menteur !",
+            "Jouer en ligne 🌐" to "Chacun joue sur son téléphone, même à distance. L'hôte crée la partie et partage le code ; les autres le saisissent dans « Jouer en ligne ». Les indices se donnent par écrit dans l'appli ou à l'oral en visio, et chacun vote en secret sur son téléphone. Il faut au moins 3 joueurs et une connexion internet.",
             "Mot inconnu ?" to "Touche le petit « i » sous ton mot secret pour lire sa définition. Elle s'affiche discrètement, seulement pour toi.",
             "Mode adulte 🔥 (option)" to "Réservé aux soirées entre adultes. Active-le dans les Réglages après confirmation que tout le monde a 18 ans ou plus : les catégories « Coquin » et « Soirée et apéro » apparaissent, ainsi qu'un bouton « Partie coquine » dans le menu.",
             "Points" to "Civils vainqueurs : 2 pts chacun.\nUndercover vainqueur : 10 pts.\nMr. White vainqueur : 6 pts.",

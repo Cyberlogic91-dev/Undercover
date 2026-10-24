@@ -88,6 +88,13 @@ internal fun MenuScreen(vm: GameViewModel) {
         Box(Modifier.graphicsLayer { scaleX = pulse; scaleY = pulse }) {
             BigButton("▶  JOUER") { vm.startNormalSetup() }
         }
+        Spacer(Modifier.height(12.dp))
+        Box(
+            Modifier.fillMaxWidth().height(54.dp).clip(CircleShape)
+                .background(androidx.compose.ui.graphics.Brush.horizontalGradient(listOf(Color(0xFF2E7BF6), Color(0xFF2ED3E6))))
+                .clickable { vm.screen = Screen.ONLINE },
+            contentAlignment = Alignment.Center
+        ) { Text("🌐  JOUER EN LIGNE", fontSize = 17.sp, fontWeight = FontWeight.Black, color = Color.White) }
         if (vm.adultMode) {
             Spacer(Modifier.height(12.dp))
             Box(

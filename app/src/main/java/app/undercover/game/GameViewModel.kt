@@ -40,7 +40,7 @@ data class Player(
 /** Une carte du paquet distribué. */
 data class GameCard(val role: Role, val word: String?, val bodyguard: Boolean = false)
 
-enum class Screen { PODIUM, THANKS, TUTORIAL, SAVED, MENU, SETUP, RULES, SETTINGS, STATS, DISTRIBUTE, PLAY, REVEAL, MRWHITE_GUESS, END }
+enum class Screen { ONLINE, PODIUM, THANKS, TUTORIAL, SAVED, MENU, SETUP, RULES, SETTINGS, STATS, DISTRIBUTE, PLAY, REVEAL, MRWHITE_GUESS, END }
 
 enum class Outcome { CIVILS, IMPOSTORS, MRWHITE }
 
@@ -503,9 +503,8 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
     }
 
     // ---- déroulement ----
-    fun startGame() {
-        if (!canStart) return
-        val pool = this.pool
+    /** Tire une paire inédite dans [pool] (anti-doublon) et renvoie (mot civil, mot undercover). */
+    private fun drawFrom(pool: List<WordPair>): Pair<String, String> {
         var fresh = pool.filter { it.key !in playedPairs }
         poolRecycled = fresh.isEmpty()
         if (fresh.isEmpty()) {
@@ -514,7 +513,17 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
         }
         val pick = fresh.random()
         playedPairs = playedPairs + pick.key; savePlayed()
-        val (a, b) = if (Math.random() < 0.5) pick.a to pick.b else pick.b to pick.a
+        return if (Math.random() < 0.5) pick.a to pick.b else pick.b to pick.a
+    }
+
+    /** Tirage pour le mode en ligne : réglages de l'hôte, ou uniquement les mots coquins. */
+    fun drawOnlinePair(spicy: Boolean): Pair<String, String> =
+        drawFrom(if (spicy) Words.filter(Words.spicyCategories, difficulty, true)
+                 else Words.filter(chosenCategories, difficulty, adultMode))
+
+    fun startGame() {
+        if (!canStart) return
+        val (a, b) = drawFrom(this.pool)
         civilWord = a; undercoverWord = b
 
         // Paquet de cartes face cachée : chaque joueur en choisit une, comme dans le vrai jeu

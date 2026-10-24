@@ -20,6 +20,7 @@ Android 8.0 minimum.
 
 ## ✨ Fonctionnalités
 
+- 🌐 **Mode en ligne** : chacun sur son téléphone, même à distance (code de partie, indices écrits ou à l'oral, vote secret, échanges chiffrés via un relais MQTT public)
 - **3 333 paires de mots très proches** dans 17 catégories, jamais deux fois la même (mémoire des mots joués)
 - Rôles **Civils, Undercover, Mr. White** et **Garde du corps** 🛡️ en option
 - Configurations de rôles **automatiques** selon le nombre de joueurs

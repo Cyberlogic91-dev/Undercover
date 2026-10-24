@@ -11,8 +11,8 @@ android {
         applicationId = "app.undercover.game"
         minSdk = 26
         targetSdk = 35
-        versionCode = 19
-        versionName = "2.6"
+        versionCode = 20
+        versionName = "3.0"
     }
     // Signature : en CI, la clé vient des secrets GitHub (UC_KEYSTORE…) ; en local, clé de debug.
     // Il faut TOUJOURS la même clé, sinon les mises à jour ne s'installent pas par-dessus.
@@ -34,7 +34,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = true
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"))
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
             signingConfig = signingConfigs.getByName("release")
         }
     }
@@ -57,4 +57,7 @@ dependencies {
     implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.core:core-splashscreen:1.0.1")
     implementation("androidx.exifinterface:exifinterface:1.3.7")
+    implementation("org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5")
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.json:json:20240303")
 }
