@@ -15,11 +15,25 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: release
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Environnement protégé : configurer un « Required reviewer » dans
+    # Settings › Environments › release, et y ranger le secret UC_KEYSTORE_B64.
+    # Ainsi, aucune version ne peut être signée et publiée sans validation manuelle.
+    environment: release
     steps:
-      - uses: actions/checkout@v5
+      # Actions épinglées par empreinte de commit (protection contre une action compromise)
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          persist-credentials: false
+
+      - name: Vérifier le wrapper Gradle
+        uses: gradle/actions/wrapper-validation@3f5f9adaf7d9fecd50b5935e54106014257a94e6 # v6.4.0
 
       - name: Version à publier
         env:
@@ -34,7 +48,7 @@ jobs:
             echo "SKIP=false" >> "$GITHUB_ENV"
           fi
 
-      - uses: actions/setup-java@v5
+      - uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5.7.0
         if: env.SKIP == 'false'
         with:
           distribution: temurin
@@ -62,13 +76,13 @@ jobs:
           UC_KEY_PASSWORD: ${{ secrets.UC_KEY_PASSWORD || 'android' }}
         run: |
           chmod +x gradlew
-          ./gradlew assembleRelease --no-daemon
+          ./gradlew testReleaseUnitTest assembleRelease --no-daemon
           cp app/build/outputs/apk/release/app-release.apk "Undercover-v$VERSION.apk"
           cp app/build/outputs/apk/release/app-release.apk "Undercover.apk"
 
       - name: Publier la release
         if: env.SKIP == 'false'
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # v2.6.2
         with:
           tag_name: v${{ env.VERSION }}
           target_commitish: ${{ github.sha }}

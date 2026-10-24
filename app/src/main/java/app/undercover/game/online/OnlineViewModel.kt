@@ -25,6 +25,10 @@ class OnlineViewModel(app: Application) : AndroidViewModel(app) {
     var myName by mutableStateOf(prefs.getString("name", "") ?: ""); private set
     fun changeName(n: String) { myName = n.take(16); prefs.edit().putString("name", myName).apply() }
 
+    /** Clé personnelle de ce téléphone (liée à son identifiant de joueur). */
+    private val myKeys = prefs.getString("keys", null)?.let { OnlineCrypto.decodePair(it) }
+        ?: OnlineCrypto.newKeyPair().also { prefs.edit().putString("keys", OnlineCrypto.encodePair(it)).apply() }
+
     var role by mutableStateOf(Role.NONE); private set
     var code by mutableStateOf(""); private set
     var link by mutableStateOf(Link.IDLE); private set
@@ -50,12 +54,13 @@ class OnlineViewModel(app: Application) : AndroidViewModel(app) {
     /** Crée une partie ; [pickPair] tire une paire de mots (catégories, difficulté, mots déjà joués…). */
     fun create(pickPair: (spicy: Boolean) -> Pair<String, String>) {
         if (role != Role.NONE) return
-        val c = OnlineNet.newCode()
+        val sessionKeys = OnlineCrypto.newKeyPair()          // clé d'hôte propre à cette partie
+        val c = OnlineNet.codeFor(sessionKeys)
         reset(); role = Role.HOST; code = c; link = Link.CONNECTING; adultConfirmed = true
         val n = OnlineNet(c, myId, true, object : OnlineNet.Listener {
             override fun onAction(a: OAction) = onMain { host?.handle(a) }
             override fun onConnection(connected: Boolean, broker: String?) = onMain { connectionChanged(connected, broker) }
-        })
+        }, sessionKeys)
         net = n
         host = OnlineHost(myId, myName.ifBlank { "Hôte" }, { spicy -> pickPair(spicy) },
             { s -> state = s; net?.sendState(s) },
@@ -66,8 +71,8 @@ class OnlineViewModel(app: Application) : AndroidViewModel(app) {
 
     fun join(rawCode: String) {
         if (role != Role.NONE) return
-        val c = rawCode.trim().uppercase()
-        if (!OnlineNet.isValidCode(c)) { error = "Code invalide : 6 lettres ou chiffres"; return }
+        val c = OnlineNet.normalizeCode(rawCode)
+        if (!OnlineNet.isValidCode(c)) { error = "Code invalide : 8 lettres ou chiffres (ex. K7P2-QX4M)"; return }
         reset(); role = Role.GUEST; code = c; link = Link.CONNECTING
         val n = OnlineNet(c, myId, false, object : OnlineNet.Listener {
             override fun onState(s: OState) = onMain {
@@ -77,7 +82,7 @@ class OnlineViewModel(app: Application) : AndroidViewModel(app) {
             override fun onSecret(s: OSecret) = onMain { secret = s }
             override fun onHostGone() = onMain { if (state != null) hostGone = true }
             override fun onConnection(connected: Boolean, broker: String?) = onMain { connectionChanged(connected, broker) }
-        })
+        }, myKeys)
         net = n
         n.connect()
         // on (re)demande à rejoindre tant qu'on n'apparaît pas dans la liste, puis on signale sa présence

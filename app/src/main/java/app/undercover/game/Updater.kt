@@ -69,6 +69,7 @@ object Updater {
         val dir = File(ctx.cacheDir, "update").apply { mkdirs(); listFiles()?.forEach { it.delete() } }
         val out = File(dir, "undercover-${r.version}.apk")
         var url = URL(r.apkUrl)
+        if (url.protocol != "https") error("Adresse de mise à jour non sécurisée")
         var c: HttpURLConnection
         var hops = 0
         while (true) {
@@ -77,23 +78,59 @@ object Updater {
             c.setRequestProperty("User-Agent", "Undercover-Android")
             c.connectTimeout = 15000; c.readTimeout = 30000
             val code = c.responseCode
-            if (code in 300..399 && hops++ < 5) { url = URL(url, c.getHeaderField("Location")); c.disconnect(); continue }
+            if (code in 300..399 && hops++ < 5) {
+                url = URL(url, c.getHeaderField("Location")); c.disconnect()
+                if (url.protocol != "https") error("Redirection non sécurisée refusée")
+                continue
+            }
             if (code != 200) error("Téléchargement impossible ($code)")
             break
         }
         val total = c.contentLengthLong.takeIf { it > 0 } ?: r.size
+        if (total > MAX_APK_BYTES) error("Fichier de mise à jour trop gros")
         c.inputStream.use { input ->
             out.outputStream().use { o ->
                 val buf = ByteArray(32 * 1024); var done = 0L
                 while (true) {
                     val n = input.read(buf); if (n < 0) break
                     o.write(buf, 0, n); done += n
+                    if (done > MAX_APK_BYTES) error("Fichier de mise à jour trop gros")
                     if (total > 0) progress((done.toFloat() / total).coerceIn(0f, 1f))
                 }
             }
         }
+        if (!sameSigner(ctx, out)) { out.delete(); error("Mise à jour refusée : signature inconnue. Ce fichier ne vient pas du développeur.") }
         out
     }
+
+    private const val MAX_APK_BYTES = 80L * 1024 * 1024
+
+    /**
+     * Vérifie AVANT installation que l'APK téléchargé est signé par la même clé que l'appli installée
+     * (ou par une clé qui lui succède officiellement). Défense en profondeur : Android le vérifie aussi.
+     */
+    @Suppress("DEPRECATION")
+    fun sameSigner(ctx: Context, apk: File): Boolean = runCatching {
+        val pm = ctx.packageManager
+        val md = java.security.MessageDigest.getInstance("SHA-256")
+        fun digests(sigs: Array<android.content.pm.Signature>?) = sigs.orEmpty().map { md.digest(it.toByteArray()).toList() }.toSet()
+        if (Build.VERSION.SDK_INT >= 28) {
+            val flag = android.content.pm.PackageManager.GET_SIGNING_CERTIFICATES
+            val archive = pm.getPackageArchiveInfo(apk.path, flag) ?: return false
+            if (archive.packageName != ctx.packageName) return false
+            val mine = digests(pm.getPackageInfo(ctx.packageName, flag).signingInfo?.apkContentsSigners)
+            val info = archive.signingInfo
+            val theirs = if (info == null) digests(pm.getPackageArchiveInfo(apk.path, android.content.pm.PackageManager.GET_SIGNATURES)?.signatures)
+                         else digests(if (info.hasMultipleSigners()) info.apkContentsSigners else info.signingCertificateHistory)
+            mine.isNotEmpty() && theirs.intersect(mine).isNotEmpty()
+        } else {
+            val flag = android.content.pm.PackageManager.GET_SIGNATURES
+            val archive = pm.getPackageArchiveInfo(apk.path, flag) ?: return false
+            if (archive.packageName != ctx.packageName) return false
+            val mine = digests(pm.getPackageInfo(ctx.packageName, flag).signatures)
+            mine.isNotEmpty() && digests(archive.signatures) == mine
+        }
+    }.getOrDefault(false)
 
     /** Android exige d'autoriser l'appli à installer des mises à jour. */
     fun canInstall(ctx: Context) = Build.VERSION.SDK_INT < 26 || ctx.packageManager.canRequestPackageInstalls()

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+ : idem pour la sauvegarde cloud et le transfert d'appareil -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="undercover_online.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="undercover_online.xml" />
+    </device-transfer>
+</data-extraction-rules>

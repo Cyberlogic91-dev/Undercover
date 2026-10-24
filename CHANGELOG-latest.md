@@ -1,6 +1,7 @@
-🌐 Nouveauté majeure de la version 3.0 : le mode EN LIGNE !
-- Chacun joue sur son téléphone, même à distance : l'hôte crée la partie et partage un code à 6 caractères
-- Indices écrits dans l'appli, ou à l'oral en visio, au choix de l'hôte
-- Vote secret sur chaque téléphone, égalités gérées, dernière chance de Mr. White, révélations à suspense
-- Partie coquine possible en ligne (confirmation 18+ pour chaque joueur)
-- Échanges chiffrés via un relais public gratuit : rien à installer, aucun compte
+🔒 Version 3.1 : renforcement de la sécurité
+- Mode en ligne : codes de partie à 8 caractères, liés à la clé de l'hôte (impossible de se faire passer pour lui)
+- Chiffrement de bout en bout par joueur : personne d'autre ne peut lire ton mot ni voir ton vote
+- Impossible de voter ou d'écrire à la place d'un autre joueur ; limites anti-spam
+- Mises à jour : l'appli vérifie elle-même la signature du fichier avant de l'installer, HTTPS obligatoire
+- Aucune connexion non chiffrée ; tes clés du mode en ligne ne partent pas dans les sauvegardes
+⚠️ Les parties en ligne nécessitent que tous les joueurs aient la version 3.1

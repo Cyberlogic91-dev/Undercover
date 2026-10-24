@@ -121,17 +121,17 @@ private fun OnlineHome(vm: GameViewModel, ovm: OnlineViewModel) {
             Text("Rejoindre une partie", fontWeight = FontWeight.Black, fontSize = 18.sp)
             Spacer(Modifier.height(8.dp))
             OutlinedTextField(
-                code, { code = it.uppercase().filter { c -> c.isLetterOrDigit() }.take(6) }, singleLine = true,
-                label = { Text("Code à 6 caractères") }, modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(14.dp),
+                code, { code = OnlineNet.normalizeCode(it).take(OnlineNet.CODE_LENGTH) }, singleLine = true,
+                label = { Text("Code à 8 caractères") }, modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(14.dp),
                 textStyle = LocalTextStyle.current.copy(fontSize = 24.sp, fontWeight = FontWeight.Black, letterSpacing = 6.sp, textAlign = TextAlign.Center),
                 keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.Characters, imeAction = ImeAction.Go),
-                keyboardActions = KeyboardActions(onGo = { if (code.length == 6 && ovm.myName.isNotBlank()) ovm.join(code) })
+                keyboardActions = KeyboardActions(onGo = { if (code.length == OnlineNet.CODE_LENGTH && ovm.myName.isNotBlank()) ovm.join(code) })
             )
             Spacer(Modifier.height(10.dp))
-            BigButton("🚪  Rejoindre", code.length == 6 && ovm.myName.isNotBlank()) { ovm.join(code) }
+            BigButton("🚪  Rejoindre", code.length == OnlineNet.CODE_LENGTH && ovm.myName.isNotBlank()) { ovm.join(code) }
         }
         Spacer(Modifier.height(18.dp))
-        Text("🔒 Les échanges passent par un relais public gratuit et sont chiffrés avec le code de la partie : personne d'autre ne peut les lire.",
+        Text("🔒 Les échanges passent par un relais public gratuit et sont chiffrés de bout en bout : seul l'hôte voit les votes, et chaque mot n'est lisible que par son joueur.",
             color = Muted, fontSize = 12.sp, textAlign = TextAlign.Center)
     }
 }
@@ -144,7 +144,7 @@ private fun OnlineConnecting(ovm: OnlineViewModel, onLeave: () -> Unit) {
         Text(
             when (ovm.link) {
                 OnlineViewModel.Link.CONNECTING -> "Connexion au relais…"
-                OnlineViewModel.Link.ONLINE -> if (ovm.isHost) "Création de la partie…" else "Recherche de la partie ${ovm.code}…"
+                OnlineViewModel.Link.ONLINE -> if (ovm.isHost) "Création de la partie…" else "Recherche de la partie ${OnlineNet.display(ovm.code)}…"
                 else -> "Reconnexion…"
             }, fontWeight = FontWeight.Bold
         )
@@ -183,9 +183,9 @@ private fun OnlineLobby(vm: GameViewModel, ovm: OnlineViewModel, s: OState, onLe
             Card(border = Amber) {
                 Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
                     Text("Code de la partie", color = Muted, fontSize = 13.sp)
-                    Text(ovm.code, fontSize = 44.sp, fontWeight = FontWeight.Black, letterSpacing = 8.sp, color = Amber)
+                    Text(OnlineNet.display(ovm.code), fontSize = 38.sp, fontWeight = FontWeight.Black, letterSpacing = 4.sp, color = Amber)
                     OutlinedButton({
-                        val msg = "🕵️ Rejoins ma partie d'Undercover en ligne !\nCode : ${ovm.code}\n\nPas encore le jeu ? https://cyberlogic91-dev.github.io/Undercover/"
+                        val msg = "🕵️ Rejoins ma partie d'Undercover en ligne !\nCode : ${OnlineNet.display(ovm.code)}\n\nPas encore le jeu ? https://cyberlogic91-dev.github.io/Undercover/"
                         ctx.startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).setType("text/plain").putExtra(Intent.EXTRA_TEXT, msg), "Inviter des amis")
                             .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
                     }, shape = RoundedCornerShape(14.dp)) { Icon(Icons.Default.Share, null); Spacer(Modifier.width(8.dp)); Text("Inviter des amis") }
